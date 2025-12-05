@@ -1,8 +1,10 @@
-""""
-commande d'installation des librairies : 
-%pip install py7zr
-""""
+##### Commandes d'installation des librairies
+"""
+pip install py7zr, zipfile, tempfile
+"""
 
+##### Librairies
+import datetime
 import pandas as pd
 import requests
 import zipfile
@@ -11,6 +13,12 @@ import io
 import tempfile
 import py7zr
 
+##### Chemin de sauvegarde des données
+def get_path(nomFichier):
+    date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+    return "./donnees/" + nomFichier + "_" + date + ".csv"
+
+##### Fonctions d'importation et nettoyage des données
 def importer_drees():
     """
     Importation des données de la DREES sur les IVGs, sous la forme de csv. 
@@ -51,38 +59,6 @@ def importer_drees():
 
     return data_IVG
 
-
-url = "https://www.insee.fr/fr/statistiques/fichier/7739582/ensemble.zip"
-csv = "donnees_departements.csv"
-
-def openFile(z, csv):
- """
- Ouverture d'un fichier ZIP et extraction du fichier CSV depuis l’archive ZIP, grâce à la construction d'un chemin.
- """
-    with tempfile.TemporaryDirectory() as temp_dir: 
-        z.extract(csv, path=temp_dir)
-        extracted_path = os.path.join(temp_dir, csv)
-        df = pd.read_csv(extracted_path,sep=";")
-    return df
-
-def importer_departement(): 
-    """
-    Extraction du csv contenant le nombre d'habitant par département en France en 2022. 
-    Nettoyage rapide. 
-    """
-    url = "https://www.insee.fr/fr/statistiques/fichier/7739582/ensemble.zip"
-    csv = "donnees_departements.csv"
-    response = requests.get(url)
-    response.raise_for_status()
-    with io.BytesIO(response.content) as f:
-     with zipfile.ZipFile(f, mode='r') as z:
-        dept = openFile(z, csv)
-
-    # retirer les colonnes inutilisees du csv 
-    dept = dept.drop(["NBARR", "NBCAN", "NBCOM", "PTOT"], axis=1)
-
-    return dept
-
 def importer_finess() : 
     """
     Extraction des donnees du fichier national des établissements sanitaires et sociaux
@@ -96,62 +72,92 @@ def importer_finess() :
     finess = finess[[1, 2, 3, 4, 14, 19, 21]]
     return finess
 
-
-def getUrl(annee):
+def openZip(url, cheminCSV, temp_dir, encodage=None, sevenZip=False):
     """
-    Retourner l'url correspondant à l'année dont des données DREES sont extraites. 
+    Téléchargement d'un fichier ZIP se trouvant à l'url,
+    extraction du fichier CSV, contenu dans le zip à l'emplacement cheminCSV,
+    avec un encodage précisé ou par défault None.
+    Retourne un dataframe des données ducsv ouvert.
     """
-    return f"https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_{annee}_bases_statistiques_formats_sas_csv_7z"
-
-def csvName(file, annee):
-    """
-    """
-    return f"SAE {annee} Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/{file}_{annee}r.csv"
-
-
-output = "Data/SAE/"
-url = getUrl(2019)
-csvPERINAT = csvName("PERINAT", 2019)
-csvID = csvName("ID", 2019)
-
-def openFile(csv, encodage):
     response = requests.get(url)
     response.raise_for_status()
 
+
     with io.BytesIO(response.content) as f:
-        with py7zr.SevenZipFile(f, mode='r') as z:
-            if csv in z.getnames():
-                with tempfile.TemporaryDirectory() as temp_dir:
-                    z.extract(targets=[csv], path=temp_dir)
-                    extracted_path = os.path.join(temp_dir, csv)
-                    df = pd.read_csv(extracted_path,sep=";",encoding=encodage)
+        if sevenZip:
+            zipFunction = py7zr.SevenZipFile(f, mode='r')
+        else:
+            zipFunction = zipfile.ZipFile(f, mode='r')
 
-                    return df
-            else:
-                print(f"{csv} not found in the archive.")
-                return None
+        with zipFunction as z:
+            z.extract(targets=[cheminCSV], path=temp_dir)
+            extracted_path = os.path.join(temp_dir, cheminCSV)
+            df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
 
-dfFull = openFile(csvPERINAT, "utf-8")
-dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "CONV", "IMG"]]
-dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
+            return df
 
-dfID = openFile(csvID, "latin1")
-dfID["FI"] = dfID["fi"]
+def importer_departement(): 
+    """
+    Extraction du csv contenant le nombre d'habitant par département en France en 2022. 
+    Nettoyage rapide. 
+    """
+    url = "https://www.insee.fr/fr/statistiques/fichier/7739582/ensemble.zip"
+    csv = "donnees_departements.csv"
 
-dfMerged = pd.merge(
-    dfPERINAT,
-    dfID[["FI", "rs", "stj", "stjr", "cat", "catr", "dep"]],
-    on="FI",
-    how="left" 
-)
-dfMerged["Annee"] = "2019"
+    with tempfile.TemporaryDirectory() as temp_dir: 
+        dept = openZip(url, csv, temp_dir)
 
-# supprimer le dossier crée dans téléchargement
+    # retirer les colonnes inutilisees du csv 
+    dept = dept.drop(["NBARR", "NBCAN", "NBCOM", "PTOT"], axis=1)
+
+    return dept
+
+def importer_SAE():
+    """
+    Extraction du csv 
+    """
+    df = pd.DataFrame() 
+    for annee in ["2023"]:
+        url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
+        chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
+        csvPERINAT = chemin + "PERINAT" + "_" + annee + "r.csv"
+        csvID = chemin + "ID" + "_" + annee + "r.csv"
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # dfFull = openZip(url, csvPERINAT, temp_dir, encodage="utf-8", sevenZip=True)
+            dfFull = openZip(url, csvPERINAT, temp_dir, encodage="latin1", sevenZip=True)
+            dfID = openZip(url, csvID, temp_dir, encodage="latin1", sevenZip=True)
+        
+        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "CONV", "IMG"]]
+        dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
+        dfID["FI"] = dfID["fi"]
+
+        dfMerged = pd.merge(
+            dfPERINAT,
+            dfID[["FI", "rs", "stj", "stjr", "cat", "catr", "dep"]],
+            on="FI",
+            how="left" 
+        )
+        dfMerged["Annee"] = annee
+
+        pd.concat([df, dfMerged], axis=0, ignore_index=1)
+
+    return df
 
 def main():
-    importer_dress()
-    importer_departement()
-    importer_finess()
+    """
+    Sauvegarde et centralisation de toutes les importations de données
+    """
+    # df_drees = importer_drees()
+    # df_drees.to_csv(get_path("drees"), index=False)
 
+    # df_dep = importer_departement()
+    # df_dep.to_csv(get_path("departements"), index=False)
+
+    # df_finess = importer_finess()
+    # df_finess.to_csv(get_path("finess"), index=False)
+
+    df_SAE = importer_SAE()
+    df_SAE.to_csv(get_path("SAE"), index=False)
 
 main()
