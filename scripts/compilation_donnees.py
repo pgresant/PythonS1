@@ -59,7 +59,7 @@ def importer_drees():
 
     return data_IVG
 
-def importer_finess() : 
+def importer_finess(): 
     """
     Extraction des donnees du fichier national des établissements sanitaires et sociaux
     Nettoyage pour conserver uniquement les lignes et colonnes d'intérêt. 
@@ -86,15 +86,16 @@ def openZip(url, cheminCSV, temp_dir, encodage=None, sevenZip=False):
     with io.BytesIO(response.content) as f:
         if sevenZip:
             zipFunction = py7zr.SevenZipFile(f, mode='r')
+            zipFunction.extract(targets=[cheminCSV], path=temp_dir)
+            extracted_path = os.path.join(temp_dir, cheminCSV)
+            df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
         else:
             zipFunction = zipfile.ZipFile(f, mode='r')
-
-        with zipFunction as z:
-            z.extract(targets=[cheminCSV], path=temp_dir)
+            zipFunction.extract(cheminCSV, path=temp_dir)
             extracted_path = os.path.join(temp_dir, cheminCSV)
             df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
 
-            return df
+        return df
 
 def importer_departement(): 
     """
@@ -116,7 +117,6 @@ def importer_SAE():
     """
     Extraction du csv 
     """
-    df = pd.DataFrame() 
     for annee in ["2023"]:
         url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
         chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
@@ -140,10 +140,16 @@ def importer_SAE():
         )
         dfMerged["Annee"] = annee
 
-        pd.concat([df, dfMerged], axis=0, ignore_index=1)
+    return dfMerged
 
-    return df
-
+def importer_pauv():
+    """
+    Extraction du tableau excel des taux de pauvreté par département en 2021. 
+    """
+    xls = pd.ExcelFile("https://www.insee.fr/fr/statistiques/fichier/7941411/RPM2024-F21.xlsx")
+    pauv = pd.read_excel(xls, 'Figure 2')          
+    return pauv
+    
 def main():
     """
     Sauvegarde et centralisation de toutes les importations de données
@@ -160,4 +166,4 @@ def main():
     df_SAE = importer_SAE()
     df_SAE.to_csv(get_path("SAE"), index=False)
 
-main()
+# main()s
