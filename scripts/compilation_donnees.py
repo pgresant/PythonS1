@@ -57,6 +57,9 @@ def importer_drees():
     for other_df in [nbIVG_anesth, nbIVG_tardiv, nbIVG_horsdept, nbIVG_minpro, nbIVG_age, nbIVG_typepro]:
         data_IVG = pd.merge(data_IVG, other_df, on=['zone_geo', 'annee'], how='outer')
 
+    # retirer les lignes vides 
+    data_IVG = data_IVG.dropna(subset=['zone_geo'])
+    
     return data_IVG
 
 def importer_finess(): 
