@@ -51,13 +51,15 @@ def importer_drees():
         df.rename(columns={'ZONE_GEO': 'zone_geo'}, inplace=True)
     for df in [nbIVG, nbIVG_anesth, nbIVG_tardiv, nbIVG_horsdept, nbIVG_minpro, nbIVG_age, nbIVG_typepro]:
         df.rename(columns={'ANNEE': 'annee'}, inplace=True)
-
+    # WARNING ECHEC
+    for df in [nbIVG, nbIVG_anesth]:
+        df["zone_geo"] = df["zone_geo"].replace("Total IVG réalisées en France", "France entière")
     # jointure sur les colonnes département et annee
     data_IVG = nbIVG
     for other_df in [nbIVG_anesth, nbIVG_tardiv, nbIVG_horsdept, nbIVG_minpro, nbIVG_age, nbIVG_typepro]:
         data_IVG = pd.merge(data_IVG, other_df, on=['zone_geo', 'annee'], how='outer')
 
-    # retirer les lignes vides 
+    # retirer les lignes vides : NE FONCTIONNE PLUS APRES LES MODIF 
     data_IVG = data_IVG.dropna(subset=['zone_geo'])
     
     return data_IVG
