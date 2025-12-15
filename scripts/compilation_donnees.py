@@ -46,10 +46,12 @@ def importer_drees():
     dress_feuil9 = "https://data.drees.solidarites-sante.gouv.fr/api/datasets/1.0/3647_ivg/attachments/donnees_feuil9_csv/"
     nbIVG_typepro = pd.read_csv(dress_feuil9, sep=";", encoding="latin")
     
-    # homogénéisation des noms de colonnes qui serviront à la jointure  
+    # homogénéisation des noms de colonnes qui serviront à la jointure
     for df in [nbIVG, nbIVG_anesth, nbIVG_tardiv, nbIVG_horsdept, nbIVG_minpro, nbIVG_age, nbIVG_typepro]:
         df.rename(columns={'ZONE_GEO': 'zone_geo'}, inplace=True)
         df.rename(columns={'ANNEE': 'annee'}, inplace=True)
+
+    for df in [nbIVG, nbIVG_anesth, nbIVG_tardiv]:
         df["zone_geo"] = df["zone_geo"].replace("Total IVG réalisées en France", "France entière")
 
     # jointure sur les colonnes département et annee
@@ -57,7 +59,7 @@ def importer_drees():
     for other_df in [nbIVG_anesth, nbIVG_tardiv, nbIVG_horsdept, nbIVG_minpro, nbIVG_age, nbIVG_typepro]:
         data_IVG = pd.merge(data_IVG, other_df, on=['zone_geo', 'annee'], how='outer')
 
-    # retirer les lignes vides : NE FONCTIONNE PLUS APRES LES MODIF 
+    # retirer les lignes vides
     data_IVG = data_IVG.dropna(subset=['zone_geo'])
     
     return data_IVG
