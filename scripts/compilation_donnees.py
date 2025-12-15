@@ -118,7 +118,7 @@ def importer_departement():
 
     return dept
 
-def importer_SAE():
+def importer_SAE_2023():
     """
     Extraction du csv 
     """
@@ -133,7 +133,7 @@ def importer_SAE():
             dfFull = openZip(url, csvPERINAT, temp_dir, encodage="latin1", sevenZip=True)
             dfID = openZip(url, csvID, temp_dir, encodage="latin1", sevenZip=True)
         
-        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "CONV", "IMG"]]
+        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "IVG1516", "CONV", "IMG"]]
         dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
         dfID["FI"] = dfID["fi"]
 
@@ -146,6 +146,13 @@ def importer_SAE():
         dfMerged["Annee"] = annee
 
     return dfMerged
+
+def importer_SAE_2011():
+    xls = pd.ExcelFile("https://www.data.gouv.fr/storage/f/2014-01-10T17-34-07/SAE_2011.xls")
+    sae = pd.read_excel(xls)
+    sae = sae[['FI', 'RS', 'nb_ivg', 'nb_ivg_medic', 'delai_moy_pec_ivg', 'CATEGORIE', 'DEP']]
+
+    return sae
 
 def importer_pauv():
     """
