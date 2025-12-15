@@ -118,11 +118,11 @@ def importer_departement():
 
     return dept
 
-def importer_SAE():
+def importer_SAE_2023():
     """
     Extraction du csv 
     """
-    for annee in ["2023"]:
+    for annee in ["2013"]:
         url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
         chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
         csvPERINAT = chemin + "PERINAT" + "_" + annee + "r.csv"
@@ -146,6 +146,13 @@ def importer_SAE():
         dfMerged["Annee"] = annee
 
     return dfMerged
+
+def importer_SAE_2011():
+    xls = pd.ExcelFile("https://www.data.gouv.fr/storage/f/2014-01-10T17-34-07/SAE_2011.xls")
+    sae = pd.read_excel(xls)
+    sae = sae[['FI', 'RS', 'nb_ivg', 'nb_ivg_medic', 'delai_moy_pec_ivg', 'CATEGORIE', 'DEP']]
+
+    return sae
 
 def importer_pauv():
     """

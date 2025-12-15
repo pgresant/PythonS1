@@ -1,0 +1,1526 @@
+FI,RS,nb_ivg,nb_ivg_medic,delai_moy_pec_ivg,CATEGORIE,DEP
+010007300,CLINIQUE AMBULATOIRE CENDANEG,0,0,sans objet,Etablissement de soins chirurgicaux,01
+010007987,CH HAUTEVILLE UNITE INTERDEPT.,0,0,sans objet,Centre hospitalier (CH),01
+010008407,CH DU HAUT BUGEY,0,0,sans objet,Centre hospitalier (CH),01
+010780054,CH DE BOURG-EN-BRESSE FLEYRIAT,646,474,10,Centre hospitalier (CH),01
+010780062,CH DOCTEUR RECAMIER BELLEY,115,72,6,Centre hospitalier (CH),01
+010780096,CH MONTPENSIER TREVOUX,0,0,sans objet,Centre hospitalier (CH),01
+010780120,HL MEXIMIEUX,0,0,sans objet,Hôpital local,01
+010780138,HL DE PONT-DE-VAUX,0,0,sans objet,Hôpital local,01
+010780146,HL PONT-DE-VEYLE,0,0,sans objet,Hôpital local,01
+010780161,HL DE THOISSEY,0,0,sans objet,Hôpital local,01
+010780195,CLINIQUE CONVERT - BOURG-EN-BRESSE,0,0,sans objet,Etablissement de soins pluridisciplinaires,01
+010780203,CLINIQUE MUTUALISTE AMBERIEU EN BUGEY,0,0,sans objet,Etablissement de soins pluridisciplinaires,01
+020000022,CH GUISE,0,0,sans objet,Centre hospitalier (CH),02
+020000048,CH LA FERE,0,0,sans objet,Centre hospitalier (CH),02
+020000055,CH NOUVION EN THIERACHE,0,0,sans objet,Centre hospitalier (CH),02
+020000063,CH SAINT-QUENTIN,471,244,5,Centre hospitalier (CH),02
+020000071,CH DE VERVINS,0,0,sans objet,Centre hospitalier (CH),02
+020000253,CH LAON,234,188,7,Centre hospitalier (CH),02
+020000261,CH DE SOISSONS,356,239,sans objet,Centre hospitalier (CH),02
+020000287,CH CHAUNY,258,177,1,Centre hospitalier (CH),02
+020000311,CLINIQUE SAINT-MARTIN,0,0,sans objet,Etablissement de soins chirurgicaux,02
+020000360,CLINIQUE SAINT CHRISTOPHE COURLANCY,0,0,sans objet,Etablissement de soins chirurgicaux,02
+020004404,CH DE CHATEAU-THIERRY,122,61,sans objet,Centre hospitalier (CH),02
+020004495,CH HIRSON,32,32,sans objet,Centre hospitalier (CH),02
+020010047,POLYCLINIQUE SAINT CLAUDE,0,0,sans objet,Etablissement de soins pluridisciplinaires,02
+030002158,CH DPT COEUR DU BOURBONNAIS,0,0,sans objet,Centre hospitalier (CH),03
+030780092,CH MOULINS YZEURE,191,106,sans objet,Centre hospitalier (CH),03
+030780100,CH DE MONTLUCON,248,143,sans objet,Centre hospitalier (CH),03
+030780118,CH JACQUES LACARIN VICHY,303,69,7,Centre hospitalier (CH),03
+030780126,CH BOURBON L'ARCHAMBAULT,0,0,sans objet,Centre hospitalier (CH),03
+030780548,POLYCLINIQUE LA PERGOLA,12,0,sans objet,Etablissement de soins pluridisciplinaires,03
+030781116,POLYCLINIQUE SAINT-FRANCOIS-ST-ANTOINE,31,0,sans objet,Etablissement de soins pluridisciplinaires,03
+030785430,POLYCLINIQUE SAINT-ODILON,0,0,sans objet,Etablissement de soins chirurgicaux,03
+040780132,HL GROUES DE BARCELONNETTE,0,0,sans objet,Hôpital local,04
+040780140,HL DE CASTELLANE,0,0,sans objet,Hôpital local,04
+040780215,CH DE MANOSQUE,297,176,sans objet,Centre hospitalier (CH),04
+040780231,HL LUMIERE DE RIEZ,0,0,sans objet,Hôpital local,04
+040780249,HL ST JACQUES SEYNE LES ALP,0,0,sans objet,Hôpital local,04
+040780470,CLINIQUE TOUTES AURES,0,0,sans objet,Etablissement de soins chirurgicaux,04
+040788879,CH DE DIGNE LES BAINS,149,95,sans objet,Centre hospitalier (CH),04
+050000066,CENTRE MEDICAL LA SOURCE,0,0,sans objet,Etablissement de convalescence et de repos,05
+050000090,POLYCLINIQUE DES ALPES DU SUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,05
+050000108,HL D'AIGUILLES,0,0,sans objet,Hôpital local,05
+050000116,CH DES ESCARTONS DE BRIANCON,75,50,sans objet,Centre hospitalier (CH),05
+050000124,CH D'EMBRUN,0,0,sans objet,Centre hospitalier (CH),05
+050000140,HL DE LARAGNE MONTEGLIN,0,0,sans objet,Hôpital local,05
+050000488,CENTRE PNEUMO ALLERGOLOGIE LES ACACIAS,0,0,sans objet,Etablissement de convalescence et de repos,05
+050002948,CHI DES ALPES DU SUD SITE DE GAP,253,139,7,Centre hospitalier (CH),05
+060000528,CENTRE ANTOINE LACASSAGNE,0,0,sans objet,Centre de lutte contre le cancer,06
+060006889,CENTRE JEAN CHANTON A ROQUEBILLIERE,0,0,sans objet,Hôpital local,06
+060017019,GCS HOP PEDIATRIQUES NICE CHU LENVAL,0,0,sans objet,Entité ayant autorisation,06
+060021417,HOPITAL PRIVE CANNES OXFORD,133,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780327,HL ST MAUR ST ETIENNE TINEE,0,0,sans objet,Hôpital local,06
+060780442,CLINIQUE SAINT FRANCOIS,0,0,sans objet,Maison de santé pour maladies mentales,06
+060780491,INSTITUT ARNAULT TZANCK,0,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780517,POLYCLINIQUE SAINT JEAN,246,83,sans objet,Etablissement de soins pluridisciplinaires,06
+060780590,CLINIQUE DU PALAIS,103,75,sans objet,Etablissement de soins chirurgicaux,06
+060780657,HL DE BREIL SUR ROYA,0,0,sans objet,Hôpital local,06
+060780665,CLINIQUE LE MERIDIEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780699,CLINIQUE MOZART,124,19,7,Etablissement de soins chirurgicaux,06
+060780715,CLINIQUE SAINT GEORGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780723,CLINIQUE DU PARC IMPERIAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780756,POLYCLINIQUE SANTA MARIA,115,0,sans objet,Etablissement de soins pluridisciplinaires,06
+060780780,HL DU PAYS DE LA ROUDOULE A PUGET,0,0,sans objet,Hôpital local,06
+060780897,CH DE GRASSE,345,184,sans objet,Centre hospitalier (CH),06
+060780905,HL SAINT ELOI DE SOSPEL,0,0,sans objet,Hôpital local,06
+060780921,HL SAINT LAZARE DE TENDE,0,0,sans objet,Hôpital local,06
+060780954,CH D'ANTIBES JUAN LES PINS,405,234,5,Centre hospitalier (CH),06
+060780988,CH DE CANNES,340,174,15,Centre hospitalier (CH),06
+060781200,CLINIQUE SAINT ANTOINE,98,9,10,Etablissement de soins chirurgicaux,06
+060785011,CHU DE NICE HOPITAL SAINT ROCH,1437,640,6,Centre hospitalier universitaire (CHU),06
+060785219,CLINIQUE PLEIN CIEL,0,0,sans objet,Etablissement de soins médicaux,06
+060791761,CH LA PALMOSA DE MENTON,276,247,sans objet,Centre hospitalier (CH),06
+060791811,CLINIQUE MEDICALE LES SOURCES,0,0,sans objet,Etablissement de soins médicaux,06
+060794013,INSTITUT ARNAULT TZANCK,0,0,sans objet,Etablissement de soins chirurgicaux,06
+060800166,CLINIQUE DE L'ESPERANCE,0,0,sans objet,Etablissement de soins chirurgicaux,06
+070000096,HOPITAL DE MOZE,0,0,sans objet,Etablissement de soins pluridisciplinaires,07
+070002878,CH DES VALS D'ARDECHE PRIVAS,143,80,5,Centre hospitalier (CH),07
+070004742,HL DE LARGENTIERE,0,0,sans objet,Hôpital local,07
+070005558,HL DE BOURG ST ANDEOL,0,0,sans objet,Hôpital local,07
+070005566,CH D'ARDECHE MERIDIONALE,312,187,8,Centre hospitalier (CH),07
+070780101,HL DE JOYEUSE,0,0,sans objet,Hôpital local,07
+070780119,HL VALLON PT D'ARC,0,0,sans objet,Hôpital local,07
+070780127,HL DE  VILLENEUVE DE BERG,0,0,sans objet,Hôpital local,07
+070780150,HL DU CHEYLARD,0,0,sans objet,Hôpital local,07
+070780168,CLINIQUE DU VIVARAIS,0,0,sans objet,Etablissement de soins chirurgicaux,07
+070780218,HL LES VANS,0,0,sans objet,Hôpital local,07
+070780358,CH D'ANNONAY,174,99,sans objet,Centre hospitalier (CH),07
+070780366,HL DE LAMASTRE,0,0,sans objet,Hôpital local,07
+070780374,HL DE TOURNON,0,0,sans objet,Hôpital local,07
+070780382,HL DE ST FELICIEN,0,0,sans objet,Hôpital local,07
+070780408,CLINIQUE DES CEVENNES,0,0,sans objet,Etablissement de soins chirurgicaux,07
+070780424,CLINIQUE PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,07
+080000037,CH DE SEDAN,186,154,7,Centre hospitalier (CH),08
+080000060,HL DE FUMAY,0,0,sans objet,Hôpital local,08
+080000078,HL DE NOUZONVILLE,0,0,sans objet,Hôpital local,08
+080000094,POLYCLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,08
+080000144,CLINIQUE DU DOCTEUR LHOSTE,0,0,sans objet,Etablissement de soins pluridisciplinaires,08
+080000615,CH DE CHARLEVILLE MEZIERES,388,175,13,Centre hospitalier (CH),08
+080001969,GROUPE HOSPITALIER SUD ARDENNES,0,0,sans objet,Centre hospitalier (CH),08
+090780107,CH DU PAYS D'OLMES,2,2,sans objet,Centre hospitalier (CH),09
+090781774,CHI DU VAL D'ARIEGE,392,254,5,Centre hospitalier (CH),09
+090781816,CH ARIEGE COUSERANS,77,37,7,Centre hospitalier (CH),09
+100000017,CH DE TROYES,566,122,15,Centre hospitalier (CH),10
+100000041,HL DE BAR SUR AUBE,0,0,sans objet,Hôpital local,10
+100000058,CH DE BAR-SUR-SEINE,0,0,sans objet,Hôpital local,10
+100000082,CLINIQUE DU PAYS DE SEINE,36,0,4,Etablissement de soins chirurgicaux,10
+100000124,POLYCLINIQUE MONTIER LA CELLE,0,0,sans objet,Etablissement de soins pluridisciplinaires,10
+100000157,POLYCLINIQUE DES URSULINES,0,0,sans objet,Etablissement de soins chirurgicaux,10
+100002351,CLINIQUE DE CHAMPAGNE,142,78,15,Etablissement de soins pluridisciplinaires,10
+100006279,CH DE ROMILLY SEINE,60,52,3,Centre hospitalier (CH),10
+110780061,CH ANTOINE GAYRAUD,616,410,8,Centre hospitalier (CH),11
+110780087,CH J.P. CASSABEL,0,0,sans objet,Centre hospitalier (CH),11
+110780137,CH NARBONNE,457,273,7,Centre hospitalier (CH),11
+110780210,CLINIQUE LES GENETS,0,0,sans objet,Etablissement de soins pluridisciplinaires,11
+110780228,POLYCLINIQUE LE LANGUEDOC,155,80,sans objet,Etablissement de soins pluridisciplinaires,11
+110780483,POLYCLINIQUE MONTREAL,48,29,sans objet,Etablissement de soins pluridisciplinaires,11
+110780707,CH LIMOUX-QUILLAN SITE DE LIMOUX,0,0,sans objet,Centre hospitalier (CH),11
+110780772,CH LEZIGNAN,0,0,sans objet,Centre hospitalier (CH),11
+120004528,CH DE MILLAU,95,84,3,Centre hospitalier (CH),12
+120004619,CH DE SAINT AFFRIQUE,36,23,8,Centre hospitalier (CH),12
+120780036,CLINIQUE ST LOUIS ST MICHEL RODEZ,0,0,sans objet,Etablissement de soins pluridisciplinaires,12
+120780044,CH DE RODEZ HOPITAL JACQUES PUEL,316,242,3,Centre hospitalier (CH),12
+120780069,CH VILLEFRANCHE DE ROUERGUE,112,79,9,Centre hospitalier (CH),12
+120780085,CH PIERRE DELPECH DECAZEVILLE,149,117,2,Centre hospitalier (CH),12
+120780093,CH SAINT GENIEZ D'OLT,0,0,sans objet,Centre hospitalier (CH),12
+120780101,CHIESPALIONSTLAURENTOLT,0,0,sans objet,Centre hospitalier (CH),12
+130001647,INSTITUT PAOLI CALMETTES,0,0,sans objet,Centre de lutte contre le cancer,13
+130001928,CENTRE GERONTO DPTAL LA TOUR BLANCHE,0,0,sans objet,Centre hospitalier (CH),13
+130002694,CLINIQUE JEAN PAOLI,0,0,sans objet,Etablissement de soins médicaux,13
+130008253,CLINIQUE DE VITROLLES,191,139,9,Etablissement de soins obstétriques et chirurgico-gynécologiques,13
+130028228,HL DE TARASCON,0,0,sans objet,Hôpital local,13
+130037922,CLINIQUE DE LA RESIDENCE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130041767,EUROMED CARDIO,0,0,sans objet,Etablissement de soins médicaux,13
+130781040,CH DU PAYS D'AIX,893,419,sans objet,Centre hospitalier (CH),13
+130781255,CENTRE GERONT ST THOMAS DE VILLENEUVE,0,0,sans objet,Etablissement de soins médicaux,13
+130781289,POLYCLINIQUE DU PARC RAMBOT PROVENCALE,9,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130781339,CH LOUIS BRUNET D'ALLAUCH,0,0,sans objet,Centre hospitalier (CH),13
+130781370,CLINIQUE JEANNE D'ARC,32,16,sans objet,Etablissement de soins pluridisciplinaires,13
+130781446,CH EDMOND GARCIN D'AUBAGNE,355,195,sans objet,Centre hospitalier (CH),13
+130781479,CLINIQUE LA CASAMANCE,26,0,2,Etablissement de soins pluridisciplinaires,13
+130781867,CLINIQUE DE LA CIOTAT,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130782071,CLINIQUE DE L'ETANG DE L'OLIVIER,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130782147,CLINIQUE GENERALE DE MARIGNANE,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130782162,CLINIQUE CHIRURGICALE DE MARTIGUES,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130782634,CH SALON DE PROVENCE,251,72,sans objet,Centre hospitalier (CH),13
+130782675,CLINIQUE VIGNOLI,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130783152,CLINIQUE SAINTE ELISABETH,0,0,sans objet,Etablissement de soins médicaux,13
+130783327,CLINIQUE BOUCHARD,397,271,sans objet,Etablissement de soins pluridisciplinaires,13
+130783665,CLINIQUE MUTUALISTE DE BONNEVEINE,520,371,3,Etablissement de soins pluridisciplinaires,13
+130783723,CLINIQUE JUGE,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130783772,CLINIQUE MONTICELLI,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130783962,CLINIQUE WULFRAN PUGET,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130784051,HOPITAL PRIVE CLAIRVAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130784226,ST PAUL HENRI GASTAUT,0,0,sans objet,Etablissement de soins médicaux,13
+130784713,HOPITAL PRIVE BEAUREGARD,140,97,10,Etablissement de soins pluridisciplinaires,13
+130784903,CLINIQUE LA PHOCEANNE,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130785355,HOPITAL AMBROISE PARE,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130785363,HOPITAL PAUL DESBIEF,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130785389,CLINIQUE CHANTECLER,0,0,sans objet,Etablissement de soins chirurgicaux,13
+130785512,CH DE LA CIOTAT,441,317,sans objet,Centre hospitalier (CH),13
+130785652,HOPITAL ST JOSEPH,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130785678,CLINIQUE VERT COTEAU,129,108,sans objet,Etablissement de soins pluridisciplinaires,13
+130786049,APHM,3478,1442,sans objet,Centre hospitalier universitaire (CHU),13
+130786361,POLYCLINIQUE DU PARC RAMBOT,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130786445,MATERNITE CATHOLIQUE PROVENCE L'ETOILE,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+130786742,HIA LAVERAN,0,0,sans objet,Hôpital militaire,13
+130789159,CENTRE CARDIO VASCULAIRE VALMANTE,0,0,sans objet,Etablissement de soins médicaux,13
+130789274,CH JOSEPH IMBERT D'ARLES,344,172,11,Centre hospitalier (CH),13
+130789316,CH DE MARTIGUES HOPITAL DES RAYETTES,720,365,3,Centre hospitalier (CH),13
+130810740,CLINIQUE AXIUM,0,0,sans objet,Etablissement de soins pluridisciplinaires,13
+140000035,CH DE LISIEUX,349,264,3,Centre hospitalier (CH),14
+140000084,CH D'AUNAY SUR ODON,0,0,sans objet,Centre hospitalier (CH),14
+140000100,CHU CAEN,980,472,10,Centre hospitalier universitaire (CHU),14
+140000118,CH DE FALAISE,101,56,2,Centre hospitalier (CH),14
+140000159,CH DE VIRE,82,42,7,Centre hospitalier (CH),14
+140000290,CLINIQUE NOTRE DAME - VIRE,0,0,sans objet,Etablissement de soins chirurgicaux,14
+140000340,FONDATION DE LA MISERICORDE HEROUVILLE SAINT CLAIR,0,0,sans objet,Etablissement de convalescence et de repos,14
+140000639,CLCC FRANCOIS BACLESSE - CAEN,0,0,sans objet,Centre de lutte contre le cancer,14
+140002452,CLINIQUE DE LA MISERICORDE - CAEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,14
+140016759,POLYCLINIQUE DU PARC - CAEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,14
+140017237,HOPITAL PRIVE ST MARTIN-CAEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,14
+140018730,POLYCLINIQUE DE LISIEUX,0,0,sans objet,Etablissement de soins pluridisciplinaires,14
+140024365,SYNDICAT INTERHOSPITALIER DU BESSIN,139,67,5,Syndicat interhospitalier (SIH),14
+140026279,CH COTE FLEURIE - SITE DE TROUVILLE,170,150,1,Centre hospitalier (CH),14
+140026709,POLYCLINIQUE DE DEAUVILLE,90,32,8,Etablissement de soins pluridisciplinaires,14
+150780047,CH DE CONDAT EN FENIERS,0,0,sans objet,Centre hospitalier (CH),15
+150780088,CH DE SAINT FLOUR,72,39,7,Centre hospitalier (CH),15
+150780096,CH HENRI MONDOR,202,80,4,Centre hospitalier (CH),15
+150780120,CLINIQUE DU HAUT CANTAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,15
+150780468,CH DE MAURIAC,0,0,sans objet,Centre hospitalier (CH),15
+150780500,CH DE MURAT,0,0,sans objet,Centre hospitalier (CH),15
+150780732,CENTRE MEDICO CHIRURGICAL TRONQUIERES,22,17,sans objet,Etablissement de soins pluridisciplinaires,15
+160000121,HL ET CTRE HEBERG ROCHEFOUCAULD,0,0,sans objet,Hôpital local,16
+160000170,CLINIQUE SAINT-JOSEPH - ANGOULEME,0,0,sans objet,Etablissement de soins chirurgicaux,16
+160000279,CLINIQUE DE COGNAC,0,0,sans objet,Etablissement de soins chirurgicaux,16
+160000451,CH D'ANGOULEME,440,235,5,Centre hospitalier (CH),16
+160000485,CH LABAJOUDERIE,0,0,sans objet,Centre hospitalier (CH),16
+160000493,CH DE RUFFEC,9,6,sans objet,Centre hospitalier (CH),16
+160000519,HL DE CHATEAUNEUF,0,0,sans objet,Hôpital local,16
+160006037,CH HOPITAUX DU SUD CHARENTE,24,24,3,Centre hospitalier (CH),16
+160013207,CENTRE CLINICAL SA,187,48,9,Etablissement de soins chirurgicaux,16
+160014411,CH DE COGNAC,182,72,7,Centre hospitalier (CH),16
+170000111,CH ST HONORE - ST-MARTIN-DE-RE,0,0,sans objet,Centre hospitalier (CH),17
+170780050,CH JONZAC,59,32,2,Centre hospitalier (CH),17
+170780142,HL ST-PIERRE D'OLERON,0,0,sans objet,Hôpital local,17
+170780159,GROUPE HOSP. LA ROCHELLE-RE-AUNIS,561,304,8,Centre hospitalier (CH),17
+170780167,CH ST-JEAN D'ANGELY,65,39,6,Centre hospitalier (CH),17
+170780175,CH DE SAINTONGE - SAINTES,285,176,9,Centre hospitalier (CH),17
+170780191,CH DE ROYAN,0,0,sans objet,Centre hospitalier (CH),17
+170780209,HL DUBOIS MEYNARDIE - MARENNES,0,0,sans objet,Hôpital local,17
+170780225,CH ROCHEFORT,318,147,4,Centre hospitalier (CH),17
+170780266,CH BOSCAMNANT,0,0,sans objet,Centre hospitalier (CH),17
+170780563,ETAB. DE SOINS PASTEUR - ROYAN,106,0,3,Etablissement de soins pluridisciplinaires,17
+170780613,S.A.S. CLINIQUE DU MAIL,33,19,sans objet,Etablissement de soins chirurgicaux,17
+170780621,POLYCLINIQUE SAINT GEORGES,0,0,sans objet,Etablissement de soins pluridisciplinaires,17
+170780647,CLINIQUE RICHELIEU - SAINTES,0,0,sans objet,Etablissement de soins pluridisciplinaires,17
+170780662,CENTRE MED-CHIR DE L'ATLANTIQUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,17
+180000028,CH JACQUES COEUR  DE BOURGES,550,372,7,Centre hospitalier (CH),18
+180000051,CH DE VIERZON,138,92,3,Centre hospitalier (CH),18
+180000069,CH DE SAINT AMAND-MONTROND,112,70,7,Centre hospitalier (CH),18
+180000358,CLINIQUE DES GRAINETIERES,0,0,sans objet,Etablissement de soins chirurgicaux,18
+180004145,CLINIQUE GUILLAUME DE VARYE,0,0,sans objet,Etablissement de soins pluridisciplinaires,18
+190000042,CH DUBOIS BRIVE,420,243,3,Centre hospitalier (CH),19
+190000059,CH TULLE,140,60,10,Centre hospitalier (CH),19
+190000067,HL DE BORT LES ORGUES,0,0,sans objet,Hôpital local,19
+190000075,CH D'USSEL,78,45,6,Centre hospitalier (CH),19
+190000224,CLINIQUE LES CEDRES BRIVE,0,0,sans objet,Etablissement de soins pluridisciplinaires,19
+190000257,CLINIQUE SAINT-GERMAIN  BRIVE,79,12,8,Etablissement de soins pluridisciplinaires,19
+190010116,SYNDICAT INTERHOSP BRIVE TULLE USSEL,0,0,sans objet,Syndicat interhospitalier (SIH),19
+210006318,CLINIQUE CLEMENT DREVON,0,0,sans objet,Etablissement de soins pluridisciplinaires,21
+210010070,CHI CHATILLON MONTBARD,5,5,sans objet,Centre hospitalier (CH),21
+210780060,CH AUXOIS MORVAN SAULIEU,0,0,sans objet,Hôpital local,21
+210780110,CLINIQUE SAINTE MARTHE DIJON,0,0,sans objet,Etablissement de soins pluridisciplinaires,21
+210780136,CLINIQUE MEDICO CHIRURGICALE CHENOVE,0,0,sans objet,Etablissement de soins pluridisciplinaires,21
+210780581,CHU DIJON,1078,357,6,Centre hospitalier universitaire (CHU),21
+210780623,HL ARNAY-LE-DUC,0,0,sans objet,Hôpital local,21
+210780631,HL IS-SUR-TILLE,0,0,sans objet,Hôpital local,21
+210780649,HL NUITS-ST-GEORGES,0,0,sans objet,Hôpital local,21
+210780656,HL SEURRE,0,0,sans objet,Hôpital local,21
+210780664,CH AUXOIS MORVAN,0,0,sans objet,Hôpital local,21
+210780672,HL AUXONNE,0,0,sans objet,Hôpital local,21
+210780706,CH SEMUR EN AUXOIS,52,13,sans objet,Centre hospitalier (CH),21
+210780714,CH BEAUNE,143,62,6,Centre hospitalier (CH),21
+210780789,CLINIQUE MUTUALISTE BENIGNE JOLY,0,0,sans objet,Etablissement de soins pluridisciplinaires,21
+210780979,CLINIQUE FONTAINE-LES-DIJON,0,0,sans objet,Etablissement de soins pluridisciplinaires,21
+210987731,CLCC GEORGES-FRANCOIS LECLERC,0,0,sans objet,Centre de lutte contre le cancer,21
+220000020,CH YVES LE FOLL,469,266,7,Centre hospitalier (CH),22
+220000046,CH DINAN,213,150,4,Centre hospitalier (CH),22
+220000079,CH GUINGAMP,211,161,sans objet,Centre hospitalier (CH),22
+220000103,CH LANNION,191,145,8,Centre hospitalier (CH),22
+220000111,POLYCLINIQUE DU TREGOR,0,0,sans objet,Etablissement de soins pluridisciplinaires,22
+220000152,CH PAIMPOL,32,32,3,Centre hospitalier (CH),22
+220000178,CH LAMBALLE,0,0,sans objet,Hôpital local,22
+220000186,CH QUINTIN,0,0,sans objet,Hôpital local,22
+220000236,CH DE PLOUGUERNEVEL,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,22
+220000269,CLINIQUE ARMORICAINE DE RADIOLOGIE,0,0,sans objet,Etablissement de soins médicaux,22
+220000285,CHP DE ST BRIEUC-SITE JEANNE D'ARC,0,0,sans objet,Etablissement de soins chirurgicaux,22
+220000301,CHP DE ST BRIEUC-SITE DU LITTORAL,144,112,sans objet,Etablissement de soins chirurgicaux,22
+220005045,CH TREGUIER,0,0,sans objet,Centre hospitalier (CH),22
+220005599,POLYCLINIQUE DU PAYS DE RANCE,0,0,sans objet,Etablissement de soins chirurgicaux,22
+230780041,CH GUERET,166,85,5,Centre hospitalier (CH),23
+230780058,CH D'AUBUSSON,0,0,sans objet,Centre hospitalier (CH),23
+230780066,CH BERNARD DESPLAS  BOURGANEUF,0,0,sans objet,Centre hospitalier (CH),23
+230780082,CENTRE MEDICAL NATIONAL SAINTE FEYRE,0,0,sans objet,Etablissement de soins médicaux,23
+230780157,CLINIQUE DE LA MARCHE GUERET,0,0,sans objet,Etablissement de soins pluridisciplinaires,23
+230780199,CLINIQUE DE LA CROIX BLANCHE MOUTIER,0,0,sans objet,Etablissement de soins chirurgicaux,23
+240000042,HL DE BELVES,0,0,sans objet,Hôpital local,24
+240000059,CH DE BERGERAC,349,232,4,Centre hospitalier (CH),24
+240000067,HL DE DOMME,0,0,sans objet,Hôpital local,24
+240000075,HL D'EXCIDEUIL,0,0,sans objet,Hôpital local,24
+240000083,CH VAUCLAIRE,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,24
+240000109,HL DE NONTRON,0,0,sans objet,Hôpital local,24
+240000117,CH DE PERIGUEUX,461,173,sans objet,Centre hospitalier (CH),24
+240000133,HL DE RIBERAC,0,0,sans objet,Hôpital local,24
+240000141,HL DE SAINT ASTIER,0,0,sans objet,Hôpital local,24
+240000158,HL CHENARD,0,0,sans objet,Hôpital local,24
+240000190,POLYCLINIQUE FRANCHEVILLE,68,43,sans objet,Etablissement de soins pluridisciplinaires,24
+240000208,CLINIQUE PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,24
+240000216,CLINIQUE DU PARC,2,0,sans objet,Etablissement de soins chirurgicaux,24
+240000448,CH SARLAT,132,102,sans objet,Centre hospitalier (CH),24
+250000015,CHU SAINT-JACQUES,584,296,9,Centre hospitalier universitaire (CHU),25
+250000221,HL P NAPPEZ MORTEAU,0,0,sans objet,Hôpital local,25
+250000239,HL STE CROIX BAUME LES DAMES,0,0,sans objet,Hôpital local,25
+250000270,CLINIQUE ST VINCENT,0,0,sans objet,Etablissement de soins pluridisciplinaires,25
+250000452,CH PONTARLIER,146,105,10,Centre hospitalier (CH),25
+250000478,HL ST LOUIS ORNANS,0,0,sans objet,Hôpital local,25
+250000486,HL RENE SALINS MOUTHE,0,0,sans objet,Hôpital local,25
+250011723,CLINIQUE DE MONTBELIARD,75,18,sans objet,Etablissement de soins pluridisciplinaires,25
+250011848,POLYCLINIQUE FRANCHE COMTE,0,0,sans objet,Etablissement de soins pluridisciplinaires,25
+260000021,CH DE VALENCE,446,271,15,Centre hospitalier (CH),26
+260000047,CH DE MONTELIMAR,322,139,14,Centre hospitalier (CH),26
+260000054,CH CREST,85,17,sans objet,Centre hospitalier (CH),26
+260000088,HL DE NYONS,0,0,sans objet,Hôpital local,26
+260000096,HL DE BUIS LES BARONNIES,0,0,sans objet,Hôpital local,26
+260000104,CH DIE,35,15,sans objet,Centre hospitalier (CH),26
+260000195,CLINIQUE PNEUMOLOGIE LES RIEUX,0,0,sans objet,Etablissement de soins médicaux,26
+260000260,CLINIQUE LA PARISIERE,0,0,sans objet,Etablissement de soins chirurgicaux,26
+260003017,CLINIQUE KENNEDY,35,0,sans objet,Etablissement de soins pluridisciplinaires,26
+260006267,CLINIQUE GENERALE,0,0,sans objet,Etablissement de soins pluridisciplinaires,26
+260016910,CH DE ROMANS,357,47,9,Centre hospitalier (CH),26
+270000060,CH BERNAY,116,9,sans objet,Centre hospitalier (CH),27
+270000086,CH GISORS,188,131,7,Centre hospitalier (CH),27
+270000102,CH DE LA RISLE PONT-AUDEMER,33,4,sans objet,Centre hospitalier (CH),27
+270000110,CH VERNEUIL-SUR-AVRE,0,0,sans objet,Centre hospitalier (CH),27
+270000136,CH LES ANDELYS,0,0,sans objet,Hôpital local,27
+270000177,CH LE NEUBOURG,0,0,sans objet,Hôpital local,27
+270000185,CH PACY-SUR-EURE,0,0,sans objet,Hôpital local,27
+270000193,EPMS PONT DE L'ARCHE,0,0,sans objet,Hôpital local,27
+270000326,CLINIQUE CHIRURGICALE PASTEUR EVREUX,0,0,sans objet,Etablissement de soins chirurgicaux,27
+270000862,CLINIQUE BERGOUIGNAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,27
+270023724,CHI EURE-SEINE,881,588,11,Centre hospitalier (CH),27
+280000134,CH DE CHARTRES,438,213,12,Centre hospitalier (CH),28
+280000159,CLINIQUE NOTRE DAME DU BON SECOURS,0,0,sans objet,Etablissement de soins pluridisciplinaires,28
+280000183,CH DREUX,378,223,6,Centre hospitalier (CH),28
+280000225,CH DE LA LOUPE,0,0,sans objet,Centre hospitalier (CH),28
+280000449,CLINIQUE CARDIOLOGIQUE MAISON BLANCHE,0,0,sans objet,Etablissement de soins pluridisciplinaires,28
+280000589,CH NOGENT- LE- ROTROU,0,0,sans objet,Centre hospitalier (CH),28
+280500075,CH CHATEAUDUN,110,60,8,Centre hospitalier (CH),28
+280505777,NOUVELLE CLINIQUE SAINT FRANÇOIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,28
+290000017,CHU BREST,650,245,16,Centre hospitalier universitaire (CHU),29
+290000041,CH FERDINAND GRALL LANDERNEAU,127,82,sans objet,Centre hospitalier (CH),29
+290000074,CH DOUARNENEZ,0,0,sans objet,Centre hospitalier (CH),29
+290000090,CH CROZON,0,0,sans objet,Hôpital local,29
+290000108,CH LESNEVEN,0,0,sans objet,Hôpital local,29
+290000116,CH LANMEUR,0,0,sans objet,Centre hospitalier (CH),29
+290000140,CLINIQUE PASTEUR LANROZE,132,81,sans objet,Etablissement de soins pluridisciplinaires,29
+290000207,CLINIQUE ST MICHEL ET STE ANNE,47,24,sans objet,Etablissement de soins pluridisciplinaires,29
+290000215,POLYCLINIQUE QUIMPER SUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,29
+290000306,CH DE QUIMPERLE,0,0,sans objet,Centre hospitalier (CH),29
+290000728,HOPITAL INSTRUCTION DES ARMEES,0,0,sans objet,Hôpital militaire,29
+290000751,CH ST RENAN,0,0,sans objet,Hôpital local,29
+290000785,HOTEL DIEU DE PONT-L'ABBE,0,0,sans objet,Etablissement de soins pluridisciplinaires,29
+290004142,CLINIQUE DU GRAND LARGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,29
+290019777,POLYCLINIQUE DE KERAUDREN,153,58,sans objet,Etablissement de soins pluridisciplinaires,29
+290020700,CHI QUIMPER -,627,228,5,Centre hospitalier (CH),29
+290021542,CH DES PAYS DE MORLAIX,149,48,15,Centre hospitalier (CH),29
+290023431,CENTRE MEDICO-CHIR. BAIE MORLAIX,0,0,sans objet,Etablissement de soins chirurgicaux,29
+2A0000014,CH ND LA MISERICORDE,335,175,sans objet,Centre hospitalier (CH),2A
+2A0000097,POLYCLINIQUE DU GOLFE,0,0,sans objet,Etablissement de soins pluridisciplinaires,2A
+2A0000139,CLINISUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,2A
+2A0000154,CLINIQUE DU SUD DE LA CORSE,0,0,sans objet,Etablissement de soins pluridisciplinaires,2A
+2A0000170,HL DE BONIFACIO,0,0,sans objet,Hôpital local,2A
+2A0000386,CH DE CASTELLUCCIO,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,2A
+2A0002606,HL DE SARTENE,0,0,sans objet,Hôpital local,2A
+2B0000020,CH DE BASTIA,0,0,sans objet,Centre hospitalier (CH),2B
+2B0000079,CLINIQUE DR FILIPPI,0,0,sans objet,Etablissement de soins chirurgicaux,2B
+2B0000145,POLYCLINIQUE LA RESIDENCE MAYMARD,228,173,24,Etablissement de soins pluridisciplinaires,2B
+2B0000160,CLINIQUE SAINT ANTOINE,0,0,sans objet,Etablissement de soins pluridisciplinaires,2B
+2B0000392,POLYCLINIQUE DE FURIANI,0,0,sans objet,Etablissement de soins pluridisciplinaires,2B
+2B0004246,CH CORTE,0,0,sans objet,Centre hospitalier (CH),2B
+300002508,CENTRE CHIR. AMBU. DES HAUTS D'AVIGNON,0,0,sans objet,Etablissement de soins chirurgicaux,30
+300780038,GROUPE HOSPITALIER CAREMEAU CHU NIMES,543,240,2,Centre hospitalier universitaire (CHU),30
+300780046,CH ALES-CEVENNES,399,173,5,Centre hospitalier (CH),30
+300780053,CH LOUIS PASTEUR,192,59,sans objet,Centre hospitalier (CH),30
+300780079,HL PONT SAINT-ESPRIT,0,0,sans objet,Hôpital local,30
+300780087,HOPITAL GENERAL UZES,0,0,sans objet,Hôpital local,30
+300780095,HL DU VIGAN,0,0,sans objet,Hôpital local,30
+300780137,CLINIQUE BONNEFON MSP ALES,133,82,sans objet,Etablissement de soins pluridisciplinaires,30
+300780152,SA HOPITAL PRIVE LES FRANCISCAINES,0,0,sans objet,Etablissement de soins pluridisciplinaires,30
+300780228,POLYCLINIQUE LA GARAUD,62,58,sans objet,Etablissement de soins chirurgicaux,30
+300780285,CLINIQUE VALDEGOUR,0,0,sans objet,Etablissement de réadaptation fonctionnelle,30
+300781010,CH LES CHATAIGNIERS,0,0,sans objet,Centre hospitalier (CH),30
+300781465,POLYCLINIQUE KENNEDY,190,117,sans objet,Etablissement de soins pluridisciplinaires,30
+300788502,POLYCLINIQUE GRAND-SUD,440,344,sans objet,Etablissement de soins pluridisciplinaires,30
+310780085,CLINIQUE SAINT NICOLAS,0,0,sans objet,Etablissement de soins chirurgicaux,31
+310780101,CLINIQUE SAINT JEAN LANGUEDOC,260,164,sans objet,Etablissement de soins pluridisciplinaires,31
+310780135,CLINIQUE SARRUS-TEINTURIERS,694,450,sans objet,Etablissement de soins pluridisciplinaires,31
+310780150,CLINIQUE MEDIPOLE GARONNE,0,0,sans objet,Etablissement de soins chirurgicaux,31
+310780259,CLINIQUE PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,31
+310780283,CLINIQUE DE L'UNION,0,0,sans objet,Etablissement de soins pluridisciplinaires,31
+310780309,POLYCLINIQUE DU PARC,157,71,sans objet,Etablissement de soins pluridisciplinaires,31
+310780366,CLINIQUE MONIE,0,0,sans objet,Etablissement de soins médicaux,31
+310780374,CLINIQUE DU CHATEAU DE VERNHES,0,0,sans objet,Maison de régime,31
+310780382,CLINIQUE AMBROISE PARE,613,303,sans objet,Etablissement de soins pluridisciplinaires,31
+310780671,CH COMMINGES PYRENEES,200,116,30,Centre hospitalier (CH),31
+310780713,CH DE REVEL,0,0,sans objet,Centre hospitalier (CH),31
+310781000,CLINIQUE DES CEDRES,5,0,sans objet,Etablissement de soins pluridisciplinaires,31
+310781067,HOPITAL JOSEPH DUCUING,1297,592,15,Etablissement de soins pluridisciplinaires,31
+310781406,HOTEL DIEU SAINT JACQUES CHU TOULOUSE,725,261,sans objet,Centre hospitalier universitaire (CHU),31
+310781505,CLINIQUE D'OCCITANIE,213,118,1,Etablissement de soins pluridisciplinaires,31
+310781695,CLINIQUE DE LAGARDELLE,0,0,sans objet,Etablissement de soins médicaux,31
+310782016,CLINIQUE NEPHRO SAINT EXUPERY,0,0,sans objet,Etablissement de soins médicaux,31
+310782347,INSTITUT CLAUDIUS REGAUD,0,0,sans objet,Centre de lutte contre le cancer,31
+310786256,UNITE SOINS LONGUE DUREE CH MURET,0,0,sans objet,Centre hospitalier (CH),31
+310786389,CLINIQUE DES PYRENEES,0,0,sans objet,Etablissement de soins chirurgicaux,31
+320004310,ETS PUBLIC DE SANTE DE LOMAGNE,0,0,sans objet,Centre hospitalier (CH),32
+320780067,POLYCLINIQUE DE GASCOGNE,54,23,sans objet,Etablissement de soins pluridisciplinaires,32
+320780117,CH D'AUCH,213,69,8,Centre hospitalier (CH),32
+320780133,CH DE CONDOM,0,0,sans objet,Centre hospitalier (CH),32
+320780158,CH DE GIMONT,0,0,sans objet,Centre hospitalier (CH),32
+320780174,CENTRE HOSPIT INTERCOM LOMBEZ SAMATAN,0,0,sans objet,Centre hospitalier (CH),32
+320780182,CH DE MAUVEZIN,0,0,sans objet,Centre hospitalier (CH),32
+320780208,CENTRE HOSPTIALIER DE NOGARO,0,0,sans objet,Centre hospitalier (CH),32
+330000217,MAISON DE SANTE MARIE GALENE,0,0,sans objet,Etablissement de convalescence et de repos,33
+330000332,HOPITAL SUBURBAIN DU BOUSCAT,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330000340,M.S.P.BX. BAGATELLE,383,27,15,Etablissement de soins pluridisciplinaires,33
+330000662,INSTITUT BERGONIE,0,0,sans objet,Centre de lutte contre le cancer,33
+330027509,CHI SUD GIRONDE,161,42,sans objet,Centre hospitalier (CH),33
+330780040,CLINIQUE CHIRURGICALE BEL AIR,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780073,CLINIQUE ST ANTOINE DE PADOUE,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780081,CLINIQUE SAINT- AUGUSTIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780107,CLINIQUE THEODORE DUCOS,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780115,CLINIQUE TIVOLI,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780123,CLINIQUE TOURNY,163,19,sans objet,Etablissement de soins chirurgicaux,33
+330780149,CLINIQUE SAINT- LOUIS,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780206,CLINIQUE D'ARCACHON,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780255,CLINIQUE CHIRURGICALE DU LIBOURNAIS,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780263,POLYCLINIQUE BORDEAUX RIVE DROITE,138,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780271,CLINIQUE DU SPORT DE BORDEAUX MERIGNAC,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780354,POLYCLINIQUE BORDEAUX-CAUDERAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780370,LES FONTAINES DE MONJOUS - SSR,0,0,sans objet,Etablissement de convalescence et de repos,33
+330780479,POLYCLINIQUE BORDEAUX-NORD AQUITAINE,93,77,sans objet,Etablissement de soins pluridisciplinaires,33
+330780487,CLINIQUE OPHTALMOLOGIQUE THIERS,0,0,sans objet,Etablissement de soins chirurgicaux,33
+330780495,CLINIQUE MUTUALISTE DU MEDOC,131,41,sans objet,Etablissement de soins pluridisciplinaires,33
+330780503,HOPITAL PRIVE SAINT-MARTIN,9,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780511,CLINIQUE SAINTE-ANNE,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780529,CLINIQUE MUTUALISTE DE PESSAC,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330780537,CENTRE MEDICO-CHIRURGICAL,123,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330781139,CRF LA TOUR DE GASSIES,0,0,sans objet,Etablissement de réadaptation fonctionnelle,33
+330781196,CHU HOPITAUX DE BORDEAUX,1510,346,sans objet,Centre hospitalier universitaire (CHU),33
+330781204,CH D'ARCACHON,368,149,sans objet,Centre hospitalier (CH),33
+330781212,CH DE BAZAS,0,0,sans objet,Centre hospitalier (CH),33
+330781220,CH SAINT-NICOLAS DE BLAYE,121,46,7,Centre hospitalier (CH),33
+330781253,CH DE LIBOURNE,487,133,10,Centre hospitalier (CH),33
+330781261,CH STE FOY LA GRANDE,0,0,sans objet,Centre hospitalier (CH),33
+330781279,HL DE MONSEGUR,0,0,sans objet,Hôpital local,33
+330781303,HIA ROBERT PICQUE,0,0,sans objet,Hôpital militaire,33
+330781402,POLYCLINIQUE BORDEAUX-TONDU,0,0,sans objet,Etablissement de soins pluridisciplinaires,33
+330782582,POLYCLINIQUE JEAN VILLAR,128,0,sans objet,Etablissement de soins pluridisciplinaires,33
+340000025,INSTITUT MARIN SAINT-PIERRE,0,0,sans objet,Etablissement de réadaptation fonctionnelle,34
+340000207,ICM INSTITUT REGIONAL DU CANCER DE MTP,0,0,sans objet,Centre de lutte contre le cancer,34
+340009885,POLYCLINIQUE CHAMPEAU,161,74,sans objet,Etablissement de soins pluridisciplinaires,34
+340009893,HL BEDARIEUX,0,0,sans objet,Hôpital local,34
+340011295,CH SETE,286,179,sans objet,Centre hospitalier (CH),34
+340015502,CLINIQUE DU MILLENAIRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340015965,POLYCLINIQUE SAINT-PRIVAT,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780055,CH BEZIERS,719,465,4,Centre hospitalier (CH),34
+340780139,CLINIQUE DU DOCTEUR JEAN CAUSSE,0,0,sans objet,Etablissement de soins chirurgicaux,34
+340780147,POLYCLINIQUE DES TROIS VALLEES,0,0,sans objet,Etablissement de soins chirurgicaux,34
+340780154,POLYCLINIQUE PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780451,HL PEZENAS,0,0,sans objet,Hôpital local,34
+340780469,HL DE SAINT- PONS,0,0,sans objet,Hôpital local,34
+340780477,CHU MONTPELLIER,1344,250,sans objet,Centre hospitalier universitaire (CHU),34
+340780519,HL LODEVE,0,0,sans objet,Hôpital local,34
+340780535,HL POLE DE SANTE DE LUNEL,0,0,sans objet,Hôpital local,34
+340780543,HL CLERMONT-L' HERAULT,0,0,sans objet,Hôpital local,34
+340780568,CLINIQUE DU SOUFFLE LA VALLONIE,0,0,sans objet,Etablissement de soins médicaux,34
+340780634,POLYCLINIQUE SAINT JEAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780642,CLINIQUE BEAU SOLEIL,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780667,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780675,CLINIQUE CLEMENTVILLE,764,422,9,Etablissement de soins pluridisciplinaires,34
+340780683,POLYCLINIQUE SAINT-ROCH,797,419,6,Etablissement de soins pluridisciplinaires,34
+340780717,LANGUEDOC MUTUALITE CLINIQUE ST-LOUIS,80,57,sans objet,Etablissement de soins pluridisciplinaires,34
+340780725,CLINIQUE VIA DOMITIA POLE DE SANTE,0,0,sans objet,Etablissement de soins pluridisciplinaires,34
+340780741,POLYCLINIQUE SAINTE THERESE,302,126,sans objet,Etablissement de soins pluridisciplinaires,34
+340781608,CLINIQUE DU MAS DE ROCHET,0,0,sans objet,Etablissement de soins médicaux,34
+350000022,CH SAINT-MALO,379,304,8,Centre hospitalier (CH),35
+350000030,CH FOUGERES,155,93,12,Centre hospitalier (CH),35
+350000048,CH DE REDON,104,23,8,Centre hospitalier (CH),35
+350000055,CH VITRE,0,0,sans objet,Centre hospitalier (CH),35
+350000063,HOPITAL ST THOMAS DE VILLENEUVE BAIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350000071,ARTHUR-GARDINER  DINARD,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350000089,CH LA GUERCHE DE BGNE,0,0,sans objet,Hôpital local,35
+350000121,CH SAINT GREGOIRE,54,1,sans objet,Etablissement de soins pluridisciplinaires,35
+350000139,CLINIQUE MUTUALISTE LA SAGESSE,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350000196,CLINIQUE DE LA COTE D'EMERAUDE,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350000204,CLINIQUE ST JOSEPH COMBOURG,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350002010,CH ST BRICE EN COGLES,0,0,sans objet,Hôpital local,35
+350002192,POLYCLINIQUE ST LAURENT,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350002200,CLINIQUE SAINT YVES,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350002291,CH JANZE,0,0,sans objet,Hôpital local,35
+350002317,CH MONTFORT-SUR-MEU,0,0,sans objet,Hôpital local,35
+350002325,CH ANTRAIN,0,0,sans objet,Hôpital local,35
+350002333,CH ST MEEN LE GRAND,0,0,sans objet,Hôpital local,35
+350002812,CLCC EUGENE MARQUIS  RENNES,0,0,sans objet,Centre de lutte contre le cancer,35
+350005021,CENTRE REGIONAL DE GERIATRIE CHANTEPIE,0,0,sans objet,Etablissement de convalescence et de repos,35
+350005146,HOPITAL PRIVE SEVIGNE,0,0,sans objet,Etablissement de soins pluridisciplinaires,35
+350005179,CENTRE HOSPITALIER DE RECHERCHE PONTCHAILLOU-RENNES,1721,439,8,Centre hospitalier universitaire (CHU),35
+360000046,CH LA TOUR BLANCHE -  ISSOUDUN,28,28,5,Centre hospitalier (CH),36
+360000053,CH CHATEAUROUX,377,365,6,Centre hospitalier (CH),36
+360000061,CH LA CHATRE,0,0,sans objet,Centre hospitalier (CH),36
+360000079,CH DU BLANC,68,56,sans objet,Centre hospitalier (CH),36
+360000129,CLINIQUE MED.OBST.CHIR. SAINT FRANCOIS,23,18,sans objet,Etablissement de soins pluridisciplinaires,36
+360002232,CENTRE CONV. ET DIET.MANOIR EN BERRY,0,0,sans objet,Maison de régime,36
+370000051,CLINIQUE JEANNE D'ARC - ST BENOIT,0,0,sans objet,Etablissement de soins chirurgicaux,37
+370000085,CLINIQUE SAINT-GATIEN - TOURS,0,0,sans objet,Etablissement de soins pluridisciplinaires,37
+370000093,CLINIQUE DE L'ALLIANCE - ST CYR LOIRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,37
+370000481,CHU DE TOURS,1103,142,8,Centre hospitalier universitaire (CHU),37
+370000564,CH INTER-COM. AMBOISE CHATEAU-RENAULT,26,8,9,Centre hospitalier (CH),37
+370000606,CH DU CHINONAIS,59,13,5,Centre hospitalier (CH),37
+370000614,CH DE LOCHES,0,0,sans objet,Centre hospitalier (CH),37
+370002701,CH JEAN PAGES DE LUYNES,0,0,sans objet,Centre hospitalier (CH),37
+370004327,CH SAINTE MAURE DE TOURAINE,0,0,sans objet,Centre hospitalier (CH),37
+370007569,POLE SANTE LEONARD DE VINCI,0,0,sans objet,Etablissement de soins pluridisciplinaires,37
+380012658,GROUPE HOSPIT. MUTUALISTE DE GRENOBLE,162,98,12,Etablissement de soins pluridisciplinaires,38
+380013037,CENTRE D'ENDOSCOPIE NORD ISERE,0,0,sans objet,Etablissement de soins chirurgicaux,38
+380780023,HOP RHUMATOLOGIQUE URIAGE,0,0,sans objet,Centre hospitalier (CH),38
+380780031,CH DE LA MURE,0,0,sans objet,Centre hospitalier (CH),38
+380780049,CH OUDOT BOURGOIN-JALLIEU,310,15,sans objet,Centre hospitalier (CH),38
+380780056,CH YVES TOURAINE,0,0,sans objet,Centre hospitalier (CH),38
+380780072,CH DE RIVES,0,0,sans objet,Centre hospitalier (CH),38
+380780080,CHU GRENOBLE,1607,435,4,Centre hospitalier universitaire (CHU),38
+380780171,CH DE SAINT MARCELLIN,0,0,sans objet,Centre hospitalier (CH),38
+380780197,CLINIQUE ST VINCENT DE PAUL MEDIPOLE,0,0,sans objet,Etablissement de soins pluridisciplinaires,38
+380780213,CH ST LAURENT DU PONT,0,0,sans objet,Centre hospitalier (CH),38
+380780270,CLINIQUE DES ALPES  GRENOBLE,0,0,sans objet,Etablissement de soins chirurgicaux,38
+380780288,CLINIQUE DE CHARTREUSE,0,0,sans objet,Etablissement de soins pluridisciplinaires,38
+380781351,HL DE LUZY-DUFEILLANT,0,0,sans objet,Hôpital local,38
+380781435,CH LUCIEN HUSSEL VIENNE,376,118,8,Centre hospitalier (CH),38
+380781450,CLINIQUE ST-CHARLES ROUSSILLON,0,0,sans objet,Etablissement de soins pluridisciplinaires,38
+380782698,HL DE LA TOUR DU PIN,0,0,sans objet,Hôpital local,38
+380784751,CH DE VOIRON,365,225,13,Centre hospitalier (CH),38
+380785956,CLINIQUE DES CEDRES,56,0,sans objet,Etablissement de soins pluridisciplinaires,38
+380786442,CLINIQUE BELLEDONNE,47,0,1,Etablissement de soins pluridisciplinaires,38
+390780146,CH LONS,328,140,11,Centre hospitalier (CH),39
+390780153,CH L BERARD MOREZ,0,0,sans objet,Centre hospitalier (CH),39
+390780161,CH LOUIS JAILLON SAINT CLAUDE,96,77,sans objet,Centre hospitalier (CH),39
+390780187,HL ARBOIS,0,0,sans objet,Hôpital local,39
+390780195,HL STE BARBE NOZEROY,0,0,sans objet,Hôpital local,39
+390780559,CLINIQUE DU JURA,0,0,sans objet,Etablissement de soins chirurgicaux,39
+390780575,POLYCLINIQUE DU PARC,0,0,sans objet,Etablissement de soins chirurgicaux,39
+390780591,CH CHAMPAGNOLE,0,0,sans objet,Centre hospitalier (CH),39
+390780609,CH L PASTEUR DOLE,195,93,sans objet,Centre hospitalier (CH),39
+390781193,ADLCA BLETTERANS,0,0,sans objet,Etablissement de soins pluridisciplinaires,39
+400011177,CH DE MONT DE MARSAN,321,157,8,Centre hospitalier (CH),40
+400780193,CH DAX,293,56,10,Centre hospitalier (CH),40
+400780268,CH DE SAINT SEVER,0,0,sans objet,Centre hospitalier (CH),40
+400780284,CLINIQUE ST-VINCENT,0,0,sans objet,Etablissement de soins pluridisciplinaires,40
+400780342,CLINIQUE JEAN LE BON,0,0,sans objet,Etablissement de soins pluridisciplinaires,40
+400780359,CLINIQUE DES LANDES,0,0,sans objet,Etablissement de soins pluridisciplinaires,40
+400780458,ASS DE GESTION DE L'INST HELIO-MARIN,0,0,sans objet,Etablissement de convalescence et de repos,40
+400782769,POLYCLINIQUE LES CHENES,0,0,sans objet,Etablissement de soins pluridisciplinaires,40
+400790937,SYNDICAT INTERHOSPITALIER DES LANDES,0,0,sans objet,Syndicat interhospitalier (SIH),40
+410000087,CH DE BLOIS,660,368,3,Centre hospitalier (CH),41
+410000095,CH DE VENDOME,0,0,sans objet,Centre hospitalier (CH),41
+410000103,CH DE ROMORANTIN-LANTHENAY,59,59,6,Centre hospitalier (CH),41
+410000111,CH DE ST AIGNAN,0,0,sans objet,Centre hospitalier (CH),41
+410000137,CH ANTOINE MOREAU DE MONTOIRE,0,0,sans objet,Centre hospitalier (CH),41
+410000202,POLYCLINIQUE BLOIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,41
+410004998,CLINIQUE DU SAINT COEUR - VENDOME,48,48,sans objet,Etablissement de soins pluridisciplinaires,41
+420000192,CLINIQUE MEDICALE BUISSONNIERE,0,0,sans objet,Etablissement de soins médicaux,42
+420002495,CH DU PAYS DE GIER,160,103,sans objet,Centre hospitalier (CH),42
+420010050,CLINIQUE MUTUALISTE,0,0,sans objet,Etablissement de soins médicaux,42
+420011413,HOPITAL PRIVE DE LA LOIRE,210,13,sans objet,Etablissement de soins pluridisciplinaires,42
+420013492,INSTITUT CANCEROLOGIE LUCIEN NEUWIRTH,0,0,sans objet,Syndicat interhospitalier (SIH),42
+420780033,CH DE ROANNE,331,239,7,Centre hospitalier (CH),42
+420780058,HL DE CHARLIEU,0,0,sans objet,Hôpital local,42
+420780504,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,42
+420780645,CH DE MONTBRISON,133,75,sans objet,Centre hospitalier (CH),42
+420780652,CH DE FIRMINY,256,124,11,Centre hospitalier (CH),42
+420780686,CH FEURS,28,28,sans objet,Centre hospitalier (CH),42
+420780694,HL DE ST BONNET LE CHATEAU,0,0,sans objet,Hôpital local,42
+420780702,HL DE CHAZELLES SUR LYON,0,0,sans objet,Hôpital local,42
+420780736,HL DE PELUSSIN,0,0,sans objet,Hôpital local,42
+420782310,CLINIQUE DU RENAISON,19,15,sans objet,Etablissement de soins pluridisciplinaires,42
+420782591,CLINIQUE NOUVELLE DU FOREZ,0,0,sans objet,Etablissement de soins chirurgicaux,42
+420784878,CHU DE SAINT-ETIENNE,643,255,sans objet,Centre hospitalier universitaire (CHU),42
+430000018,CH LE PUY - EMILE ROUX,285,117,sans objet,Centre hospitalier (CH),43
+430000034,CH DE SECTEUR DE BRIOUDE,0,0,sans objet,Centre hospitalier (CH),43
+430000059,CH CRAPONNE SUR ARZON,0,0,sans objet,Centre hospitalier (CH),43
+430000067,CH LANGEAC,0,0,sans objet,Centre hospitalier (CH),43
+430000091,CH D'YSSINGEAUX,0,0,sans objet,Centre hospitalier (CH),43
+430000109,CLINIQUE BON SECOURS,0,0,sans objet,Etablissement de soins pluridisciplinaires,43
+430007450,CENTRE MED.SPEC.DESINT.ALCOOLIQUE,0,0,sans objet,Centre de postcure pour alcooliques,43
+440000057,CH DE ST NAZAIRE,575,299,sans objet,Centre hospitalier (CH),44
+440000289,CHU NANTES SITE HOTEL-DIEU- HME,1867,666,8,Centre hospitalier universitaire (CHU),44
+440000297,CH ANCENIS,137,70,7,Centre hospitalier (CH),44
+440000313,CH CHATEAUBRIANT,118,48,3,Centre hospitalier (CH),44
+440000362,HL DE NOZAY,0,0,sans objet,Hôpital local,44
+440000404,CLINIQUE STE-MARIE,0,0,sans objet,Etablissement de soins chirurgicaux,44
+440000412,CLINIQUE BRETECHE-VIAUD SITE BRETECHE,58,1,sans objet,Etablissement de soins pluridisciplinaires,44
+440000487,CLINIQUE UROLOGIQUE NANTES ATLANTIS,0,0,sans objet,Etablissement de soins chirurgicaux,44
+440000511,CLINIQUE JEANNE D'ARC,0,0,sans objet,Etablissement de soins chirurgicaux,44
+440000651,CLINIQUE SOURDILLE,0,0,sans objet,Etablissement de soins chirurgicaux,44
+440000859,HL LOIRE ET SILLON,0,0,sans objet,Hôpital local,44
+440000891,POLYCLINIQUE DE L'OCEAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,44
+440000917,CLINIQUE DU JARDIN DES PLANTES,105,41,7,Etablissement de soins obstétriques et chirurgico-gynécologiques,44
+440001113,CLCC NANTES ATLANTIQUE,0,0,sans objet,Centre de lutte contre le cancer,44
+440002020,POLYCLINIQUE DE L'EUROPE,0,0,sans objet,Etablissement de soins pluridisciplinaires,44
+440023364,CENTRE CATHERINE DE SIENNE,0,0,sans objet,Etablissement de soins médicaux,44
+440024982,CLINIQUE SAINT-AUGUSTIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,44
+440028538,CHI PRESQU'ILE  GUERANDE,0,0,sans objet,Hôpital local,44
+440029338,CLINIQUE MUTUALISTE JULES VERNE,682,142,sans objet,Etablissement de soins pluridisciplinaires,44
+440029379,CLINIQUE JULES VERNE,0,0,sans objet,Etablissement de soins chirurgicaux,44
+440033819,POLYCLINIQUE DE L'ATLANTIQUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,44
+440041531,HL DE PORNIC,0,0,sans objet,Hôpital local,44
+440041580,NOUVELLES CLINIQUES NANTAISES,0,0,sans objet,Etablissement de soins pluridisciplinaires,44
+440042141,HL DE VERTOU,0,0,sans objet,Hôpital local,44
+450000088,CH REGIONAL D'ORLEANS,1201,882,7,Centre hospitalier universitaire (CHU),45
+450000096,CH DEZARNAULDS - GIEN,150,77,9,Centre hospitalier (CH),45
+450000104,CH AGGLOMERATION MONTARGOISE,311,294,11,Centre hospitalier (CH),45
+450000112,CH DE PITHIVIERS,149,95,7,Centre hospitalier (CH),45
+450000138,CH LOUR PICOU-BEAUGENCY,0,0,sans objet,Centre hospitalier (CH),45
+450000153,CH LEBRUN NEUVILLE AUX BOIS,0,0,sans objet,Centre hospitalier (CH),45
+450000161,CH DE SULLY-SUR-LOIRE,0,0,sans objet,Centre hospitalier (CH),45
+450000229,CLINIQUE LA PRESENTATION,14,14,sans objet,Etablissement de soins pluridisciplinaires,45
+450000237,CLINIQUE JEANNE D'ARC - GIEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,45
+450000245,CLINIQUE L'ARCHETTE,0,0,sans objet,Etablissement de soins chirurgicaux,45
+450000278,POLYCLINIQUE LES MURLINS,0,0,sans objet,Etablissement de soins médicaux,45
+450000294,CLINIQUE LA REINE BLANCHE,0,0,sans objet,Etablissement de soins médicaux,45
+450000336,CH SAINT JEAN DE BRIARE,0,0,sans objet,Etablissement de soins médicaux,45
+450010079,POLYCLINIQUE LES LONGUES ALLEES,0,0,sans objet,Etablissement de soins pluridisciplinaires,45
+450012968,CLINIQUE DE MONTARGIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,45
+460780042,CLINIQUE DU QUERCY BELLEVUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,46
+460780067,CLINIQUE DE FONT REDONDE,0,0,sans objet,Etablissement de soins pluridisciplinaires,46
+460780083,CH FIGEAC,43,28,2,Centre hospitalier (CH),46
+460780091,CH SAINT CERE,0,0,sans objet,Centre hospitalier (CH),46
+460780208,CH JEAN COULON GOURDON,0,0,sans objet,Centre hospitalier (CH),46
+460780216,CH JEAN ROUGIER CAHORS,158,32,5,Centre hospitalier (CH),46
+460780430,CH LOUIS CONTE GRAMAT,0,0,sans objet,Centre hospitalier (CH),46
+470000027,CLINIQUE ESQUIROL-SAINT-HILAIRE,213,49,sans objet,Etablissement de soins pluridisciplinaires,47
+470000076,POLYCLINIQUE DU MARMANDAIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,47
+470000084,CLINIQUE MAGDELAINE,0,0,sans objet,Etablissement de soins chirurgicaux,47
+470000142,CLINIQUE DE VILLENEUVE,0,0,sans objet,Etablissement de soins pluridisciplinaires,47
+470000159,CLINIQUE CALABET,0,0,sans objet,Etablissement de soins médicaux,47
+470000316,CH D'AGEN,285,181,5,Centre hospitalier (CH),47
+470000324,CH DE VILLENEUVE,221,109,7,Centre hospitalier (CH),47
+470000340,CH DE NERAC,0,0,sans objet,Centre hospitalier (CH),47
+470000357,HL DE CASTELJALOUX,0,0,sans objet,Hôpital local,47
+470000365,HL PENNE AGENAIS,0,0,sans objet,Hôpital local,47
+470000381,CH DEPARTEMENTAL DE LA CANDELIE,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,47
+470000407,HL E.DESARNAUTS-FUMEL,0,0,sans objet,Hôpital local,47
+470001660,CH DE MARMANDE - CHIC,86,16,8,Centre hospitalier (CH),47
+480780097,CH MENDE,148,95,5,Centre hospitalier (CH),48
+480780113,CLINIQUE MUTUALISTE DU GEVAUDAN,0,0,sans objet,Etablissement de soins chirurgicaux,48
+480780121,HOPITAL FANNY RAMADIER HL SAINT-CHELY,0,0,sans objet,Hôpital local,48
+480780139,HL FLORAC,0,0,sans objet,Hôpital local,48
+480780154,HOPITAL SAINT-JACQUES,0,0,sans objet,Hôpital local,48
+480780162,HL LANGOGNE,0,0,sans objet,Hôpital local,48
+490000031,CHU D ANGERS,1141,493,7,Centre hospitalier universitaire (CHU),49
+490000155,CLCC PAUL PAPIN,0,0,sans objet,Centre de lutte contre le cancer,49
+490000262,CLINIQUE SAINT JOSEPH,0,0,sans objet,Etablissement de soins pluridisciplinaires,49
+490000387,HL DE CANDE,0,0,sans objet,Hôpital local,49
+490000395,HL CHALONNES LOIRE,0,0,sans objet,Hôpital local,49
+490000403,HL DOUE LA FONTAINE,0,0,sans objet,Hôpital local,49
+490000411,HL LONGUE JUMELLES,0,0,sans objet,Hôpital local,49
+490000429,HL MARTIGNE BRIAND,0,0,sans objet,Hôpital local,49
+490000437,HL DE POUANCE,0,0,sans objet,Hôpital local,49
+490000676,CH DE CHOLET,441,158,7,Centre hospitalier (CH),49
+490000700,HOPITAL SAINT JOSEPH - CHAUDRON,0,0,sans objet,Etablissement de soins médicaux,49
+490002037,POLYCLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,49
+490002334,HL ST GEORGES LOIRE,0,0,sans objet,Hôpital local,49
+490004256,ASSOCIATION SAINTE FAMILLE,0,0,sans objet,Etablissement de soins médicaux,49
+490007689,HL DE CHEMILLE,0,0,sans objet,Hôpital local,49
+490007929,CLINIQUE CHIRURGICALE DE LA LOIRE,0,0,sans objet,Etablissement de soins chirurgicaux,49
+490014909,S.A.S. CLINIQUE DE L'ANJOU,0,0,sans objet,Etablissement de soins pluridisciplinaires,49
+490015765,HL DE BAUGE,0,0,sans objet,Hôpital local,49
+490015906,CLINIQUE ST LEONARD,0,0,sans objet,Etablissement de soins pluridisciplinaires,49
+490528452,CH DE SAUMUR,319,198,5,Centre hospitalier (CH),49
+490540440,CENTRE DE LA MAIN,0,0,sans objet,Etablissement de soins chirurgicaux,49
+500000013,CH DU COTENTIN,342,227,13,Centre hospitalier (CH),50
+500000039,HL CARENTAN,0,0,sans objet,Hôpital local,50
+500000054,CH D' AVRANCHES-GRANVILLE,224,131,22,Centre hospitalier (CH),50
+500000062,HL MORTAIN,0,0,sans objet,Hôpital local,50
+500000096,CH DE SAINT HILAIRE DU HARCOUET,0,0,sans objet,Centre hospitalier (CH),50
+500000104,HL ST JAMES,0,0,sans objet,Hôpital local,50
+500000112,CH MEMORIAL DE SAINT-LO,196,126,4,Centre hospitalier (CH),50
+500000138,HL DE VILLEDIEU,0,0,sans objet,Hôpital local,50
+500000146,POLYCLINIQUE DE LA BAIE-ST MARTIN,0,0,sans objet,Etablissement de soins chirurgicaux,50
+500000203,POLYCLINIQUE DE LA MANCHE - SAINT-LO,0,0,sans objet,Etablissement de soins pluridisciplinaires,50
+500000245,CH DE L'ESTRAN,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,50
+500000393,CH DE COUTANCES,0,0,sans objet,Centre hospitalier (CH),50
+500000401,CLINIQUE HENRI GUILLARD - COUTANCES,141,84,6,Etablissement de soins pluridisciplinaires,50
+500002357,POLYCLINIQUE DU COTENTIN,0,0,sans objet,Etablissement de soins chirurgicaux,50
+510000029,CHU REIMS,678,364,7,Centre hospitalier universitaire (CHU),51
+510000037,CH DE CHALONS,275,172,sans objet,Centre hospitalier (CH),51
+510000060,CH D'EPERNAY,178,143,3,Centre hospitalier (CH),51
+510000078,CH VITRY LE FRANCOIS,53,37,6,Centre hospitalier (CH),51
+510000102,CH DE SAINTE-MENEHOULD,0,0,sans objet,Centre hospitalier (CH),51
+510000185,POLYCLINIQUE DE COURLANCY,137,79,sans objet,Etablissement de soins pluridisciplinaires,51
+510000193,POLYCLINIQUE SAINT ANDRE,216,101,sans objet,Etablissement de soins pluridisciplinaires,51
+510000227,POLYCLINIQUE DU DOCTEUR JEAN PRIOLLET,0,0,sans objet,Etablissement de soins pluridisciplinaires,51
+510000243,CLINIQUE D'EPERNAY,45,0,sans objet,Etablissement de soins pluridisciplinaires,51
+510000268,CLINIQUE DE LA RENAISSANCE,0,0,sans objet,Etablissement de soins chirurgicaux,51
+510000516,INSTITUT JEAN GODINOT,0,0,sans objet,Centre de lutte contre le cancer,51
+510012040,POLYCLINIQUE DES BLEUETS,0,0,sans objet,Etablissement de soins pluridisciplinaires,51
+520780024,HL DE BOURBONNE-LES-BAINS,0,0,sans objet,Hôpital local,52
+520780032,CH DE CHAUMONT,197,161,5,Centre hospitalier (CH),52
+520780040,HOPITAL DE JOINVILLE,0,0,sans objet,Hôpital local,52
+520780057,CH DE LANGRES,72,51,7,Centre hospitalier (CH),52
+520780065,CH DE MONTIER-EN-DER,0,0,sans objet,Hôpital local,52
+520780073,CH GENEVIEVE DE GAULLE ANTHONIOZ,172,129,3,Centre hospitalier (CH),52
+520780081,HOPITAL ANDRE BRETON - CH HAUTE MARNE,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,52
+520780099,HL DE WASSY,0,0,sans objet,Hôpital local,52
+520780156,CLINIQUE DE LA COMPASSION,0,0,sans objet,Etablissement de soins pluridisciplinaires,52
+520780180,CLINIQUE FRANCOIS 1ER,0,0,sans objet,Etablissement de soins chirurgicaux,52
+520780214,CENTRE MEDICO-CHIRURGICAL DE CHAUMONT,0,0,sans objet,Etablissement de soins pluridisciplinaires,52
+530000025,CH DU HAUT ANJOU,0,0,sans objet,Centre hospitalier (CH),53
+530000058,HL ERNEE,0,0,sans objet,Hôpital local,53
+530000066,HL EVRON,0,0,sans objet,Hôpital local,53
+530000074,CH NORD MAYENNE,107,61,sans objet,Centre hospitalier (CH),53
+530000371,CH DE LAVAL,378,164,7,Centre hospitalier (CH),53
+530002591,HL VILLAINES LA JUHEL,0,0,sans objet,Hôpital local,53
+530007202,HL DE CRAON,0,0,sans objet,Hôpital local,53
+530031962,POLYCLINIQUE DU MAINE,0,0,sans objet,Etablissement de soins pluridisciplinaires,53
+540000031,MATERNITE REGIONALE A PINARD,959,556,sans objet,Centre hospitalier (CH),54
+540000049,CH SAINT CHARLES TOUL,107,21,2,Centre hospitalier (CH),54
+540000080,CH DE LUNEVILLE,168,116,5,Centre hospitalier (CH),54
+540000106,CH DE PONT A MOUSSON,0,0,sans objet,Centre hospitalier (CH),54
+540000122,MAISON  HOSPITALIERE ST CHARLES NANCY,0,0,sans objet,Etablissement de soins médicaux,54
+540000361,CLINIQUE JEANNE D'ARC,0,0,sans objet,Etablissement de soins chirurgicaux,54
+540000395,HOPITAL SAINT CHARLES NANCY,0,0,sans objet,Etablissement de soins médicaux,54
+540000445,CLINIQUE AMBROISE PARE,0,0,sans objet,Etablissement de soins chirurgicaux,54
+540000452,CLINIQUE SAINT ANDRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,54
+540000478,CLINIQUE LOUIS PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,54
+540000486,POLYCLINIQUE DE GENTILLY ET SAINT DON,0,0,sans objet,Etablissement de soins pluridisciplinaires,54
+540000767,CH MAILLOT BRIEY,243,136,sans objet,Centre hospitalier (CH),54
+540000882,HOPITAL - JOEUF,0,0,sans objet,Etablissement de soins médicaux,54
+540001096,CH DE MT ST MARTIN ( ALPHA SANTE ),225,110,6,Etablissement de soins pluridisciplinaires,54
+540001104,ASSOCIATION HOSPITALIERE DE JOEUF,0,0,sans objet,Etablissement de soins médicaux,54
+540002078,CHU DE NANCY,0,0,sans objet,Centre hospitalier universitaire (CHU),54
+540003019,CENTRE LUTTE CONTRE LE CANCER A VAUTRIN,0,0,sans objet,Centre de lutte contre le cancer,54
+540003399,HL INTERCOM POMPEY LAY ST CHRISTOPHE,0,0,sans objet,Hôpital local,54
+540013224,POLYCLINIQUE MAJORELLE,329,175,sans objet,Etablissement de soins pluridisciplinaires,54
+540014081,MAISON HOSPITALIERE DE BACCARAT,0,0,sans objet,Etablissement de soins médicaux,54
+540019007,HL INTERCOMMUNAL 3 H SANTE,0,0,sans objet,Hôpital local,54
+540020112,CENTRE CHIRURGICAL EMILE GALLE (SINCAL),0,0,sans objet,Syndicat interhospitalier (SIH),54
+550000020,CH DE VERDUN,215,170,10,Centre hospitalier (CH),55
+550000046,CH ST-CHARLES COMMERCY,0,0,sans objet,Centre hospitalier (CH),55
+550000053,CH STE-ANNE  ST-MIHIEL,0,0,sans objet,Centre hospitalier (CH),55
+550000178,POLYCLINIQUE DU PARC,72,0,sans objet,Etablissement de soins pluridisciplinaires,55
+550003354,CH DE BAR-LE-DUC,122,94,5,Centre hospitalier (CH),55
+560000044,CH DE PLOERMEL,104,54,sans objet,Centre hospitalier (CH),56
+560000085,CH LE PALAIS,0,0,sans objet,Hôpital local,56
+560000184,CLINIQUE DES AUGUSTINES- MALESTROIT,0,0,sans objet,Etablissement de soins pluridisciplinaires,56
+560000259,CH GUEMENE SUR SCORFF,0,0,sans objet,Hôpital local,56
+560002065,CH MALESTROIT,0,0,sans objet,Hôpital local,56
+560002198,CH LE FAOUET,0,0,sans objet,Hôpital local,56
+560002206,CH CARENTOIR,0,0,sans objet,Hôpital local,56
+560002214,LONG SEJOUR  - CH PORT LOUIS,0,0,sans objet,Centre hospitalier (CH),56
+560002511,CLINIQUE DU TER,41,0,7,Etablissement de soins pluridisciplinaires,56
+560002933,CLINIQUE MUTUALISTE PORTE DE LORIENT,0,0,sans objet,Etablissement de soins chirurgicaux,56
+560005746,CHBS SITE BODELIO- LORIENT,716,410,sans objet,Centre hospitalier (CH),56
+560007510,POLYCLINIQUE DE PONTIVY,90,56,sans objet,Etablissement de soins pluridisciplinaires,56
+560008799,CLINIQUE OCEANE,0,0,sans objet,Etablissement de soins pluridisciplinaires,56
+560014748,CH DE PONTIVY - CHCB,209,165,6,Centre hospitalier (CH),56
+560023210,CHBA SITE DE VANNES,661,272,27,Centre hospitalier (CH),56
+570000018,CH MARIE-MADELEINE - FORBACH,0,0,sans objet,Centre hospitalier (CH),57
+570000026,HOPITAL SAINT JOSEPH DE SARRALBE,0,0,sans objet,Etablissement de soins médicaux,57
+570000075,CH LEMIRE  SAINT AVOLD,0,0,sans objet,Centre hospitalier (CH),57
+570000083,CLINIQUE SAINT-NABOR,219,81,8,Etablissement de soins pluridisciplinaires,57
+570000091,HOPITAL DE FREYMING-MERLEBACH,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570000158,CH ROBERT PAX (SITES DE SARREGUEMINES ET BITCHE),161,80,14,Centre hospitalier (CH),57
+570000166,HOSPITALOR HOPITAL STE-BARBE - FORBACH,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570000216,HOSPITALOR HOPITAL DE ST AVOLD,28,11,sans objet,Etablissement de soins pluridisciplinaires,57
+570000281,ALPHA SANTE - HOPITAL D'HAYANGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570000356,CLINIQUE AMBROISE PARE - THIONVILLE,32,0,10,Etablissement de soins chirurgicaux,57
+570000364,CLINIQUE NOTRE DAME,114,70,sans objet,Etablissement de soins chirurgicaux,57
+570000398,HOPITAL ST ELISABETH - THIONVILLE,0,0,sans objet,Etablissement de soins médicaux,57
+570000430,CH LE SECQ DE CREPY - BOULAY,0,0,sans objet,Centre hospitalier (CH),57
+570000455,HOPITAL ARRONDISSEMENT CHATEAU SALINS,0,0,sans objet,Etablissement de soins médicaux,57
+570000489,HOPITAL DE CREUTZWALD,0,0,sans objet,Etablissement de soins médicaux,57
+570000497,HOPITAL SAINT JACQUES - DIEUZE,0,0,sans objet,Hôpital local,57
+570000562,HOPITAL MARANGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570000596,HIA LEGOUEST,0,0,sans objet,Hôpital militaire,57
+570000646,HOPITAL-CLINIQUE CLAUDE BERNARD,133,73,7,Etablissement de soins pluridisciplinaires,57
+570000950,CLINIQUE SAINTE ELISABETH - THIONVILLE,0,0,sans objet,Etablissement de soins médicaux,57
+570005165,CENTRE HOSPITALIER DE RECHERCHE METZ-THIONVILLE,1739,1074,20,Centre hospitalier universitaire (CHU),57
+570009670,HOPITAL ST MAURICE - MOYEUVRE-GRANDE,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570011353,HOPITAL DE MARANGE-SILVANGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570015099,CH DE SARREBOURG - HOPITAL ST NICOLAS,126,65,5,Centre hospitalier (CH),57
+570023630,HOPITAUX PRIVES DE METZ,0,0,sans objet,Etablissement de soins pluridisciplinaires,57
+570025254,UNISANTE+,251,137,12,Centre hospitalier (CH),57
+580780039,CH DE L'AGGLOMERATION DE NEVERS,296,144,20,Centre hospitalier (CH),58
+580780047,CH CHATEAU-CHINON,0,0,sans objet,Centre hospitalier (CH),58
+580780054,HL LES CYGNES LORMES,0,0,sans objet,Hôpital local,58
+580780070,CH CLAMECY,0,0,sans objet,Centre hospitalier (CH),58
+580780088,CH COSNE-COURS-SUR-LOIRE,0,0,sans objet,Centre hospitalier (CH),58
+580780096,CH DECIZE,135,79,7,Centre hospitalier (CH),58
+580780138,POLYCLINIQUE DU VAL DE LOIRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,58
+580780153,CLINIQUE MEDICO CHIRURGICALE DR TALLET,0,0,sans objet,Etablissement de soins chirurgicaux,58
+580780195,CLINIQUE DE COSNE-SUR-LOIRE,90,62,sans objet,Etablissement de soins pluridisciplinaires,58
+580781136,CH HENRI DUNANT LA CHARITE-SUR-LOIRE,0,0,sans objet,Centre hospitalier (CH),58
+590000188,CLCC OSCAR LAMBRET LILLE,0,0,sans objet,Centre de lutte contre le cancer,59
+590000816,ASSOCIATION SAINT LOUIS,0,0,sans objet,Etablissement de soins médicaux,59
+590001749,POLYCLINIQUE DE GRANDE SYNTHE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590006870,POLYCLINIQUE SAINTE MARIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590006896,CLINIQUE CHIRURGICALE DE LA THIERACHE,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590008041,POLYCLINIQUE VAUBAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590046520,GCS FLANDRE MARITIME/SITE DE DUNKERQUE,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590046538,GCS FLANDRE MARITIME/SITE GDE SYNTHE,0,0,sans objet,Etablissement de soins obstétriques et chirurgico-gynécologiques,59
+590780052,CH SOMAIN,0,0,sans objet,Centre hospitalier (CH),59
+590780060,CLINIQUE CHIRURGICALE OPHTALMOLOGIQUE,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590780094,CENTRE LEONARD DE VINCI,0,0,sans objet,Etablissement de soins médicaux,59
+590780193,CENTRE HOSPITALIER DE RECHERCHE LILLE,1531,685,12,Centre hospitalier universitaire (CHU),59
+590780227,CH SECLIN,276,141,sans objet,Centre hospitalier (CH),59
+590780243,CLINIQUE CHIRURGICALE DE LAMBERSART,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590780250,CLINIQUE LILLE SUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590780268,POLYCLINIQUE DU BOIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590780284,ES ST PHILIBERT LOMME,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590780342,CLINIQUE AMBROISE PARE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590780383,POLYCLINIQUE DE LA LOUVIERE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590781415,CH DUNKERQUE,0,0,sans objet,Centre hospitalier (CH),59
+590781571,CLINIQUE DU CAMBRESIS,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590781605,CH CAMBRAI,365,289,4,Centre hospitalier (CH),59
+590781621,CH LE CATEAU-CAMBRESIS,175,101,sans objet,Centre hospitalier (CH),59
+590781662,CH FOURMIES,85,32,sans objet,Centre hospitalier (CH),59
+590781670,CH LE QUESNOY,0,0,sans objet,Centre hospitalier (CH),59
+590781795,CH AVESNES,0,0,sans objet,Centre hospitalier (CH),59
+590781803,CH DE SAMBRE AVESNOIS,335,272,sans objet,Centre hospitalier (CH),59
+590781811,CH FELLERIES-LIESSIES,0,0,sans objet,Centre hospitalier (CH),59
+590781902,CH TOURCOING,574,320,8,Centre hospitalier (CH),59
+590781951,CLINIQUE CHIR-SS  DU CROISE LAROCHE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590782165,CH DENAIN,346,263,9,Centre hospitalier (CH),59
+590782207,CH SAINT- AMAND-LES-EAUX,0,0,sans objet,Centre hospitalier (CH),59
+590782215,CH DE  VALENCIENNES,969,708,5,Centre hospitalier (CH),59
+590782256,CLINIQUE MEDICALE DES DENTELLIERES,0,0,sans objet,Etablissement de soins médicaux,59
+590782298,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590782421,CH DE ROUBAIX,1302,723,5,Centre hospitalier (CH),59
+590782439,CH WATTRELOS,0,0,sans objet,Centre hospitalier (CH),59
+590782496,CLINIQUE ST JEAN(DOCTEUR WIART),0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590782546,SAS CLINIQUE DE VILLENEUVE D'ASCQ,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590782553,POLYCLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590782637,CH ARMENTIERES,893,373,5,Centre hospitalier (CH),59
+590782645,CH BAILLEUL,0,0,sans objet,Centre hospitalier (CH),59
+590782652,CH HAZEBROUCK,0,0,sans objet,Centre hospitalier (CH),59
+590783239,CH DE DOUAI,662,216,9,Centre hospitalier (CH),59
+590785374,CLINIQUE TEISSIER,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590788964,POLYCLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590790655,CLINIQUE CHIRURGICALE ST.ROCH,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590797353,ES SAINT VINCENT - SAINT ANTOINE LILLE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590802278,MATERNITE DE VILLENEUVE D'ASCQ,0,0,sans objet,Etablissement de soins obstétriques et chirurgico-gynécologiques,59
+590806360,CLINIQUE DE LA MITTERIE,0,0,sans objet,Etablissement de convalescence et de repos,59
+590813176,CLINIQUE CHIRURGICALE DES HETRES,0,0,sans objet,Etablissement de soins chirurgicaux,59
+590813382,POLYCLINIQUE VILLETTE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590813507,POLYCLINIQUE DU VAL DE SAMBRE,150,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590815056,POLYCLINIQUE DE FLANDRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590816310,CLINIQUE SAINT-AME,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590817458,CLINIQUE DE LA VICTOIRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+590817839,CLINIQUE DU VAL DE LYS,0,0,sans objet,Etablissement de soins pluridisciplinaires,59
+600008643,SARL AMBOISE,0,0,sans objet,Autre établissement soumis aux disposotions de la loi hospitalière,60
+600010862,SAS CENTRE CHIRURGICAL DE CHANTILLY,0,0,sans objet,Etablissement de soins chirurgicaux,60
+600100101,CH APHP LIANCOURT (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),60
+600100135,CH GHPSO SENLIS,281,198,sans objet,Centre hospitalier (CH),60
+600100168,CMC DES JOCKEYS DE CHANTILLY,0,0,sans objet,Etablissement de soins pluridisciplinaires,60
+600100176,POLYCLINIQUE SAINT JOSEPH,0,0,sans objet,Etablissement de soins pluridisciplinaires,60
+600100184,CLINIQUE DU VALOIS,0,0,sans objet,Etablissement de soins médicaux,60
+600100572,CH BERTINOT JUEL,0,0,sans objet,Centre hospitalier (CH),60
+600100648,CH CLERMONT,195,166,14,Centre hospitalier (CH),60
+600100713,CH BEAUVAIS,612,343,sans objet,Centre hospitalier (CH),60
+600100721,CH DE COMPIEGNE,366,261,7,Centre hospitalier (CH),60
+600100754,POLYCLINIQUE SAINT COME,0,0,sans objet,Etablissement de soins pluridisciplinaires,60
+600100986,CH NOYON,61,61,sans objet,Centre hospitalier (CH),60
+600101984,CH GHPSO CREIL,361,357,sans objet,Centre hospitalier (CH),60
+600110175,CLINIQUE DU PARC SAINT-LAZARE,0,0,sans objet,Etablissement de soins chirurgicaux,60
+610006371,SSR CLINIQUE ST DOMINIQUE - FLERS,0,0,sans objet,Etablissement de convalescence et de repos,61
+610006421,CLINIQUE D'ALENCON,0,0,sans objet,Etablissement de soins pluridisciplinaires,61
+610780074,CH DE L'AIGLE,116,71,sans objet,Centre hospitalier (CH),61
+610780082,C.H.I.C - ALENCON-MAMERS,264,150,10,Centre hospitalier (CH),61
+610780090,CH D'ARGENTAN,119,61,7,Centre hospitalier (CH),61
+610780124,CH MARGUERITE DE LORRAINE-MORTAGNE,0,0,sans objet,Centre hospitalier (CH),61
+610780140,HL SEES,0,0,sans objet,Hôpital local,61
+610780157,HL VIMOUTIERS,0,0,sans objet,Hôpital local,61
+610780165,CH JACQUES MONOD - FLERS,167,118,11,Centre hospitalier (CH),61
+610780199,CLINIQUE SAINT DOMINIQUE - FLERS,0,0,sans objet,Etablissement de soins chirurgicaux,61
+610790594,CHI DES ANDAINES,0,0,sans objet,Centre hospitalier (CH),61
+620000026,ETAB HOPALE CTRE CALOT HELIO,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620003350,POLYCLINIQUE RIAUMONT DE LIEVIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620003376,POLYCLINIQUE MED CHIR D'HENIN-BEAUMONT,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620006049,CLINIQUE CHIRURGICALE DE SAINT-OMER,0,0,sans objet,Etablissement de soins chirurgicaux,62
+620025346,POLYCLINIQUE DE LA CLARENCE,0,0,sans objet,Etablissement de soins obstétriques et chirurgico-gynécologiques,62
+620100057,CH ARRAS,760,506,3,Centre hospitalier (CH),62
+620100099,HOPITAL PRIVE ARRAS LES BONNETTES,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620100461,CH D'HESDIN,0,0,sans objet,Centre hospitalier (CH),62
+620100487,CLINIQUE LES ACACIAS,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620100651,CH BETHUNE,506,268,sans objet,Centre hospitalier (CH),62
+620100677,CH HENIN BEAUMONT,0,0,sans objet,Centre hospitalier (CH),62
+620100685,CH LENS,751,222,8,Centre hospitalier (CH),62
+620100735,CLINIQUE ANNE D'ARTOIS,11,2,sans objet,Etablissement de soins pluridisciplinaires,62
+620100750,CLINIQUE MED CHIR AMBROISE PARE,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620101295,CH AIRE SUR LA LYS,0,0,sans objet,Centre hospitalier (CH),62
+620101311,CLINIQUE DES DEUX CAPS,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620101337,CH CALAIS,322,101,5,Centre hospitalier (CH),62
+620101360,CH REGION DE ST-OMER,304,185,sans objet,Centre hospitalier (CH),62
+620101501,HOPITAL PRIVE DE BOIS BERNARD,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620103432,CH ARROND DE MONTREUIL,264,175,15,Centre hospitalier (CH),62
+620103440,CH BOULOGNE-SUR-MER,634,530,7,Centre hospitalier (CH),62
+620105940,POLYCLINIQUE DU TERNOIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620106088,CLINIQUE MEDICO-CHIRURGICALE,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+620116046,CLINIQUE DES 7 VALLEES,0,0,sans objet,Etablissement de soins chirurgicaux,62
+620118513,CENTRE M.C.O. COTE D'OPALE,0,0,sans objet,Etablissement de soins pluridisciplinaires,62
+630000479,CENTRE REGIONAL JEAN PERRIN,0,0,sans objet,Centre de lutte contre le cancer,63
+630180032,CH DU MONT DORE,0,0,sans objet,Centre hospitalier (CH),63
+630780211,POLE SANTE REPUBLIQUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,63
+630780310,CLINIQUE LES SORBIERS,0,0,sans objet,Etablissement de soins chirurgicaux,63
+630780369,CLINIQUE DE LA PLAINE,0,0,sans objet,Etablissement de soins chirurgicaux,63
+630780989,CHU G. MONTPIED,1179,312,6,Centre hospitalier universitaire (CHU),63
+630780997,CH D'AMBERT,6,6,sans objet,Centre hospitalier (CH),63
+630781003,CH ISSOIRE PAUL ARDIER,212,124,7,Centre hospitalier (CH),63
+630781011,CH DE RIOM,0,0,sans objet,Centre hospitalier (CH),63
+630781029,CH DE THIERS,118,69,sans objet,Centre hospitalier (CH),63
+630781367,CH BILLOM,0,0,sans objet,Centre hospitalier (CH),63
+630781839,CLINIQUE LA CHATAIGNERAIE,201,109,8,Etablissement de soins pluridisciplinaires,63
+630783108,CLINIQUE DES CHANDIOTS,0,0,sans objet,Etablissement de soins chirurgicaux,63
+630789360,CLINIQUE DES CEZEAUX - VE4,0,0,sans objet,Etablissement de soins pluridisciplinaires,63
+640780268,CLINIQUE DELAY,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780276,CENTRE MEDICAL DE CAMBO - BEAULIEU,0,0,sans objet,Etablissement de convalescence et de repos,64
+640780318,POLYCLINIQUE SOKORRI,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780417,C.H.I.C. COTE BASQUE - BAYONNE,647,149,sans objet,Centre hospitalier (CH),64
+640780433,CAPIO CLINIQUE ST-ETIENNE-PAYS BASQUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780466,CAPIO CLINIQUE LAFARGUE,172,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780482,CAPIO CLINIQUE LAFOURCADE,48,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780490,POLYCLINIQUE D'AGUILERA,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780557,CENTRE MEDICAL TOKI EDER,0,0,sans objet,Etablissement de réadaptation fonctionnelle,64
+640780623,CENTRE MEDICAL ANNIE ENIA,0,0,sans objet,Etablissement de réadaptation fonctionnelle,64
+640780748,POLYCLINIQUE COTE BASQUE SUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780789,CAPIO CLINIQUE PAULMY,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780813,CH D'ORTHEZ,77,48,8,Centre hospitalier (CH),64
+640780821,CH OLORON,76,23,sans objet,Centre hospitalier (CH),64
+640780839,HL DE MAULEON,0,0,sans objet,Hôpital local,64
+640780938,POLYCLINIQUE MARZET,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640780946,POLYCLINIQUE DE NAVARRE,135,111,sans objet,Etablissement de soins pluridisciplinaires,64
+640780987,CLINIQUE D'ORTHEZ,0,0,sans objet,Etablissement de soins chirurgicaux,64
+640781225,CLINIQUE CARDIOLOGIQUE ARESSY,0,0,sans objet,Etablissement de soins médicaux,64
+640781290,CH DE PAU,711,181,3,Centre hospitalier (CH),64
+640781308,CLINIQUE PRINCESS,0,0,sans objet,Etablissement de soins médicaux,64
+640782173,CLINIQUE D'OLORON SAINTE MARIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640787156,CLINIQUE DE LA FONDATION LURO,0,0,sans objet,Etablissement de soins pluridisciplinaires,64
+640795548,LUZ CLINIC,0,0,sans objet,Etablissement de soins chirurgicaux,64
+650002579,CLINIQUE ORMEAU PYRENEES,0,0,sans objet,Etablissement de soins chirurgicaux,65
+650780158,CH DE LOURDES,148,103,3,Centre hospitalier (CH),65
+650780166,CH BAGNERES DE BIGORRE,0,0,sans objet,Centre hospitalier (CH),65
+650780174,CH DE LANNEMEZAN,78,57,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,65
+650780679,POLYCLINIQUE DE L'ORMEAU,157,156,sans objet,Etablissement de soins pluridisciplinaires,65
+650783160,CH DE BIGORRE,398,260,4,Centre hospitalier (CH),65
+660006305,LA CLINIQUE MUTUALISTE CATALANE,0,0,sans objet,Etablissement de soins pluridisciplinaires,66
+660006990,GCS MAISON DE SANTE ERR,0,0,sans objet,Groupement de coopération sanitaire - Etablissement de santé GCS-Moyens,66
+660780180,CH SAINT  JEAN,1198,745,5,Centre hospitalier (CH),66
+660780271,HL PRADES,0,0,sans objet,Hôpital local,66
+660780347,CLINIQUE DU SOUFFLE LA SOLANE,0,0,sans objet,Etablissement de soins médicaux,66
+660780628,CLINIQUE DU VALLESPIR,0,0,sans objet,Etablissement de soins pluridisciplinaires,66
+660780669,CLINIQUE NOTRE DAME D' ESPERANCE,333,217,sans objet,Etablissement de soins pluridisciplinaires,66
+660780776,CLINIQUE SAINT-MICHEL,0,0,sans objet,Etablissement de soins pluridisciplinaires,66
+660780784,CLINIQUE SAINT-PIERRE,73,31,sans objet,Etablissement de soins pluridisciplinaires,66
+660786864,MAISON DE SANTE MEDICALE JOSEPH SAUVY,0,0,sans objet,Etablissement de soins médicaux,66
+660790387,POLYCLINIQUE SAINT-ROCH,0,0,sans objet,Etablissement de soins pluridisciplinaires,66
+670000033,CLCC PAUL STRAUSS,0,0,sans objet,Centre de lutte contre le cancer,67
+670000082,CLINIQUE ADASSA,211,148,sans objet,Etablissement de soins pluridisciplinaires,67
+670000215,HOPITAL DU NEUENBERG,0,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670013325,CENTRE AUTONOME D'ENDOSC DIGESTIVE AMBUL,0,0,sans objet,Etablissement de soins chirurgicaux,67
+670013333,ENDOSAV,0,0,sans objet,Entité ayant autorisation,67
+670014042,UGECAM-HOPITAL DE JOUR DU CENTRE MEDICAL DE SALEM,0,0,sans objet,Etablissement de soins médicaux,67
+670016237,CLINIQUE SAINTE ODILE,0,0,sans objet,Groupement de coopération sanitaire - Etablissement de santé GCS-Moyens,67
+670780055,CHU DE STRASBOURG,1824,1679,sans objet,Centre hospitalier universitaire (CHU),67
+670780162,CLINIQUE DES DIACONESSES,0,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670780170,CLINIQUE DE L'ORANGERIE,3,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670780188,GROUPE HOSPITALIER SAINT-VINCENT,0,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670780204,CLINIQUE SAINTE-ODILE STRASBOURG,0,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670780337,CH DE HAGUENAU,261,197,sans objet,Centre hospitalier (CH),67
+670780345,CH SAINTE-CATHERINE DE SAVERNE,165,115,sans objet,Centre hospitalier (CH),67
+670780378,CLINIQUE SAINT-FRANÇOIS,0,0,sans objet,Etablissement de soins chirurgicaux,67
+670780386,CLINIQUE SAINTE-ODILE HAGUENAU,0,0,sans objet,Etablissement de soins pluridisciplinaires,67
+670780543,CHI DE LA LAUTER,79,57,9,Centre hospitalier (CH),67
+670780584,CH DEPARTEMENTAL,0,0,sans objet,Centre hospitalier (CH),67
+670780691,CH DE SELESTAT,197,187,2,Centre hospitalier (CH),67
+670780709,HOPITAL CIVIL D'OBERNAI,0,0,sans objet,Centre hospitalier (CH),67
+680000197,CLINIQUE DES TROIS FRONTIERES,0,0,sans objet,Etablissement de soins pluridisciplinaires,68
+680000320,CLINIQUE SAINT-SAUVEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,68
+680000346,CH DE CERNAY,0,0,sans objet,Centre hospitalier (CH),68
+680000395,CH D'ALTKIRCH,37,24,9,Centre hospitalier (CH),68
+680000411,CH DE PFASTATT,0,0,sans objet,Centre hospitalier (CH),68
+680000437,CH DE THANN,92,88,sans objet,Centre hospitalier (CH),68
+680000486,HOPITAL DU HASENRAIN,1336,986,7,Centre hospitalier (CH),68
+680000494,CLINIQUE DU DIACONAT MULHOUSE,0,0,sans objet,Etablissement de soins pluridisciplinaires,68
+680000973,HOPITAL LOUIS PASTEUR,575,362,8,Centre hospitalier (CH),68
+680001005,CH DE GUEBWILLER,26,26,sans objet,Centre hospitalier (CH),68
+680001195,HOPITAL ALBERT SCHWEITZER,0,0,sans objet,Etablissement de soins pluridisciplinaires,68
+690000245,HOPITAL DE FOURVIERE,0,0,sans objet,Etablissement de soins médicaux,69
+690000427,CENTRE MEDICO CHIR READAPT DES MASSUES,0,0,sans objet,Etablissement de réadaptation fonctionnelle,69
+690000880,CENTRE LEON BERARD,0,0,sans objet,Centre de lutte contre le cancer,69
+690010749,HL INTERCOMMUNAL,0,0,sans objet,Hôpital local,69
+690011838,CENTRE CHIMOTH. ET RADIOTH. BAYARD,0,0,sans objet,Etablissement de soins médicaux,69
+690022959,HOP PRIVE MERE ENFANT NATECIA,649,162,sans objet,Etablissement de soins pluridisciplinaires,69
+690023239,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690023411,HOPITAL PRIVE JEAN MERMOZ,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690029186,ENDO LYON SUD OUEST,0,0,sans objet,Etablissement de soins chirurgicaux,69
+690031455,HOPITAL DE GRANDRIS,0,0,sans objet,Hôpital local,69
+690780036,CH MONTGELAS,132,80,sans objet,Centre hospitalier (CH),69
+690780044,CH STE FOY LES LYON,174,82,sans objet,Centre hospitalier (CH),69
+690780069,HOPITAL DE CONDRIEU,0,0,sans objet,Hôpital local,69
+690780085,HLI ST LAURENT DE CHAMOUSSET,0,0,sans objet,Hôpital local,69
+690780093,HIA DESGENETTES,0,0,sans objet,Hôpital militaire,69
+690780101,CH LE VINATIER,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,69
+690780150,HOPITAL DE L'ARBRESLE LE RAVATEL,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780200,CLINIQUE EMILIE DE VIALAR,0,0,sans objet,Etablissement de soins chirurgicaux,69
+690780226,CLINIQUE DE LA PART-DIEU,0,0,sans objet,Etablissement de soins chirurgicaux,69
+690780259,CLINIQUE SAINT-CHARLES,0,0,sans objet,Etablissement de soins chirurgicaux,69
+690780275,CLINIQUE SAINT LOUIS,0,0,sans objet,Etablissement de soins chirurgicaux,69
+690780358,CLINIQUE DU VAL D'OUEST-VENDOME,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780366,CLINIQUE CHARCOT,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780382,CLINIQUE DU GRAND LARGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780390,POLYCLINIQUE DE RILLIEUX,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780416,GPE HOSP MUT LES PORTES DU SUD,122,43,10,Etablissement de soins pluridisciplinaires,69
+690780499,NEPHROCARE TASSIN-CHARCOT,0,0,sans objet,Centre de dialyse,69
+690780648,CLINIQUE DE LA SAUVEGARDE,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780655,HOPITAL PRIVE DE L'EST LYONNAIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690780663,CLINIQUE TRENEL,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690781737,POLE GERONTO CROIX ROUGE - CHARMETTES,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690781810,HOSPICES CIVILS DE LYON,4329,1656,13,Centre hospitalier universitaire (CHU),69
+690781836,CLINIQUE MUTUALISTE DE LYON,124,46,sans objet,Etablissement de soins pluridisciplinaires,69
+690782222,CH VILLEFRANCHE SUR SAONE,224,112,sans objet,Centre hospitalier (CH),69
+690782230,HL DE BELLEVILLE,0,0,sans objet,Hôpital local,69
+690782248,CH DE BEAUJEU,0,0,sans objet,Hôpital local,69
+690782271,CH DE TARARE,94,55,4,Centre hospitalier (CH),69
+690782834,CLINIQUE DU TONKIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690782925,CH GERIATRIQUE DU MONT D OR,0,0,sans objet,Centre hospitalier (CH),69
+690791082,CENTRE MEDICAL SPECIALISE LES BRUYERES,0,0,sans objet,Centre de postcure pour alcooliques,69
+690793468,INFIRMERIE PROTESTANTE DE LYON,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690805361,CH ST JOSEPH ST LUC,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+690807367,POLYCLINIQUE DU BEAUJOLAIS,0,0,sans objet,Etablissement de soins pluridisciplinaires,69
+700004591,CHI DE LA HAUTE-SAONE,230,72,7,Centre hospitalier (CH),70
+700780026,CH DU VAL DE SAONE P VITTER GRAY,0,0,sans objet,Centre hospitalier (CH),70
+700780174,CLINIQUE ST MARTIN,0,0,sans objet,Etablissement de soins chirurgicaux,70
+710000118,S.A.S. POLYCLINIQUE DU VAL DE SAONE,0,0,sans objet,Etablissement de soins pluridisciplinaires,71
+710010075,CLINIQUE LA ROSERAIE,0,0,sans objet,Etablissement de soins chirurgicaux,71
+710780214,HL LOUHANS,0,0,sans objet,Hôpital local,71
+710780263,CH LES CHANAUX MACON,466,217,4,Centre hospitalier (CH),71
+710780644,CH PARAY-LE-MONIAL PASTEUR,131,117,9,Centre hospitalier (CH),71
+710780917,HOPITAL PRIVE SAINTE MARIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,71
+710780958,CH W MOREY  CHALON S SAONE,349,51,sans objet,Centre hospitalier (CH),71
+710781063,HL DE LA CLAYETTE,0,0,sans objet,Hôpital local,71
+710781089,HL CLUNY,0,0,sans objet,Hôpital local,71
+710781360,HL BELNAY  TOURNUS,0,0,sans objet,Hôpital local,71
+710781410,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins chirurgicaux,71
+710781451,CH AUTUN,64,9,3,Centre hospitalier (CH),71
+710781568,CH ALIGRE BOURBON LANCY,0,0,sans objet,Centre hospitalier (CH),71
+710781592,HL CHAGNY,0,0,sans objet,Hôpital local,71
+710781824,CENTRE ORTHOPEDIQUE MEDICO CHIRURGICAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,71
+710976705,SIH CH MONTCEAU-LES-MINES,103,71,7,Syndicat interhospitalier (SIH),71
+710978347,HOTEL DIEU DU CREUSOT,96,47,9,Etablissement de soins pluridisciplinaires,71
+720000025,CH DU MANS,1072,396,7,Centre hospitalier (CH),72
+720000066,CH CHATEAU DU LOIR,0,0,sans objet,Centre hospitalier (CH),72
+720000140,CH ST CALAIS,0,0,sans objet,Centre hospitalier (CH),72
+720000199,CLINIQUE DU PRE,0,0,sans objet,Etablissement de soins chirurgicaux,72
+720000231,CLINIQUE DU TERTRE ROUGE,157,57,sans objet,Etablissement de soins pluridisciplinaires,72
+720000249,CLINIQUE VICTOR HUGO,0,0,sans objet,Etablissement de soins médicaux,72
+720000389,CENTRE MEDICAL GEORGES COULON,0,0,sans objet,Etablissement de soins médicaux,72
+720006022,CH LA FERTE BERNARD,0,0,sans objet,Centre hospitalier (CH),72
+720016724,POLE SANTE SARTHE ET LOIR,79,30,sans objet,Centre hospitalier (CH),72
+720017748,CMCM SITE POLE SANTE SUD,0,0,sans objet,Etablissement de soins pluridisciplinaires,72
+730000015,CH DE CHAMBERY,322,78,8,Centre hospitalier (CH),73
+730002839,CH ALBERTVILLE MOUTIERS,259,158,9,Centre hospitalier (CH),73
+730004298,HOPITAL PRIVE MEDIPOLE DE SAVOIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,73
+730780103,CH DE ST JEAN DE MAURIENNE,93,67,4,Centre hospitalier (CH),73
+730780111,CH D'AIX LES BAINS,77,48,sans objet,Centre hospitalier (CH),73
+730780459,CLINIQUE HERBERT,0,0,sans objet,Etablissement de soins chirurgicaux,73
+730780525,CH DE BOURG ST MAURICE,76,54,10,Centre hospitalier (CH),73
+730780558,HL M. DUBETTIER SAINT PIERRE D'ALBIGNY,0,0,sans objet,Hôpital local,73
+740001839,CHI DES HOPITAUX DU PAYS DU MONT BLANC,252,192,4,Centre hospitalier (CH),74
+740780192,CENTRE MEDICAL DE PRAZ COUTANT,0,0,sans objet,Etablissement de soins médicaux,74
+740780408,CLINIQUE LAMARTINE,0,0,sans objet,Etablissement de soins pluridisciplinaires,74
+740780416,CLINIQUE D'ARGONAY,0,0,sans objet,Etablissement de soins pluridisciplinaires,74
+740780424,CLINIQUE GENERALE,27,0,7,Etablissement de soins pluridisciplinaires,74
+740780440,CLINIQUE DE L'ESPERANCE,47,0,sans objet,Etablissement de soins pluridisciplinaires,74
+740781133,CH DE LA REGION D'ANNECY,741,252,8,Centre hospitalier (CH),74
+740781190,HL DUFRESNE SOMMEILLER,0,0,sans objet,Hôpital local,74
+740781208,HOPITAL DE RUMILLY,0,0,sans objet,Centre hospitalier (CH),74
+740781216,CHI SUD LEMAN VALSERINE,312,248,sans objet,Centre hospitalier (CH),74
+740785357,POLYCLINIQUE DE SAVOIE,196,96,6,Etablissement de soins pluridisciplinaires,74
+740790258,CH ALPES-LEMAN,501,256,16,Centre hospitalier (CH),74
+740790381,HOPITAL GEORGES PIANTA,392,332,7,Centre hospitalier (CH),74
+750000523,GPE HOSP SAINT-JOSEPH,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750000549,FONDATION OPHTALMOLOGIQUE ROTHSCHILD,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750041543,HOPITAL BRETONNEAU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100018,HOPITAL HOTEL-DIEU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100042,GPE HOSP LARIBOISIERE-FERNAND WIDAL (APHP),1034,667,8,Centre hospitalier universitaire (CHU),75
+750100075,HOPITAL SAINT-LOUIS (APHP),557,56,10,Centre hospitalier universitaire (CHU),75
+750100083,HOPITAL ROTHSCHILD (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100091,HOPITAL SAINT-ANTOINE (APHP),635,271,6,Centre hospitalier universitaire (CHU),75
+750100109,GPE HOSP ARMAND TROUSSEAU-ROCHE GUYON (APHP),221,76,4,Centre hospitalier universitaire (CHU),75
+750100125,GROUPE HOSP. PITIE-SALPETRIERE (APHP),418,35,10,Centre hospitalier universitaire (CHU),75
+750100166,GPE HOSP COCHIN-SAINT VINCENT DE PAUL (APHP),2313,878,6,Centre hospitalier universitaire (CHU),75
+750100208,HOPITAL NECKER ENFANTS MALADES (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100216,HOPITAL VAUGIRARD (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100232,G.I.H. BICHAT   CLAUDE BERNARD (APHP),919,219,sans objet,Centre hospitalier universitaire (CHU),75
+750100273,HOPITAL TENON (APHP),253,163,15,Centre hospitalier universitaire (CHU),75
+750100299,GPE HOSP. STE PERINE   LAGACHE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750110025,CHNO DES QUINZE-VINGT PARIS,0,0,sans objet,Centre hospitalier (CH),75
+750120016,HIA DU  VAL DE GRACE,0,0,sans objet,Hôpital militaire,75
+750140014,CH STE-ANNE,0,0,sans objet,Centre hospitalier spécialisé dans la lutte contre les maladies mentales,75
+750150013,HOPITAL PIERRE ROUQUES LES BLUETS,882,243,sans objet,Etablissement de soins pluridisciplinaires,75
+750150096,INSTITUT DE PUERICULTURE ADHMI,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150104,INSTITUT MUTUALISTE MONTSOURIS,641,223,7,Etablissement de soins pluridisciplinaires,75
+750150146,HOPITAL LEOPOLD BELLAN,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150187,MAISON MEDICALE JEANNE GARNIER,0,0,sans objet,Etablissement de soins médicaux,75
+750150252,CLINIQUE MED. PEDAGOGIQUE EDOUARD RIST,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150260,HOPITAL DES DIACONESSES,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150286,HOPITAL JEAN JAURES,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150310,AURA,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750150344,HOPITAL PRIVE COGNACQ-JAY,0,0,sans objet,Etablissement de réadaptation fonctionnelle,75
+750150377,HOPITAL HENRY DUNANT,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750160012,INSTITUT CURIE,0,0,sans objet,Centre de lutte contre le cancer,75
+750300014,CLINIQUE MEDICO-CHIRURGICALE DU LOUVRE,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300030,CLINIQUE BACHAUMONT,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300071,CLINIQUE GEOFFROY SAINT-HILAIRE,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300089,CLINIQUE PARIS V,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300097,INSTITUT ARTHUR VERNES,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300121,CLINIQUE SAINT JEAN DE DIEU,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300139,CLINIQUE DE L'ALMA,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750300147,CLINIQUE ELYSEE MONTAIGNE,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300154,MAISON DE CHIRURGIE CLINIQUE TURIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750300220,CLINIQUE MILAN,82,0,sans objet,Etablissement de soins chirurgicaux,75
+750300287,CENTRE MEDICO-CHIRURGICAL DE VINCI,286,81,sans objet,Etablissement de soins pluridisciplinaires,75
+750300360,HOPITAL PRIVE DES PEUPLIERS,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750300410,CLINIQUE JEANNE D'ARC,298,13,sans objet,Etablissement de soins pluridisciplinaires,75
+750300493,CLINIQUE ARAGO,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300550,CLINIQUE SAINTE GENEVIEVE,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300592,CLINIQUE BLOMET,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300667,MATERNITE SAINTE FELICITE,0,0,sans objet,Etablissement de soins obstétriques et chirurgico-gynécologiques,75
+750300741,CLINIQUE VICTOR HUGO,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300766,CLINIQUE BIZET,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750300774,CLINIQUE JOUVENET,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300840,CLINIQUE DE LA MUETTE,142,66,sans objet,Etablissement de soins pluridisciplinaires,75
+750300857,CLINIQUE REMUSAT,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300881,CLINIQUE CHIRURGICALE DU TROCADERO,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300907,CLINIQUE CHIRURGICALE DAUTANCOURT,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750300915,CLINIQUE INTERNATIONALE PARC MONCEAU,0,0,sans objet,Etablissement de soins pluridisciplinaires,75
+750300931,CLINIQUE STE-THERESE L'ENFANT JESUS,338,142,5,Etablissement de soins pluridisciplinaires,75
+750301137,CLINIQUE CHIRURG ALLERAY-LABROUSTE,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750301145,CLINIQUE DU MONT-LOUIS,638,115,sans objet,Etablissement de soins pluridisciplinaires,75
+750301152,CLINIQUE PARIS MONTMARTRE,19,0,sans objet,Etablissement de soins chirurgicaux,75
+750301160,CLINIQUE MAUSSINS-NALLET,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750712184,ASSISTANCE PUBLIQUE-HOPITAUX DE PARIS,12391,4566,14,Centre hospitalier universitaire (CHU),75
+750790164,CLINIQUE ROOSEVELT,0,0,sans objet,Etablissement de soins chirurgicaux,75
+750801441,HOPITAL BROCA (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750803447,GPE HOSP BROUSSAIS-HEGP (APHP),348,0,5,Centre hospitalier universitaire (CHU),75
+750803454,HOPITAL ROBERT DEBRE (APHP),82,7,15,Centre hospitalier universitaire (CHU),75
+750810798,ETS PUBLIC NATIONAL DE SANTE  FRESNES,0,0,sans objet,433,75
+750813032,INSTITUT NATIONAL DES INVALIDES,0,0,sans objet,Hôpital militaire,75
+760000166,CLCC HENRI BECQUEREL ROUEN,0,0,sans objet,Centre de lutte contre le cancer,76
+760021329,HOPITAL PRIVE DE L'ESTUAIRE,123,24,sans objet,Etablissement de soins pluridisciplinaires,76
+760024042,CHI ELBEUF LOUVIERS VAL DE REUIL,291,141,sans objet,Centre hospitalier (CH),76
+760025312,CLINIQUE MATHILDE ROUEN,63,0,sans objet,Etablissement de soins pluridisciplinaires,76
+760027292,CLINIQUE MEGIVAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,76
+760780023,CH DIEPPE,205,63,sans objet,Centre hospitalier (CH),76
+760780031,CH SAINT-VALERY-EN-CAUX,0,0,sans objet,Hôpital local,76
+760780056,CH EU,0,0,sans objet,Centre hospitalier (CH),76
+760780064,CH NEUFCHATEL-EN-BRAY,0,0,sans objet,Centre hospitalier (CH),76
+760780197,CLINIQUE LES AUBEPINES ST-AUBIN-S SCIE,94,36,8,Etablissement de soins obstétriques et chirurgico-gynécologiques,76
+760780205,CLINIQUE ST ANTOINE BOIS GUILLAUME,0,0,sans objet,Etablissement de soins chirurgicaux,76
+760780213,CH BARENTIN,0,0,sans objet,Hôpital local,76
+760780239,HOPITAL CHARLES NICOLLE CHU ROUEN,900,235,14,Centre hospitalier universitaire (CHU),76
+760780254,CH YVETOT,0,0,sans objet,Hôpital local,76
+760780262,CH DU BELVEDERE MONT-SAINT-AIGNAN,693,341,3,Centre hospitalier (CH),76
+760780510,CLINIQUE DU CEDRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,76
+760780619,CLINIQUE SAINT-HILAIRE ROUEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,76
+760780668,CLINIQUE CHIRURGICALE D'YVETOT,0,0,sans objet,Etablissement de soins chirurgicaux,76
+760780726,CH LE HAVRE,468,229,15,Centre hospitalier (CH),76
+760780734,CHI DU PAYS DES HAUTES FALAISES FECAMP,109,41,10,Centre hospitalier (CH),76
+760780742,CHI CAUX VALLEE DE SEINE,112,58,5,Centre hospitalier (CH),76
+760780759,CH SAINT-ROMAIN-DE-COLBOSC,0,0,sans objet,Hôpital local,76
+760780783,CLINIQUE TOUS VENTS LILLEBONNE,0,0,sans objet,Etablissement de soins chirurgicaux,76
+760780791,CLINIQUE LES ORMEAUX-VAUBAN LE HAVRE,187,73,sans objet,Etablissement de soins pluridisciplinaires,76
+760780825,CLINIQUE DE L'ABBAYE FECAMP,0,0,sans objet,Etablissement de soins chirurgicaux,76
+760783035,HOPITAL ECOLE DE LA CROIX ROUGE,0,0,sans objet,Etablissement de soins pluridisciplinaires,76
+760783159,CLINIQUE DES ESSARTS GRAND COURONNE,0,0,sans objet,Etablissement de soins médicaux,76
+760921809,CLINIQUE DE L'EUROPE ROUEN,0,0,sans objet,Etablissement de soins chirurgicaux,76
+770110013,CH DE COULOMMIERS,235,182,2,Centre hospitalier (CH),77
+770110021,CH DE FONTAINEBLEAU,466,450,5,Centre hospitalier (CH),77
+770110054,CH M JACQUET MELUN,529,319,5,Centre hospitalier (CH),77
+770110062,CH DE MONTEREAU,206,149,12,Centre hospitalier (CH),77
+770110070,CH LEON BINET DE PROVINS,149,76,8,Centre hospitalier (CH),77
+770130011,HL DE BRIE-COMTE-ROBERT,0,0,sans objet,Hôpital local,77
+770130052,CH DE NEMOURS,0,0,sans objet,Centre hospitalier (CH),77
+770150019,CENTRE MEDICAL DE FORCILLES,0,0,sans objet,Etablissement de soins médicaux,77
+770170017,CH DE LAGNY- MARNE LA VALLEE,554,166,10,Centre hospitalier (CH),77
+770300010,HOPITAL PRIVE DE MARNE CHANTEREINE,289,126,sans objet,Etablissement de soins pluridisciplinaires,77
+770300093,POLYCLINIQUE DE LAGNY-SUR-MARNE,0,0,sans objet,Etablissement de soins pluridisciplinaires,77
+770300135,CLINIQUE MEDICO-CHIRURG. LES FONTAINES,0,0,sans objet,Etablissement de soins pluridisciplinaires,77
+770300143,POLYCLINIQUE SAINT-JEAN,114,99,sans objet,Etablissement de soins pluridisciplinaires,77
+770300176,CLINIQUE LA FRANCILIENNE,0,0,sans objet,Etablissement de soins pluridisciplinaires,77
+770300192,CLINIQUE SAINT-BRICE,18,0,sans objet,Etablissement de soins chirurgicaux,77
+770300275,POLYCLINIQUE DE LA FORET,57,0,sans objet,Etablissement de soins pluridisciplinaires,77
+770300283,CLINIQUE DE L'ERMITAGE,0,0,sans objet,Etablissement de soins chirurgicaux,77
+770700185,CH DE MEAUX,676,328,7,Centre hospitalier (CH),77
+770790707,CLINIQUE DE TOURNAN,255,98,sans objet,Etablissement de soins pluridisciplinaires,77
+770813400,CLINIQUE MEDICO-CHIRURGICALE ST FARON,0,0,sans objet,Etablissement de soins pluridisciplinaires,77
+780000436,CH DES COURSES,0,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780001236,CHI SITE DE ST-GERMAIN,1452,1019,5,Centre hospitalier (CH),78
+780002697,CHI DE MEULAN   LES MUREAUX,278,143,sans objet,Centre hospitalier (CH),78
+780008298,CLINIQUE ST REMY,0,0,sans objet,Etablissement de soins médicaux,78
+780018719,CMC PRIVE DE SAINT GERMAIN,8,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780110011,CH FRANCOIS QUESNAY MANTES,543,362,7,Centre hospitalier (CH),78
+780110037,HOP. GERONTOLOGIQUE ET MED-SOC PLAISIR,0,0,sans objet,Centre hospitalier (CH),78
+780110052,CH DE RAMBOUILLET,257,81,4,Centre hospitalier (CH),78
+780110078,CH VERSAILLES ANDRE MIGNOT,895,686,sans objet,Centre hospitalier (CH),78
+780130027,HL DE HOUDAN,0,0,sans objet,Hôpital local,78
+780130035,HL DE JOUARS-PONTCHARTRAIN,0,0,sans objet,Hôpital local,78
+780150017,CESSRIN DE MAISONS LAFFITTE,0,0,sans objet,Etablissement de soins médicaux,78
+780150033,MAISON DE SANTE CLAIRE DEMEURE,0,0,sans objet,Etablissement de convalescence et de repos,78
+780150058,CENTRE GERIATRIQUE D. FORESTIER,0,0,sans objet,Etablissement de soins médicaux,78
+780150066,CLINIQUE MEDICALE DE LA PORTE VERTE,0,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300075,CENTRE CARDIOLOGIQUE D'EVECQUEMONT,0,0,sans objet,Etablissement de soins médicaux,78
+780300125,POLYCLINIQUE REGION MANTAISE,0,0,sans objet,Etablissement de soins chirurgicaux,78
+780300208,CLINIQUE SAINT LOUIS,52,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300323,CLINIQUE DES FRANCISCAINES,0,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300364,POLYCLINIQUE DE VERSAILLES-LA MAYE,0,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300406,CENTRE MEDICO CHIRURGICAL DE PARLY II,96,30,sans objet,Etablissement de soins pluridisciplinaires,78
+780300414,CENTRE MEDICO-CHIRURGICAL DE L'EUROPE,0,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300422,HOPITAL PRIVE DE L'OUEST PARISIEN,17,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780300455,CH PRIVE DU MONTGARDE,18,0,sans objet,Etablissement de soins pluridisciplinaires,78
+780630026,CENTRE PEDIATRIQUE DES COTES,0,0,sans objet,Etablissement de réadaptation fonctionnelle,78
+790000012,CENTRE HOSPITAL. GEORGES RENON,440,297,5,Centre hospitalier (CH),79
+790000046,HL DE ST MAIXENT,0,0,sans objet,Hôpital local,79
+790000061,HL DE MELLE,0,0,sans objet,Hôpital local,79
+790006654,CENTRE HOSPIT. NORD DEUX-SEVRES,125,62,2,Centre hospitalier (CH),79
+790009948,POLYCLINIQUE D'INKERMANN,113,65,6,Etablissement de soins pluridisciplinaires,79
+800000028,CH ABBEVILLE,286,111,13,Centre hospitalier (CH),80
+800000036,CH D'ALBERT,0,0,sans objet,Centre hospitalier (CH),80
+800000044,CHU AMIENS NORD,1281,673,5,Centre hospitalier universitaire (CHU),80
+800000051,CH CORBIE,0,0,sans objet,Centre hospitalier (CH),80
+800000069,CH DOULLENS,40,40,sans objet,Centre hospitalier (CH),80
+800000077,CH HAM,0,0,sans objet,Centre hospitalier (CH),80
+800000085,CH MONTDIDIER,0,0,sans objet,Centre hospitalier (CH),80
+800000093,CH PERONNE,118,74,8,Centre hospitalier (CH),80
+800000135,HL DE ST-VALERY-SUR-SOMME,0,0,sans objet,Hôpital local,80
+800002503,SA CLINIQUE SAINTE ISABELLE,0,0,sans objet,Etablissement de soins pluridisciplinaires,80
+800009466,POLYCLINIQUE DE PICARDIE,0,0,sans objet,Etablissement de soins chirurgicaux,80
+800009920,GROUPE SANTE VICTOR PAUCHET,0,0,sans objet,Etablissement de soins pluridisciplinaires,80
+800013179,S A S CLINIQUE DE L EUROPE,0,0,sans objet,Etablissement de soins médicaux,80
+800015729,SAS DE CARDIOLOGIES ET URGENCES,0,0,sans objet,Autre établissement soumis aux disposotions de la loi hospitalière,80
+810000224,CENTRE MEDICO CHIR OBST CLAUDE BERNARD,104,79,sans objet,Etablissement de soins pluridisciplinaires,81
+810000331,CH D'ALBI,400,173,sans objet,Centre hospitalier (CH),81
+810000349,CH DE GAILLAC,0,0,sans objet,Centre hospitalier (CH),81
+810000380,HOP DU PAYS D'AUTAN SITE CASTRES,417,232,12,Centre hospitalier (CH),81
+810000398,CH DE GRAULHET,0,0,sans objet,Centre hospitalier (CH),81
+810000448,POLYCLINIQUE SAINTE BARBE,0,0,sans objet,Etablissement de soins chirurgicaux,81
+810000455,CH DE LAVAUR,165,83,sans objet,Centre hospitalier (CH),81
+810101170,CLINIQUE TOULOUSE LAUTREC,0,0,sans objet,Etablissement de soins pluridisciplinaires,81
+810101444,POLYCLINIQUE DU SIDOBRE,0,0,sans objet,Etablissement de soins pluridisciplinaires,81
+820000016,CH MONTAUBAN,224,111,7,Centre hospitalier (CH),82
+820000040,CLINIQUE CROIX ST MICHEL,318,190,sans objet,Etablissement de soins pluridisciplinaires,82
+820000057,CLINIQUE DU PONT DE CHAUME,195,110,sans objet,Etablissement de soins pluridisciplinaires,82
+820000065,CLINIQUE DU DOCTEUR CAVE,0,0,sans objet,Etablissement de soins chirurgicaux,82
+820004950,CH MOISSAC,0,0,sans objet,Centre hospitalier (CH),82
+830100103,CLINIQUE SAINTE MARGUERITE,0,0,sans objet,Etablissement de soins pluridisciplinaires,83
+830100251,CLINIQUE DU CAP D'OR,30,0,sans objet,Etablissement de soins pluridisciplinaires,83
+830100301,CLINIQUE DU COUDON,0,0,sans objet,Etablissement de soins chirurgicaux,83
+830100319,POLYCLINIQUE LES FLEURS,0,0,sans objet,Etablissement de soins pluridisciplinaires,83
+830100327,CLINIQUE LES LAURIERS,27,0,2,Etablissement de soins chirurgicaux,83
+830100368,CLINIQUE CHIR DU GOLFE DE ST TROPEZ,0,0,sans objet,Etablissement de soins chirurgicaux,83
+830100392,POLYCLINIQUE NOTRE DAME,0,0,sans objet,Etablissement de soins pluridisciplinaires,83
+830100418,CLINIQUE NOTRE DAME DE LA MERCI,0,0,sans objet,Etablissement de soins chirurgicaux,83
+830100434,CLINIQUE SAINT JEAN,1035,668,sans objet,Etablissement de soins pluridisciplinaires,83
+830100459,CLINIQUE SAINT MICHEL,192,66,8,Etablissement de soins pluridisciplinaires,83
+830100475,CLINIQUE SAINT ROCH,35,0,sans objet,Etablissement de soins pluridisciplinaires,83
+830100491,CLINIQUE SAINT VINCENT,0,0,sans objet,Etablissement de soins chirurgicaux,83
+830100517,CH DE BRIGNOLES JEAN MARCEL,387,228,sans objet,Centre hospitalier (CH),83
+830100525,CH LA DRACENIE DE DRAGUIGNAN,416,149,8,Centre hospitalier (CH),83
+830100533,CH DE HYERES MARIE JOSEE TREFFOT,205,72,8,Centre hospitalier (CH),83
+830100566,CHI DE FREJUS SAINT RAPHAEL,376,198,sans objet,Centre hospitalier (CH),83
+830100574,HIA SAINTE ANNE,0,0,sans objet,Hôpital militaire,83
+830100590,CH DE SAINT TROPEZ,160,132,1,Centre hospitalier (CH),83
+830100616,CHITS HOPITAL FONT PRE,669,350,sans objet,Centre hospitalier (CH),83
+830100855,CENTRE DE GERONTOLOGIE SAINT FRANCOIS,0,0,sans objet,Etablissement de convalescence et de repos,83
+830200523,POLYCLINIQUE MUTUALISTE MALARTIC,0,0,sans objet,Etablissement de soins pluridisciplinaires,83
+840000012,CH DU PAYS D'APT,80,48,sans objet,Centre hospitalier (CH),84
+840000038,HL PASTEUR A BOLLENE,0,0,sans objet,Hôpital local,84
+840000046,CH DE CARPENTRAS,309,102,sans objet,Centre hospitalier (CH),84
+840000061,HL DE GORDES,0,0,sans objet,Hôpital local,84
+840000079,HL DE L'ISLE SUR LA SORGUE,0,0,sans objet,Hôpital local,84
+840000087,CH LOUIS GIORGI D'ORANGE,306,290,3,Centre hospitalier (CH),84
+840000095,CH DE PERTUIS,153,60,6,Centre hospitalier (CH),84
+840000103,HL DE SAULT,0,0,sans objet,Hôpital local,84
+840000111,CH VAISON LA ROMAINE,0,0,sans objet,Centre hospitalier (CH),84
+840000129,CH DE VALREAS,43,43,sans objet,Centre hospitalier (CH),84
+840000285,POLYCLINIQUE URBAIN V,468,303,sans objet,Etablissement de soins pluridisciplinaires,84
+840000327,CLINIQUE MONTAGARD,0,0,sans objet,Etablissement de soins chirurgicaux,84
+840000350,INSTITUT SAINTE CATHERINE,0,0,sans objet,Etablissement de soins médicaux,84
+840000400,CENTRE CHIRURGICAL SAINT ROCH,0,0,sans objet,Etablissement de soins chirurgicaux,84
+840000467,CLINIQUE DU PARC,0,0,sans objet,Etablissement de soins chirurgicaux,84
+840004659,CHI DE CAVAILLON LAURIS,386,251,2,Centre hospitalier (CH),84
+840006597,CH D'AVIGNON HENRI DUFFAUT,603,268,7,Centre hospitalier (CH),84
+840013270,CLINIQUE DE PROVENCE,18,18,sans objet,Etablissement de soins chirurgicaux,84
+840013312,CLINIQUE RHONE DURANCE,0,0,sans objet,Etablissement de soins pluridisciplinaires,84
+840013445,CLINIQUE CAPIO FONTVERT AVIGNON NORD,0,0,sans objet,Etablissement de soins chirurgicaux,84
+840017172,POLYCLINIQUE SYNERGIA,0,0,sans objet,Etablissement de soins chirurgicaux,84
+850000019,CENTRE HOSPITALIER-SITE LA ROCHE YON,812,450,12,Centre hospitalier (CH),85
+850000035,CH FONTENAY- LE- COMTE  SITE RABELAIS,91,91,1,Centre hospitalier (CH),85
+850000043,HL ILE D'YEU,0,0,sans objet,Hôpital local,85
+850000076,HL ST-GILLES CROIX DE VIE,0,0,sans objet,Hôpital local,85
+850000084,CH COTE DE LUMIERE,97,44,7,Centre hospitalier (CH),85
+850000118,CLINIQUE SAINT CHARLES,0,0,sans objet,Etablissement de soins pluridisciplinaires,85
+850000126,CLINIQUE SUD VENDEE,0,0,sans objet,Etablissement de soins chirurgicaux,85
+850000134,CLINIQUE CHIRURGICALE PORTE OCEANE,0,0,sans objet,Etablissement de soins pluridisciplinaires,85
+850009010,CENTRE HOSPITALIER-SITE DE  CHALLANS,147,56,15,Centre hospitalier (CH),85
+850011453,HOPITAL DES COLLINES VENDEENNES,0,0,sans objet,Hôpital local,85
+860010321,POLYCLINIQUE DE POITIERS,0,0,sans objet,Etablissement de soins pluridisciplinaires,86
+860780063,CENTRE HOSPITAL. CAMILLE GUERIN,190,139,6,Centre hospitalier (CH),86
+860780071,CH RENAUDOT,16,16,7,Centre hospitalier (CH),86
+860780097,CH DE MONTMORILLON,0,0,sans objet,Centre hospitalier (CH),86
+860780311,CLINIQUE DE CHATELLERAULT,0,0,sans objet,Etablissement de soins pluridisciplinaires,86
+860780568,CLINIQUE DU FIEF DE GRIMOIRE,226,144,sans objet,Etablissement de soins pluridisciplinaires,86
+860780980,CHU LA MILETRIE,524,275,15,Centre hospitalier universitaire (CHU),86
+870000015,CHU DUPUYTREN  LIMOGES,942,535,8,Centre hospitalier universitaire (CHU),87
+870000023,CH SAINT JUNIEN,25,25,5,Centre hospitalier (CH),87
+870000031,CH J BOUTARD  ST YRIEIX,0,0,sans objet,Centre hospitalier (CH),87
+870000288,CLINIQUE FRANÇOIS CHENIEUX,0,0,sans objet,Etablissement de soins pluridisciplinaires,87
+870000411,CLINIQUE DES EMAILLEURS LIMOGES,96,38,sans objet,Etablissement de soins pluridisciplinaires,87
+870002060,CLINIQUE DU COLOMBIER LIMOGES,0,0,sans objet,Etablissement de soins pluridisciplinaires,87
+870014248,HOPITAL DR RENE BARRIERE  ST LEONARD,0,0,sans objet,Hôpital local,87
+870014503,CHI DU HAUT LIMOUSIN,0,0,sans objet,Hôpital local,87
+880006325,HOPITAL DU VAL DU MADON,0,0,sans objet,Hôpital local,88
+880780051,CH JEAN MONNET EPINAL,230,144,5,Centre hospitalier (CH),88
+880780069,CH DE GERARDMER,0,0,sans objet,Centre hospitalier (CH),88
+880780077,CH DE SAINT-DIE,232,187,5,Centre hospitalier (CH),88
+880780085,CH DE NEUFCHATEAU,142,94,sans objet,Centre hospitalier (CH),88
+880780093,CH DE REMIREMONT,177,131,6,Centre hospitalier (CH),88
+880780101,CH DE VITTEL,0,0,sans objet,Centre hospitalier (CH),88
+880780135,CLINIQUE ARC EN CIEL,267,129,6,Etablissement de soins pluridisciplinaires,88
+880780259,HOPITAL DE L'AVISON - BRUYERES,0,0,sans objet,Hôpital local,88
+880780275,HL DE DARNEY,0,0,sans objet,Hôpital local,88
+880780291,HL DE RAON L'ETAPE,0,0,sans objet,Hôpital local,88
+880780325,HL DE FRAIZE,0,0,sans objet,Hôpital local,88
+880780333,HL DE LAMARCHE,0,0,sans objet,Hôpital local,88
+880780341,HL DE RAMBERVILLERS,0,0,sans objet,Hôpital local,88
+880780366,HL DE SENONES,0,0,sans objet,Hôpital local,88
+880780531,CLINIQUE NOTRE DAME,0,0,sans objet,Etablissement de soins pluridisciplinaires,88
+880788591,POLYCLINIQUE LA LIGNE BLEUE ET ARC ENCIEL,0,0,sans objet,Etablissement de soins pluridisciplinaires,88
+890000037,CH AUXERRE,398,4,sans objet,Centre hospitalier (CH),89
+890000169,CLINIQUE PAUL PICQUET SENS,60,0,sans objet,Etablissement de soins pluridisciplinaires,89
+890000409,CH AVALLON,15,15,sans objet,Centre hospitalier (CH),89
+890000417,CH JOIGNY,82,82,5,Centre hospitalier (CH),89
+890000433,CH TONNERRE,0,0,sans objet,Centre hospitalier (CH),89
+890000466,HL R BONNION  VILLENEUVE-SUR-YONNE,0,0,sans objet,Hôpital local,89
+890002389,POLYCLINIQUE STE MARGUERITE,9,0,sans objet,Etablissement de soins pluridisciplinaires,89
+890970569,CH SENS,287,243,sans objet,Centre hospitalier (CH),89
+900000035,CLINIQUE DE LA MIOTTE,0,0,sans objet,Etablissement de soins chirurgicaux,90
+900000365,CH BELFORT,975,555,sans objet,Centre hospitalier (CH),90
+910002773,CH SUD FRANCILIEN,573,289,28,Centre hospitalier (CH),91
+910015965,CLINIQUE LE MOULIN DE VIRY,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910019447,CHI SUD ESSONNE-DOURDAN-ETAMPES,339,151,22,Centre hospitalier (CH),91
+910019454,CH DE JUVISY SUR ORGE,0,0,sans objet,Centre hospitalier (CH),91
+910100015,HOPITAL CLEMENCEAU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),91
+910100023,JOFFRE-DUPUYTREN GPT HOSP (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),91
+910110014,CH D'ARPAJON,300,157,sans objet,Centre hospitalier (CH),91
+910110055,CH LONGJUMEAU,730,334,3,Centre hospitalier (CH),91
+910110063,CH D'ORSAY,84,31,sans objet,Centre hospitalier (CH),91
+910150010,CH F.H. MANHES,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910150028,CENTRE MEDICAL DE BLIGNY,0,0,sans objet,Etablissement de soins médicaux,91
+910150069,HOP PRIVE GERIAT LES MAGNOLIAS,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910150085,GROUPE HOSPITALIER LES CHEMINOTS,0,0,sans objet,Etablissement de soins médicaux,91
+910300011,HOPITAL PRIVE DE PARIS - ESSONNE,0,0,sans objet,Etablissement de soins chirurgicaux,91
+910300029,HOPITAL PRIVE ATHIS MONS/JULES VALLES,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910300060,CLINIQUE GERIATRIQUE LES VALLEES,0,0,sans objet,Etablissement de soins médicaux,91
+910300144,CMCO D' EVRY,224,0,9,Etablissement de soins pluridisciplinaires,91
+910300177,CLINIQUE DE L'YVETTE,221,142,sans objet,Etablissement de soins pluridisciplinaires,91
+910300219,INSTITUT HOSPITALIER JACQUES CARTIER,173,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910300300,HOPITAL PRIVE DU VAL D'YERRES,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910300326,CLINIQUE PASTEUR,0,0,sans objet,Etablissement de soins pluridisciplinaires,91
+910300359,HOPITAL PRIVE D'ATHIS MONS  SITE CARON,441,218,sans objet,Etablissement de soins pluridisciplinaires,91
+910500040,CENTRE DE MOYEN SEJOUR RIS ORANGIS,0,0,sans objet,Etablissement de réadaptation fonctionnelle,91
+910803543,HOPITAL  PRIVE CLAUDE GALIEN,380,192,sans objet,Etablissement de soins pluridisciplinaires,91
+910805357,CLINIQUE DE L'ESSONNE,92,0,sans objet,Etablissement de soins pluridisciplinaires,91
+920000635,HOPITAL SUISSE DE PARIS,0,0,sans objet,Etablissement de soins médicaux,92
+920000643,INSTITUT HOSPITALIER FRANCO-BRITANIQUE,387,180,sans objet,Etablissement de soins pluridisciplinaires,92
+920000650,HOPITAL FOCH,0,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920000684,CENTRE CHIRURGICAL MARIE LANNELONGUE,0,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920009909,CH DES QUATRE VILLES SITE ST CLOUD,340,145,7,Centre hospitalier (CH),92
+920026374,CHI COURBEVOIE-NEUILLY-PUTEAUX,61,23,6,Centre hospitalier (CH),92
+920100013,HOPITAL AMBROISE PARE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),92
+920100021,HOPITAL ANTOINE BECLERE (APHP),1007,460,7,Centre hospitalier universitaire (CHU),92
+920100039,HOPITAL BEAUJON (APHP),376,245,7,Centre hospitalier universitaire (CHU),92
+920100047,HOPITAL LOUIS MOURIER (APHP),1185,247,sans objet,Centre hospitalier universitaire (CHU),92
+920100054,HOPITAL RAYMOND POINCARE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),92
+920100062,HOPITAL CORENTIN CELTON (APHP),551,303,2,Centre hospitalier universitaire (CHU),92
+920110020,CASH DE NANTERRE-HOP MAX FOURESTIER,428,291,7,Centre hospitalier (CH),92
+920110053,CH DEPARTEMENTAL DE STELL,0,0,sans objet,Centre hospitalier (CH),92
+920120011,HIA PERCY,0,0,sans objet,Hôpital militaire,92
+920300043,HOPITAL PRIVE D'ANTONY,599,372,8,Etablissement de soins pluridisciplinaires,92
+920300183,CENTRE CHIRURGICAL DES PRINCES,0,0,sans objet,Etablissement de soins chirurgicaux,92
+920300191,CLINIQUE MARCEL SEMBAT (C.C.B.B.),0,0,sans objet,Etablissement de soins chirurgicaux,92
+920300209,CLINIQUE AMBROISE PARE,596,400,sans objet,Etablissement de soins pluridisciplinaires,92
+920300266,CLINIQUE DU PLATEAU,0,0,sans objet,Etablissement de soins chirurgicaux,92
+920300365,CLINIQUE LA MONTAGNE,409,0,sans objet,Etablissement de soins chirurgicaux,92
+920300415,CLINIQUE LAMBERT,144,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920300597,CLINIQUE DE MEUDON LA FORET,99,46,sans objet,Etablissement de soins pluridisciplinaires,92
+920300670,CLINIQUE SAINTE-ISABELLE,11,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920300712,CENTRE CHIRURGICAL PIERRE CHEREST,0,0,sans objet,Etablissement de soins chirurgicaux,92
+920300753,CENTRE CHIRURGICAL AMBROISE PARE,0,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920300761,CLINIQUE HARTMANN,0,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920300787,HOPITAL AMERICAIN,0,0,sans objet,Etablissement de soins pluridisciplinaires,92
+920300837,CLINIQUE LES MARTINETS,163,0,8,Etablissement de soins pluridisciplinaires,92
+920300845,MAISON MEDICALE N.D. DU LAC RUEIL,0,0,sans objet,Etablissement de soins médicaux,92
+920300936,CLINIQUE CHIRURGICALE DU VAL D'OR,0,0,sans objet,Etablissement de soins chirurgicaux,92
+920301033,CLINIQUE DE LA PORTE  ST-CLOUD,0,0,sans objet,Etablissement de soins médicaux,92
+920803798,CLINIQUE DE LA DEFENSE,0,0,sans objet,Etablissement de soins chirurgicaux,92
+930021480,GHI LE RAINCY-MONTFERMEIL,405,167,15,Centre hospitalier (CH),93
+930100011,HOPITAL RENE MURET (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),93
+930100037,HOPITAL AVICENNE (APHP),612,118,5,Centre hospitalier universitaire (CHU),93
+930100045,HOPITAL JEAN VERDIER (APHP),934,616,4,Centre hospitalier universitaire (CHU),93
+930110036,CHI ANDRE GREGOIRE,992,511,3,Centre hospitalier (CH),93
+930110051,CH GENERAL DELAFONTAINE,837,222,17,Centre hospitalier (CH),93
+930110069,CHI ROBERT BALLANGER,958,601,2,Centre hospitalier (CH),93
+930150032,MATERNITE DES LILAS,832,121,5,Etablissement de soins pluridisciplinaires,93
+930300025,HOPITAL EUROPEEN LA ROSERAIE,92,22,sans objet,Etablissement de soins pluridisciplinaires,93
+930300066,HOPITAL PRIVE DE L'EST PARISIEN,0,0,sans objet,Etablissement de soins pluridisciplinaires,93
+930300082,CENTRE MEDICO CHIRURGICAL FLOREAL,0,0,sans objet,Etablissement de soins pluridisciplinaires,93
+930300116,HOPITAL PRIVE DE LA SEINE SAINT DENIS,568,336,3,Etablissement de soins pluridisciplinaires,93
+930300264,CLINIQUE DES LILAS,0,0,sans objet,Etablissement de soins chirurgicaux,93
+930300298,POLYCLINIQUE VAUBAN,305,0,sans objet,Etablissement de soins pluridisciplinaires,93
+930300504,CLINIQUE HOFFMANN,0,0,sans objet,Etablissement de soins pluridisciplinaires,93
+930300553,CLINIQUE DE L'ESTREE,746,91,sans objet,Etablissement de soins pluridisciplinaires,93
+930300587,CLINIQUE DU LANDY,0,0,sans objet,Etablissement de soins chirurgicaux,93
+930300595,HOPITAL PRIVE DU VERT GALANT,230,104,sans objet,Etablissement de soins pluridisciplinaires,93
+930300629,CLINIQUE DE LA DHUYS,61,0,8,Etablissement de soins pluridisciplinaires,93
+930300645,CENTRE CARDIOLOGIQUE DU NORD,0,0,sans objet,Etablissement de soins pluridisciplinaires,93
+940000649,HOPITAL SAINT-CAMILLE - BRY S M,0,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940000656,CHS EN PNEUMOLOGIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940000664,INSTITUT GUSTAVE ROUSSY,0,0,sans objet,Centre de lutte contre le cancer,94
+940006679,HOPITAL PRIVE DE MARNE-LA-VALLEE,494,259,sans objet,Etablissement de soins pluridisciplinaires,94
+940016819,LES HOPITAUX DE SAINT-MAURICE,491,149,sans objet,Centre hospitalier (CH),94
+940100027,GPE HOSP HENRI MONDOR-ALBERT CHENEVIER (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100035,CHARLES-FOIX - JEAN-ROSTAND GHU EST (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100043,HOPITAL BICETRE (APHP),946,205,3,Centre hospitalier universitaire (CHU),94
+940100050,HOPITAL EMILE ROUX (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100068,HOPITAL PAUL BROUSSE (APHP ) (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940110018,CHI DE CRETEIL,359,65,10,Centre hospitalier (CH),94
+940110042,CHI DE VILLENEUVE-ST-GEORGES,371,44,10,Centre hospitalier (CH),94
+940120017,HIA BEGIN,10,2,sans objet,Hôpital militaire,94
+940300031,HOPITAL PRIVE PAUL D'EGINE,0,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940300163,CLINIQUE DES TOURNELLES,0,0,sans objet,Etablissement de convalescence et de repos,94
+940300270,HOPITAL PRIVE ARMAND BRILLARD,518,248,sans objet,Etablissement de soins pluridisciplinaires,94
+940300379,CLINIQUE GASTON METIVET,293,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940300445,HOPITAL PRIVE DE THIAIS,15,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940300452,CLINIQUE MEDICALE DE DIETETIQUE,0,0,sans objet,Etablissement de soins médicaux,94
+940300494,POLYCLINIQUE VILLENEUVE-SAINT-GEORGES,0,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940300551,CLINIQUE DES NORIETS,440,184,sans objet,Etablissement de soins pluridisciplinaires,94
+940300569,CLINIQUE CHIRURGICALE DE VITRY,0,0,sans objet,Etablissement de soins pluridisciplinaires,94
+940813033,CLINIQUE DE BERCY,91,80,sans objet,Etablissement de soins pluridisciplinaires,94
+950000406,HOPITAL - FONDATION CHANTEPIE-MANCIER,0,0,sans objet,Etablissement de soins pluridisciplinaires,95
+950001370,CHI DES PORTES DE L'OISE A BEAUMONT,210,121,sans objet,Centre hospitalier (CH),95
+950013870,CH EAUBONNE MONTMORENCY -SIMONE VEIL,217,110,14,Centre hospitalier (CH),95
+950015289,GROUPEMENT HOSPITALIER INTERCOMMUNAL DU VEXIN,0,0,sans objet,Centre hospitalier (CH),95
+950100016,HOPITAL CHARLES RICHET (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),95
+950110015,CH VICTOR DUPOUY,427,159,sans objet,Centre hospitalier (CH),95
+950110049,CH DE GONESSE,239,61,27,Centre hospitalier (CH),95
+950110080,CH RENE DUBOS,524,118,7,Centre hospitalier (CH),95
+950300095,POLYCLINIQUE DU PLATEAU,19,0,sans objet,Etablissement de soins pluridisciplinaires,95
+950300137,CLINIQUE DE DOMONT,0,0,sans objet,Etablissement de soins pluridisciplinaires,95
+950300152,CLINIQUE MIRABEAU MONT D'EAUBONNE,0,0,sans objet,Etablissement de réadaptation fonctionnelle,95
+950300202,CLINIQUE CONTI,111,0,sans objet,Etablissement de soins pluridisciplinaires,95
+950300244,CLINIQUE SAINTE-MARIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,95
+950300277,HOPITAL PRIVE NORD PARISIEN,546,319,6,Etablissement de soins pluridisciplinaires,95
+950300301,CLINIQUE MEDICALE DU PARC,0,0,sans objet,Etablissement de convalescence et de repos,95
+950300350,CLINIQUE DU PARISIS - GRPE STE MARIE,246,139,sans objet,Etablissement de soins pluridisciplinaires,95
+950807982,CLINIQUE CLAUDE BERNARD,478,0,8,Etablissement de soins pluridisciplinaires,95
+970100012,POLYCLINIQUE DE LA GUADELOUPE,186,184,sans objet,Etablissement de soins pluridisciplinaires,9A
+970100020,CENTRE MEDICO SOCIAL,0,0,sans objet,Etablissement de soins médicaux,9A
+970100079,CLINIQUE SAINT-PIERRE,0,0,sans objet,Etablissement de soins chirurgicaux,9A
+970100111,LES NOUVELLES  EAUX VIVES,0,0,sans objet,Etablissement de soins médicaux,9A
+970100137,POLYCLINIQUE SAINT CHRISTOPHE,0,0,sans objet,Etablissement de soins médicaux,9A
+970100160,HL DE BRUYN,0,0,sans objet,Hôpital local,9A
+970100178,CH DE LA BASSE -TERRE,537,415,sans objet,Centre hospitalier (CH),9A
+970100186,CH DE MARIGOT,145,2,sans objet,Centre hospitalier (CH),9A
+970100194,CH L-D. BEAUPERTHUY,0,0,sans objet,Centre hospitalier (CH),9A
+970100202,CH SAINTE-MARIE,41,40,3,Centre hospitalier (CH),9A
+970100228,CHU DE POINTE A PITRE  ABYMES,1833,521,sans objet,Centre hospitalier universitaire (CHU),9A
+970100244,HL DE CAPESTERRE-BELLE-EAU,0,0,sans objet,Hôpital local,9A
+970100285,CH MAURICE SELBONNE,0,0,sans objet,Centre hospitalier (CH),9A
+970102596,CLINIQUE DE CHOISY,0,0,sans objet,Etablissement de soins médicaux,9A
+970103099,CLINIQUE LES NOUVELLES EAUX MARINES,0,0,sans objet,Etablissement de soins médicaux,9A
+970107249,CLINIQUE LES EAUX CLAIRES,677,263,sans objet,Etablissement de soins pluridisciplinaires,9A
+970202131,CHG LOUIS DOMERGUE,545,183,sans objet,Centre hospitalier (CH),9B
+970202156,HOPITAL DU MARIN,0,0,sans objet,Centre hospitalier (CH),9B
+970202164,HOPITAL ST ESPRIT,0,0,sans objet,Centre hospitalier (CH),9B
+970202222,HL DU FRANCOIS,0,0,sans objet,Hôpital local,9B
+970202255,CH DU LAMENTIN,537,514,sans objet,Centre hospitalier (CH),9B
+970202271,HOPITAL ZOBDA-QUITMAN,1320,375,sans objet,Centre hospitalier universitaire (CHU),9B
+970202313,CLINIQUE SAINT PAUL,0,0,sans objet,Etablissement de soins pluridisciplinaires,9B
+970202321,CLINIQUE SAINTE MARIE,0,0,sans objet,Etablissement de soins pluridisciplinaires,9B
+970300265,CENTRE MED.-CHIRURG. DE KOUROU,380,270,sans objet,Etablissement de soins pluridisciplinaires,9C
+970302022,CH DE CAYENNE,470,134,9,Centre hospitalier (CH),9C
+970302055,CLINIQUE VERONIQUE,131,0,sans objet,Etablissement de soins pluridisciplinaires,9C
+970302063,CLINIQUE LES HIBISCUS,0,0,sans objet,Etablissement de soins pluridisciplinaires,9C
+970302071,CENTRE MEDICAL SAINT PAUL,0,0,sans objet,Etablissement de soins pluridisciplinaires,9C
+970302121,CH FRANCK-JOLY,439,381,sans objet,Centre hospitalier (CH),9C
+970403606,GROUPE HOSPITALIER EST REUNION,509,236,7,Centre hospitalier (CH),9D
+970403614,GHSR  REUNION,886,195,sans objet,Centre hospitalier universitaire (CHU),9D
+970404109,INSTITUT ROBERT DEBRE,0,0,sans objet,Centre de postcure pour alcooliques,9D
+970404844,CLINIQUE SAINT VINCENT,241,79,sans objet,Etablissement de soins pluridisciplinaires,9D
+970421004,CHRFG,542,207,9,Centre hospitalier universitaire (CHU),9D
+970421038,CH GABRIEL MARTIN,805,282,7,Centre hospitalier (CH),9D
+970462024,CLINIQUE JEANNE D'ARC,0,0,sans objet,Etablissement de soins pluridisciplinaires,9D
+970462073,CLINIQUE DURIEUX,0,0,sans objet,Etablissement de soins pluridisciplinaires,9D
+970462081,CLINIQUE DES ORCHIDEES,0,0,sans objet,Etablissement de soins chirurgicaux,9D
+970462107,CLINIQUE DE SAINTE-CLOTILDE,367,297,sans objet,Etablissement de soins pluridisciplinaires,9D
+970466751,CLINIQUE AVICENNE,0,0,sans objet,Etablissement de soins chirurgicaux,9D
+980500003,CHM,0,0,sans objet,Centre hospitalier (CH),9D
+600100101,CH APHP LIANCOURT (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),60
+750041543,HOPITAL BRETONNEAU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100018,HOPITAL HOTEL-DIEU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100042,GPE HOSP LARIBOISIERE-FERNAND WIDAL (APHP),1034,667,8,Centre hospitalier universitaire (CHU),75
+750100075,HOPITAL SAINT-LOUIS (APHP),557,56,10,Centre hospitalier universitaire (CHU),75
+750100083,HOPITAL ROTHSCHILD (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100091,HOPITAL SAINT-ANTOINE (APHP),635,271,6,Centre hospitalier universitaire (CHU),75
+750100109,GPE HOSP ARMAND TROUSSEAU-ROCHE GUYON (APHP),221,76,4,Centre hospitalier universitaire (CHU),75
+750100125,GROUPE HOSP. PITIE-SALPETRIERE (APHP),418,35,10,Centre hospitalier universitaire (CHU),75
+750100166,GPE HOSP COCHIN-SAINT VINCENT DE PAUL (APHP),2313,878,6,Centre hospitalier universitaire (CHU),75
+750100208,HOPITAL NECKER ENFANTS MALADES (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100216,HOPITAL VAUGIRARD (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750100232,G.I.H. BICHAT   CLAUDE BERNARD (APHP),919,219,sans objet,Centre hospitalier universitaire (CHU),75
+750100273,HOPITAL TENON (APHP),253,163,15,Centre hospitalier universitaire (CHU),75
+750100299,GPE HOSP. STE PERINE   LAGACHE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750801441,HOPITAL BROCA (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),75
+750803447,GPE HOSP BROUSSAIS-HEGP (APHP),348,0,5,Centre hospitalier universitaire (CHU),75
+750803454,HOPITAL ROBERT DEBRE (APHP),82,7,15,Centre hospitalier universitaire (CHU),75
+910100015,HOPITAL CLEMENCEAU (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),91
+910100023,JOFFRE-DUPUYTREN GPT HOSP (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),91
+920100013,HOPITAL AMBROISE PARE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),92
+920100021,HOPITAL ANTOINE BECLERE (APHP),1007,460,7,Centre hospitalier universitaire (CHU),92
+920100039,HOPITAL BEAUJON (APHP),376,245,7,Centre hospitalier universitaire (CHU),92
+920100047,HOPITAL LOUIS MOURIER (APHP),1185,247,sans objet,Centre hospitalier universitaire (CHU),92
+920100054,HOPITAL RAYMOND POINCARE (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),92
+920100062,HOPITAL CORENTIN CELTON (APHP),551,303,2,Centre hospitalier universitaire (CHU),92
+930100011,HOPITAL RENE MURET (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),93
+930100037,HOPITAL AVICENNE (APHP),612,118,5,Centre hospitalier universitaire (CHU),93
+930100045,HOPITAL JEAN VERDIER (APHP),934,616,4,Centre hospitalier universitaire (CHU),93
+940100027,GPE HOSP HENRI MONDOR-ALBERT CHENEVIER (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100035,CHARLES-FOIX - JEAN-ROSTAND GHU EST (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100043,HOPITAL BICETRE (APHP),946,205,3,Centre hospitalier universitaire (CHU),94
+940100050,HOPITAL EMILE ROUX (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+940100068,HOPITAL PAUL BROUSSE (APHP ) (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),94
+950100016,HOPITAL CHARLES RICHET (APHP),0,0,sans objet,Centre hospitalier universitaire (CHU),95
