@@ -122,7 +122,7 @@ def importer_SAE_2023():
     """
     Extraction du csv 
     """
-    for annee in ["2013"]:
+    for annee in ["2023"]:
         url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
         chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
         csvPERINAT = chemin + "PERINAT" + "_" + annee + "r.csv"
@@ -133,7 +133,7 @@ def importer_SAE_2023():
             dfFull = openZip(url, csvPERINAT, temp_dir, encodage="latin1", sevenZip=True)
             dfID = openZip(url, csvID, temp_dir, encodage="latin1", sevenZip=True)
         
-        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "CONV", "IMG"]]
+        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "IVG1516", "CONV", "IMG"]]
         dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
         dfID["FI"] = dfID["fi"]
 
