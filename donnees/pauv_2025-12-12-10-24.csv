@@ -1,5 +1,3 @@
-Figure 2 – Taux de pauvreté par département en 2021,Unnamed: 1,Unnamed: 2
-,,
 Code département,Département,Taux de pauvreté (en %)
 01,Ain,10.8
 02,Aisne,18.8
@@ -9,7 +7,7 @@ Code département,Département,Taux de pauvreté (en %)
 06,Alpes-Maritimes,16.4
 07,Ardèche,14.9
 08,Ardennes,19.4
-09,Ariège,19
+09,Ariège,19.0
 10,Aube,16.9
 11,Aude,20.8
 12,Aveyron,14.5
@@ -31,7 +29,7 @@ Code département,Département,Taux de pauvreté (en %)
 29,Finistère,10.8
 2A,Corse-du-Sud,15.8
 2B,Haute-Corse,20.2
-30,Gard,20
+30,Gard,20.0
 31,Haute-Garonne,14.3
 32,Gers,15.3
 33,Gironde,12.8
@@ -52,7 +50,7 @@ Code département,Département,Taux de pauvreté (en %)
 48,Lozère,15.5
 49,Maine-et-Loire,11.5
 50,Manche,11.7
-51,Marne,15
+51,Marne,15.0
 52,Haute-Marne,15.3
 53,Mayenne,11.5
 54,Meurthe-et-Moselle,15.3
@@ -66,7 +64,7 @@ Code département,Département,Taux de pauvreté (en %)
 62,Pas-de-Calais,18.4
 63,Puy-de-Dôme,13.9
 64,Pyrénées-Atlantiques,12.6
-65,Hautes-Pyrénées,16
+65,Hautes-Pyrénées,16.0
 66,Pyrénées-Orientales,21.2
 67,Bas-Rhin,13.5
 68,Haut-Rhin,13.7
@@ -102,8 +100,3 @@ Code département,Département,Taux de pauvreté (en %)
 971,Guadeloupe (données 2017),34.5
 976,Guyane (données 2017),52.9
 973,Mayotte (données 2017),77.3
-"Notes : Les personnes pauvres sont celles dont le niveau de vie est inférieur à 60 % du niveau de vie médian de la France métropolitaine. 
-Les données de la Guadeloupe, de la Guyane et de Mayotte sont issues de l’enquête Budget de famille de 2017 et ne sont donc pas à comparer aux autres régions.",,
-"Lecture : En 2021, le taux de pauvreté est de 28,4 % en Seine-Saint-Denis.",,
-"Champ : France, personnes appartenant à des ménages fiscaux vivant dans un logement ordinaire dont le revenu disponible est positif ou nul.",,
-"Sources : Insee-DGFiP-Cnaf-Cnav-CCMSA, fichier localisé social et fiscal (Filosofi) 2021 ; Insee, enquête Budget de famille 2017 (pour la Guadeloupe, la Guyane et Mayotte).",,
