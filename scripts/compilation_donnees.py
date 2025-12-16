@@ -1,8 +1,3 @@
-##### Commandes d'installation des librairies
-"""
-pip install py7zr, zipfile, tempfile
-"""
-
 ##### Librairies
 import datetime
 import pandas as pd
@@ -14,15 +9,18 @@ import tempfile
 import py7zr
 
 ##### Chemin de sauvegarde des données
-def get_path(nomFichier):
-    date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+def get_path(nomFichier, date=None):
+    if date is None: 
+        date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+    
     return "./donnees/" + nomFichier + "_" + date + ".csv"
 
 ##### Fonctions d'importation et nettoyage des données
 def importer_drees():
     """
     Importation des données de la DREES sur les IVGs, sous la forme de csv. 
-    8 feuilles avec des données différentes portant sur le nombre d'IVGs par département, leur type et caractéristiques, ainsi que ceux des personnes y ayant recours.
+    8 feuilles avec des données différentes portant sur le nombre d'IVGs par département, 
+    leur type et caractéristiques, ainsi que ceux des personnes y ayant recours.
     Assemblage des 8 fichiers dans un unique fichier. 
     """
     dress_feuil1 = "https://data.drees.solidarites-sante.gouv.fr/api/datasets/1.0/3647_ivg/attachments/donnees_feuil1_csv/"
@@ -60,7 +58,7 @@ def importer_drees():
         data_IVG = pd.merge(data_IVG, other_df, on=['zone_geo', 'annee'], how='outer')
 
     # retirer les lignes vides
-    data_IVG = data_IVG.dropna(subset=['zone_geo'])
+    # data_IVG = data_IVG.dropna(subset=['zone_geo'])
     
     return data_IVG
 
@@ -71,6 +69,7 @@ def importer_finess():
     """
     fin = "https://static.data.gouv.fr/resources/finess-extraction-du-fichier-des-etablissements/20251106-144812/etalab-cs1100507-stock-20251106-0338.csv"
     finess = pd.read_csv(fin, sep=";", encoding="latin", header=None, skiprows=1)
+
     # retirer les lignes de géolocalisation
     finess = finess[finess[0] == "structureet"]
     # retirer les informations non nécessaires au projet 
@@ -82,100 +81,117 @@ def openZip(url, cheminCSV, temp_dir, encodage=None, sevenZip=False):
     Téléchargement d'un fichier ZIP se trouvant à l'url,
     extraction du fichier CSV, contenu dans le zip à l'emplacement cheminCSV,
     avec un encodage précisé ou par défault None.
-    Retourne un dataframe des données ducsv ouvert.
+    Retourne un dataframe des données du csv ouvert.
     """
     response = requests.get(url)
     response.raise_for_status()
-
 
     with io.BytesIO(response.content) as f:
         if sevenZip:
             zipFunction = py7zr.SevenZipFile(f, mode='r')
             zipFunction.extract(targets=[cheminCSV], path=temp_dir)
             extracted_path = os.path.join(temp_dir, cheminCSV)
-            df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
         else:
             zipFunction = zipfile.ZipFile(f, mode='r')
             zipFunction.extract(cheminCSV, path=temp_dir)
             extracted_path = os.path.join(temp_dir, cheminCSV)
-            df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
-
+            
+        df = pd.read_csv(extracted_path, sep=";",encoding=encodage)
         return df
 
 def importer_departement(): 
     """
-    Extraction du csv contenant le nombre d'habitant par département en France en 2022. 
-    Nettoyage rapide. 
+    Creation d'une dataframe du nombre de femmes de 15 à 49 ans
+    selon le département avec des données INSEE 2025. 
     """
-    url = "https://www.insee.fr/fr/statistiques/fichier/7739582/ensemble.zip"
-    csv = "donnees_departements.csv"
+    url = "https://www.insee.fr/fr/statistiques/fichier/8331297/estim-pop-dep-sexe-aq-1975-2025.xlsx"
+    df = pd.read_excel(url, '2025', header=4)
 
-    with tempfile.TemporaryDirectory() as temp_dir: 
-        dept = openZip(url, csv, temp_dir)
+    df.rename(columns={'Unnamed: 0': 'code_dep', 'Unnamed: 1': 'département'}, inplace=True)
+    df['femmes'] = df['15 à 19 ans'] + df['20 à 24 ans'] + df['25 à 29 ans'] + df['30 à 34 ans'] + df['35 à 39 ans'] + df['40 à 44 ans'] + df['45 à 49 ans']
+    df = df[['code_dep', 'département', 'femmes']]
 
-    # retirer les colonnes inutilisees du csv 
-    dept = dept.drop(["NBARR", "NBCAN", "NBCOM", "PTOT"], axis=1)
-
-    return dept
+    return df
 
 def importer_SAE_2023():
     """
-    Extraction du csv 
+    Téléchargement des données SAE de 2023 : filtres et jointure entre la base PERINAT
+    qui regroupe les données sur les IVGs et ID avec des données administratifs.
+    Fonction adaptée à la version post-2014 de la base SAE.
     """
-    for annee in ["2023"]:
-        url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
-        chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
-        csvPERINAT = chemin + "PERINAT" + "_" + annee + "r.csv"
-        csvID = chemin + "ID" + "_" + annee + "r.csv"
+    annee = '2023'
+    url = "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/708_bases-statistiques-sae/attachments/sae_" + annee + "_bases_statistiques_formats_sas_csv_7z"
+    chemin = "SAE " + annee + " Bases statistiques - formats SAS-CSV/Bases statistiques/Bases CSV/"
+    csvPERINAT = chemin + "PERINAT" + "_" + annee + "r.csv"
+    csvID = chemin + "ID" + "_" + annee + "r.csv"
 
-        with tempfile.TemporaryDirectory() as temp_dir:
-            # dfFull = openZip(url, csvPERINAT, temp_dir, encodage="utf-8", sevenZip=True)
-            dfFull = openZip(url, csvPERINAT, temp_dir, encodage="latin1", sevenZip=True)
-            dfID = openZip(url, csvID, temp_dir, encodage="latin1", sevenZip=True)
-        
-        dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "IVG1516", "CONV", "IMG"]]
-        dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
-        dfID["FI"] = dfID["fi"]
+    with tempfile.TemporaryDirectory() as temp_dir:
+        dfFull = openZip(url, csvPERINAT, temp_dir, encodage="latin1", sevenZip=True)
+        dfID = openZip(url, csvID, temp_dir, encodage="latin1", sevenZip=True)
+    
+    dfPERINAT = dfFull[["FI", "PRIS", "IVG", "IVGN_1", "IVGME", "IVG1214", "IVG1516", "CONV", "IMG"]]
+    dfPERINAT = dfPERINAT[dfPERINAT["PRIS"] == 1.0]
+    dfID.rename(columns={'fi': 'FI', 'dep': 'DEP'}, inplace=True)
 
-        dfMerged = pd.merge(
-            dfPERINAT,
-            dfID[["FI", "rs", "stj", "stjr", "cat", "catr", "dep"]],
-            on="FI",
-            how="left" 
-        )
-        dfMerged["Annee"] = annee
+    dfMerged = pd.merge(
+        dfPERINAT,
+        dfID[["FI", "rs", "stj", "stjr", "cat", "catr", "DEP"]],
+        on="FI",
+        how="left" 
+    )
+
+    dfMerged["Annee"] = annee
 
     return dfMerged
 
 def importer_SAE_2011():
-    xls = pd.ExcelFile("https://www.data.gouv.fr/storage/f/2014-01-10T17-34-07/SAE_2011.xls")
-    sae = pd.read_excel(xls)
+    """
+    Téléchargement des données SAE 2011 : filtre sur la seule table publique de la SAE.
+    Fonction adaptée à la version pré-2014 de la base SAE.
+    """
+    sae = pd.read_excel("https://www.data.gouv.fr/storage/f/2014-01-10T17-34-07/SAE_2011.xls")
     sae = sae[['FI', 'RS', 'nb_ivg', 'nb_ivg_medic', 'delai_moy_pec_ivg', 'CATEGORIE', 'DEP']]
 
     return sae
 
 def importer_pauv():
     """
-    Extraction du tableau excel des taux de pauvreté par département en 2021. 
+    Extraction du tableau excel des taux de pauvreté par département 
+    en 2021 d'après l'INSEE. 
     """
-    xls = pd.ExcelFile("https://www.insee.fr/fr/statistiques/fichier/7941411/RPM2024-F21.xlsx")
-    pauv = pd.read_excel(xls, 'Figure 2')          
-    return pauv
-    
-def main():
-    """
-    Sauvegarde et centralisation de toutes les importations de données
-    """
-    # df_drees = importer_drees()
-    # df_drees.to_csv(get_path("drees"), index=False)
+    url = "https://www.insee.fr/fr/statistiques/fichier/7941411/RPM2024-F21.xlsx"
+    df_pauv = pd.read_excel(url, 'Figure 2', header=2, skipfooter=4)         
 
-    # df_dep = importer_departement()
-    # df_dep.to_csv(get_path("departements"), index=False)
+    return df_pauv
 
-    # df_finess = importer_finess()
-    # df_finess.to_csv(get_path("finess"), index=False)
+#### Fonctions d'importation globale des données
+def importer_tout():
+    df_SAE = importer_SAE_2023()
+    df_SAE_2011 = importer_SAE_2011()
+    df_dep = importer_departement()
+    df_finess = importer_finess()
+    df_drees = importer_drees()
+    df_pauv = importer_pauv()
 
-    df_SAE = importer_SAE()
+    return df_SAE, df_SAE_2011, df_dep, df_finess, df_drees, df_pauv
+
+def importer_locale(date):
+    df_SAE = pd.read_csv(get_path("SAE", date))
+    df_SAE_2011 = pd.read_csv(get_path("SAE_2011", date))
+    df_dep = pd.read_csv(get_path("dep", date))
+    df_finess = pd.read_csv(get_path("finees", date))
+    df_drees = pd.read_csv(get_path("drees", date))
+    df_pauv = pd.read_csv(get_path("pauv", date))
+
+    return df_SAE, df_SAE_2011, df_dep, df_finess, df_drees, df_pauv
+
+def sauvegarde_locale():
+    df_SAE, df_SAE_2011, df_dep, df_finess, df_drees, df_pauv = importer_tout()
     df_SAE.to_csv(get_path("SAE"), index=False)
+    df_SAE_2011.to_csv(get_path("SAE_2011"), index=False)
+    df_dep.to_csv(get_path("dep"), index=False)
+    df_finess.to_csv(get_path("finees"), index=False)
+    df_drees.to_csv(get_path("drees"), index=False)
+    df_pauv.to_csv(get_path("pauv"), index=False)
 
-# main()s
+    return 1
