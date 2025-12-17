@@ -82,13 +82,14 @@ def jointure(df_SAE, df_SAE_2011, df_dep, df_finess, df_drees, df_pauv, df_docto
             .str.upper()
     )
     
-
-
     df_dep_ivg = pd.merge(df_dep, df_prise_en_charge_dep, on=['code_dep'], how='left')
     df_dep_ivg = pd.merge(df_dep_ivg, df_nbcentre, left_on=['DEP'], right_on=['département'], how='left')
     df_dep_ivg.drop(columns=['DEP'], inplace=True)
     df_dep_ivg = pd.merge(df_dep_ivg, df_ivg_sans_tard, on=['code_dep'], how='left')
-    df_dep_ivg = pd.merge(df_dep_ivg, df_drees, on=['département'], how='left')
+
+    df_drees_2024 = df_drees[df_drees['annee'] == 2024.0]
+    df_drees_2024 = df_drees_2024.drop(columns=['annee'])
+    df_dep_ivg = pd.merge(df_dep_ivg, df_drees_2024, on=['département'], how='left')
     df_dep_ivg = pd.merge(df_dep_ivg, df_pauv, on=['code_dep'], how='left')
 
     df_doctolib_aggreg = aggreg_doctolib(df_doctolib)
@@ -107,7 +108,7 @@ def normalisation(df):
     # list comprehension
     colonnes_norm = [c for c in colonnes if c not in colonnes_intactes]
 
-    norm = df.copy
+    norm = df.copy()
 
     for c in colonnes_norm:
         norm[c] = par100k(norm, c)

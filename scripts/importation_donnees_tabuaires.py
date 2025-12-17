@@ -63,7 +63,7 @@ def importer_drees():
     # retirer les lignes vides
     data_IVG = data_IVG.dropna(subset=['zone_geo'])
     data_IVG['département'] = data_IVG['zone_geo']
-    data_IVG = data_IVG.drop(columns=['Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'annee', 'CAB_GO', 'CAB_MG',
+    data_IVG = data_IVG.drop(columns=['Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'CAB_GO', 'CAB_MG',
        'CAB_SF', 'CAB_AUT', 'TELE_GO', 'TELE_MG', 'TELE_SF', 'TELE_AUT', 'zone_geo'])
     
     return data_IVG
