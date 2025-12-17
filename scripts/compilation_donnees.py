@@ -85,33 +85,47 @@ def jointure(df_SAE, df_SAE_2011, df_dep, df_finess, df_drees, df_pauv, df_docto
     droms = ['971', '972', '973', '974', '976'] 
     df_dep_metro = df_dep[~df_dep['code_dep'].isin(droms)]
     df_dep_metro = df_dep_metro.dropna(subset=["DEP"])
-    df_dep_ivg = pd.merge(df_dep_metro, df_prise_en_charge_dep, on=['code_dep'], how='left')
-    df_dep_ivg = pd.merge(df_dep_ivg, df_nbcentre, left_on=['DEP'], right_on=['département'], how='left')
-    df_dep_ivg.drop(columns=['DEP'], inplace=True)
-    df_dep_ivg = pd.merge(df_dep_ivg, df_ivg_sans_tard, on=['code_dep'], how='left')
-    df_dep_ivg['hopitaux_sans_ivg_tard'] = df_dep_ivg['hopitaux_sans_ivg_tard'].fillna(0)
+    df = pd.merge(df_dep_metro, df_prise_en_charge_dep, on=['code_dep'], how='left')
+    df = pd.merge(df, df_nbcentre, left_on=['DEP'], right_on=['département'], how='left')
+    df.drop(columns=['DEP'], inplace=True)
+    df = pd.merge(df, df_ivg_sans_tard, on=['code_dep'], how='left')
 
     df_drees_2024 = df_drees[df_drees['annee'] == 2024.0]
     df_drees_2024 = df_drees_2024.drop(columns=['annee', 'IVG_GO', 'IVG_MG', 'IVG_SF', 'IVG_AUT', 'part_anesth'])
-    df_dep_ivg = pd.merge(df_dep_ivg, df_drees_2024, on=['département'], how='left')
-    df_dep_ivg = pd.merge(df_dep_ivg, df_pauv, on=['code_dep'], how='left')
+    df = pd.merge(df, df_drees_2024, on=['département'], how='left')
+    df = pd.merge(df, df_pauv, on=['code_dep'], how='left')
 
     df_doctolib_aggreg = aggreg_doctolib(df_doctolib)
-    df_dep_ivg = pd.merge(df_dep_ivg, df_doctolib_aggreg, on=['code_dep'], how='left')
+    df = pd.merge(df, df_doctolib_aggreg, on=['code_dep'], how='left')
 
+    df.columns = map(str.lower, df.columns) # Mettre les noms de colonnes en minuscules
 
-    df_dep_ivg.columns = map(str.lower, df_dep_ivg.columns) # Mettre les noms de colonnes en minuscules
+    df.rename(columns={'age_18&19': 'age_18_19', 'age_40&plus': 'age_sup_40'}, inplace=True)
+    df['part_inf_18'] = df['age_inf_18']/df['tot_ivg']
+    df['part_18_19'] = df['age_18_19']/df['tot_ivg']
+    df['part_20_24'] = df['age_20_24']/df['tot_ivg']
+    df['part_25_29'] = df['age_25_29']/df['tot_ivg']
+    df['part_30_34'] = df['age_30_34']/df['tot_ivg']
+    df['part_35_39'] = df['age_35_39']/df['tot_ivg']
+    df['part_sup_40'] = df['age_sup_40']/df['tot_ivg']
+    df['taux_rec'] = df['taux_rec'].str.replace(',', '.').astype(float)
+    df['part_ivg_tard'] = df['part_ivg_tard'].str.replace(',', '.').astype(float)
+    df['ivg_hors_zone'] = df['ivg_hors_zone'].str.replace(',', '.').astype(float)
 
-    return df_dep_ivg
+    return df
 
 def par100k(df, colonne):
     df[colonne] = pd.to_numeric(df[colonne], errors='coerce')
     
     return (df[colonne]/df["femmes"])*100000
 
-def normalisation(df):
-    colonnes_intactes = ['code_dep', 'département', 'femmes', 'taux_rec', 'part_ivg_tard', 'ratio_ivg_nais']
+def standardisation(df, colonnes_intactes=[]):
+    if len(colonnes_intactes) == 0:
+        colonnes_intactes = ['code_dep', 'département', 'femmes', 'taux_rec', 'part_ivg_tard', 'ratio_ivg_nais', 'part_age_inf_18', 'part_age_inf_18', 'part_age_18&19', 'part_age_20_24', 'part_age_25_29', 'part_age_30_34', 'part_age_35_39', 'part_age_40&plus']
+    else:
+        colonnes_intactes = colonnes_intactes + ['code_dep', 'département', 'departement']
     colonnes = df.columns
+    
     # list comprehension
     colonnes_norm = [c for c in colonnes if c not in colonnes_intactes]
 
