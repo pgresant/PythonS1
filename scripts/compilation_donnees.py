@@ -121,7 +121,7 @@ def par100k(df, colonne):
 
 def standardisation(df, colonnes_intactes=[]):
     if len(colonnes_intactes) == 0:
-        colonnes_intactes = ['code_dep', 'département', 'femmes', 'taux_rec', 'part_ivg_tard', 'ratio_ivg_nais', 'part_age_inf_18', 'part_age_inf_18', 'part_age_18&19', 'part_age_20_24', 'part_age_25_29', 'part_age_30_34', 'part_age_35_39', 'part_age_40&plus']
+        colonnes_intactes = ['code_dep', 'département', 'femmes', 'taux_pauvrete', 'taux_rec', 'part_ivg_tard', 'ratio_ivg_nais', 'part_age_inf_18', 'part_age_inf_18', 'part_age_18&19', 'part_age_20_24', 'part_age_25_29', 'part_age_30_34', 'part_age_35_39', 'part_age_40&plus']
     else:
         colonnes_intactes = colonnes_intactes + ['code_dep', 'département', 'departement']
     colonnes = df.columns

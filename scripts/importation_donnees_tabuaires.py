@@ -156,7 +156,7 @@ def importer_SAE_2011():
     Fonction adaptée à la version pré-2014 de la base SAE.
     """
     sae = pd.read_excel("https://www.data.gouv.fr/storage/f/2014-01-10T17-34-07/SAE_2011.xls")
-    sae = sae[['FI', 'RS', 'nb_ivg', 'nb_ivg_medic', 'delai_moy_pec_ivg', 'CATEGORIE', 'DEP']]
+    sae = sae[['FI', 'RS', 'PRIS', 'nb_ivg', 'nb_ivg_medic', 'delai_moy_pec_ivg', 'CATEGORIE', 'DEP']]
 
     sae.rename(columns={'DEP': 'code_dep'}, inplace=True)
 
