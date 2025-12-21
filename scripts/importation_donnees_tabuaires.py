@@ -89,11 +89,6 @@ def importer_drees():
     # Retirer les lignes vides
     data_IVG = data_IVG.dropna(subset=['zone_geo'])
     data_IVG['département'] = data_IVG['zone_geo']
-
-    # Convertir les nombres à virgules à des floats
-    data_IVG['taux_rec'] = pd.to_numeric(data_IVG['taux_rec'].str.replace(',', '.'), errors='coerce')
-    data_IVG['part_ivg_tard'] = pd.to_numeric(data_IVG['part_ivg_tard'].str.replace(',', '.'), errors='coerce')
-    data_IVG['ivg_hors_zone'] = pd.to_numeric(data_IVG['ivg_hors_zone'].str.replace(',', '.'), errors='coerce')
     
     # Nettoyage des colonnes inutiles pour notre étude
     data_IVG = data_IVG.drop(columns=['Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'CAB_GO', 'CAB_MG',
@@ -101,6 +96,11 @@ def importer_drees():
     
     data_IVG.columns = map(str.lower, data_IVG.columns) # Mettre les noms de colonnes en minuscules
 
+    # Convertir les nombres à virgules à des floats
+    data_IVG['taux_rec'] = pd.to_numeric(data_IVG['taux_rec'].str.replace(',', '.'), errors='coerce')
+    data_IVG['part_ivg_tard'] = pd.to_numeric(data_IVG['part_ivg_tard'].str.replace(',', '.'), errors='coerce')
+    data_IVG['ivg_hors_zone'] = pd.to_numeric(data_IVG['ivg_hors_zone'].str.replace(',', '.'), errors='coerce')
+    
     data_IVG.rename(columns={'age_18&19': 'age_18_19', 'age_40&plus': 'age_sup_40'}, inplace=True)
     data_IVG['part_inf_18'] = data_IVG['age_inf_18']/data_IVG['tot_ivg']
     data_IVG['part_18_19'] = data_IVG['age_18_19']/data_IVG['tot_ivg']

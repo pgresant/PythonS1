@@ -65,7 +65,7 @@ def agregation_SAE(df_SAE):
     - du nombre d'établissement ayant pris en charge au moins un IVG
     - du nombre d'établissement ayant pris en charge au moins un IVG 
       mais aucun IVG tardif
-    - du nombre d'établissement conventinnée pour faire des IVGs
+    - du nombre de conventions avec médecins pour IVG médicamenteuses
     """
     prise_en_charge = (
         df_SAE
@@ -86,8 +86,8 @@ def agregation_SAE(df_SAE):
     )
     ivg_sans_tard['hopitaux_sans_ivg_tard'] = ivg_sans_tard['hopitaux_sans_ivg_tard'].fillna(0)
 
-    df_final = pd.merge(prise_en_charge,  ivg_sans_tard, on='code_dep')
-
+    df_final = pd.merge(prise_en_charge,  ivg_sans_tard, on='code_dep', how='outer')
+ 
     return df_final
 
 
@@ -113,7 +113,7 @@ def jointure(df_SAE, df_dep, df_finess, df_drees, df_pauv, df_doctolib):
     df_dep_metro = df_dep_metro.dropna(subset=["DEP"])
 
     # Jointure des sources standardisées
-    df = pd.merge(df, df_nbcentre, left_on=['DEP'], right_on=['département'], how='left')
+    df = pd.merge(df_dep_metro, df_nbcentre, left_on=['DEP'], right_on=['département'], how='left')
     df.drop(columns=['DEP'], inplace=True)
 
     df_drees_2024 = df_drees[df_drees['annee'] == 2024.0]
