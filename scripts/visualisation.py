@@ -179,3 +179,102 @@ def camembert_cluster(main):
 
     plt.tight_layout()
     plt.show()
+
+import plotly.figure_factory as ff
+import plotly.graph_objects as go
+import pandas as pd
+
+def displot(df):
+    current_numeric_var = colonnes_CAH_interpret[0]
+    clusters = [1,2,3,4]
+    clusters_label = ["1", "2", "3", "4"]
+    cluster_data = [df[df["cluster"] == cluster][current_numeric_var].dropna() for cluster in clusters]
+
+    fig = ff.create_distplot(
+        cluster_data,
+            group_labels=clusters_label,
+            show_hist=False,
+            show_rug=False,
+            colors=couleurs,
+    )
+
+    fig.update_layout(
+        title=f"Distribution de {current_numeric_var} selon la classe",
+        xaxis_title=current_numeric_var,
+        yaxis_title="Density",
+    )
+
+    all_traces = {}
+    for num_var in colonnes_CAH_interpret:
+        cluster_data = [df[df["cluster"] == cluster][num_var] for cluster in clusters]
+        all_traces[num_var] = ff.create_distplot(
+            cluster_data,
+            group_labels=clusters_label,
+            show_hist=False,
+            show_rug=False,
+            colors=couleurs
+        ).data
+
+    fig.update_layout(updatemenus=[{
+                "buttons": [{
+                        "method": "update",
+                        "label": num_var,
+                        "args": [
+                            {"data": all_traces[num_var]},
+                            {"title": f"Distribution de {num_var} selon la classe",
+                                "xaxis.title": num_var}
+                        ]}
+                    for num_var in colonnes_CAH_interpret
+                ],
+                "direction": "down",
+                "showactive": True
+            }])
+    fig.show()
+
+# import plotly.express as px
+# from plotly.graph_objects import Figure
+
+# def displot(df, colonnes_CAH_interpret, couleurs):
+#     clusters = [1, 2, 3, 4]
+
+#     current_numeric_var = colonnes_CAH_interpret[0]
+#     fig = px.density_contour(
+#         df,
+#         x=current_numeric_var,
+#         color="cluster",
+#         category_orders={"cluster": [1, 2, 3, 4]},
+#         color_discrete_sequence=couleurs
+#     )
+#     fig.update_traces(contours_coloring="fill", contours_showlines=False)
+#     fig.update_layout(
+#         title=f"Distribution de {current_numeric_var} selon la classe",
+#         xaxis_title=current_numeric_var,
+#         yaxis_title="Density"
+#     )
+
+#     buttons = []
+#     for num_var in colonnes_CAH_interpret:
+#         buttons.append(
+#             dict(
+#                 method="update",
+#                 label=num_var,
+#                 args=[{
+#                     "x": num_var,
+#                     "annotations": [dict(text=f"Distribution de {num_var} selon la classe",
+#                                          xref="paper", yref="paper",
+#                                          showarrow=False)]
+#                 }]
+#             )
+#         )
+
+#     fig.update_layout(
+#         updatemenus=[{
+#             "buttons": buttons,
+#             "direction": "down",
+#             "showactive": True
+#         }]
+#     )
+
+#     fig.show()
+
+# displot(df_norm_model, colonnes_CAH_interpret, couleurs)
