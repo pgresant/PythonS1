@@ -21,18 +21,25 @@ Dans cette logique, afin d'expliquer les différences de recours au sein d'un d�
 
 ## 2. Données utilisées  <a name="data">
 
-Afin d'avoir des données concernant l'accessibilité de l'IVG, nous utilisons deux sources de données : Doctolib et les SAE. Les données scrappées sur Doctolib permettent d'avoir accès à l'offre des rendez-vous pour avorter sur un territoire à une période donnée, très récente. Doctolib exerce en effet une position dominante sur ce marché des rendez-vous médicaux. D'autres part, les données SAE produites par la DREES permettent de connaitre les délais d'attente par centre médicale depuis 2016. 
+Afin d'avoir des données concernant l'accessibilité de l'IVG, nous utilisons deux sources de données : Doctolib et les SAE.
+Les données SAE nous donnent le nombre de points d'accès aux IVG par département, dependant leurs données sur les délais d'attente pour un RDV sont incomplètes ou indisponibles. Ainsi, les données scrappées depuis Doctolib comblent cette manque : elles permettent d'avoir accès à l'offre des rendez-vous pour avorter sur un territoire à une période donnée, très récente. Doctolib exerce en effet une position dominante sur ce marché des rendez-vous médicaux. 
 
-Pour obtenir des données sur les caractéristiques des IVGs en France, nous avons utilisés les données produites par la DREES. 
+Pour obtenir des données sur les caractéristiques des IVGs en France, nous avons utilisés les données produites par la DREES. Finalement, l'INSEE nous fourni les caractéristiques socio-économiques des départements.
 
-Nous avons privilégier d'extraire les données via des API publics dès qu'il était possible de le faire. 
-
+Toutes les données, sauf le scraping Doctolib, sont disponibles en open source. Tout de même, une version locale des données est sauvegardée dans le dossier `./donnees/` pour éviter le temps de téléchargement qui peut prendre quelques minutes.
 
 ## 3. Méthodes d'analyse <a name="mod">
 
-Nous mobilisons principalement des statistiques descriptives, une classification ascendante hiérarchique (CAH) ainsi que des régressions linéaires avec la méthodes des moindres carrés ordinaires.  
+Nous mobilisons principalement des statistiques descriptives, une classification ascendante hiérarchique (CAH) ainsi que des régressions linéaires avec la méthodes des moindres carrés ordinaires et des régressions logistiques.
 
 ## 4. Présentation du dépôt <a name="pres">
 
-Le rendu finale est présenté dans le notebook `main.ipynb`. Quatre scripts se trouvent dans le dossier `./scripts/` : 
-- `importation_donnees_tabulaires.py` qui
+Notre projet s'appuie sur quatre scripts qui se trouvent dans le dossier `./scripts/` : 
+- `importation_donnees_tabulaires.py` pour les fonctions concernant le téléchargement et nettoyage des sources de données en open data
+- `scraping_doctolib.py` pour le web-scraping de Doctolib
+- `compilation_donnees.py` pour la création de variables ou d'agrégations à partir des sources précédentes, et la jointure finale des données
+- `visualisation.py` pour la création de data visualisation et les fonctions de statistiques descriptives, ainsi que de modélisation. 
+
+Le rendu finale est présenté dans le notebook `main.ipynb` que nous recommandons [d'ouvrir sur nbviewer](https://nbviewer.org/github/pgresant/PythonS1/blob/main/main.ipynb) pour éviter des problèmes d'affichage sur Github.
+
+
