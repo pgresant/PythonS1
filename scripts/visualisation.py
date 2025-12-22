@@ -116,7 +116,7 @@ def dendrogramme_CAH(df, Z):
 
 
 ##### Fonctions de visualisation des caractéristiques du clustering
-def violon(main, x_col, y_col, titre=""):
+def violon(main, x_col, y_col, couleurs, titre=""):
     """
     Affichage de graphiques de distribution en violon
     de la variable y_col selon la variable x_col
@@ -129,7 +129,7 @@ def violon(main, x_col, y_col, titre=""):
         x=x_col,
         y=y_col,
         inner=None,
-        palette='Set2',
+        palette=couleurs,
         hue='cluster'
     )
     sns.boxplot(
