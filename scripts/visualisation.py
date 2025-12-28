@@ -199,7 +199,6 @@ def boxplot(df, colonnes, couleurs):
     clusters = [1, 2, 3, 4]
 
     fig = px.box(df, y=colonnes[0], color="cluster", color_discrete_sequence=couleurs, title=f"Boxplot de {colonnes[0]} selon la classe")
-    fig.update_yaxes(title_text=colonnes[0])
 
     buttons = []
     for num_var in colonnes:
