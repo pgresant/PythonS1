@@ -16,7 +16,7 @@ En 2024, la liberté de recourir à une IVG est inscrite dans la Constitution fr
 Nous cherchons ainsi à établir une classification des départements en fonction de comment se déroulent les IVGs et à leur recours. L'objectif est d'établir une typologie, afin de décrire plus précisèment les différences d'accès à l'IVG selon les départements en France.
 
 
-**Source** : L'accès à l'avortement dans l'Union européenne, Science Po, 2024 : https://www.sciencespo.fr/gender-studies/fr/actualites/acces-a-l-ivg-des-inegalites-persistantes-en-europe/
+**Source** : [L'accès à l'avortement dans l'Union européenne](https://www.sciencespo.fr/gender-studies/fr/actualites/acces-a-l-ivg-des-inegalites-persistantes-en-europe/), Science Po, 2024
 
 
 ## 2. Données utilisées  <a name="data">
@@ -40,4 +40,4 @@ Notre projet s'appuie sur quatre scripts qui se trouvent dans le dossier `./scri
 - `compilation_donnees.py` pour la création de variables ou d'agrégations à partir des sources précédentes, et la jointure finale des données
 - `visualisation.py` pour la création de data visualisation et les fonctions de statistiques descriptives, ainsi que de modélisation. 
 
-Le rendu final est présenté dans le notebook `main.ipynb` que nous recommandons [d'ouvrir sur nbsanity](https://nbsanity.com/pgresant/PythonS1/blob/main/main.ipynb) pour éviter des problèmes d'affichage sur Github.
+Le rendu final est présenté dans le notebook `main.ipynb` que **nous recommandons [d'ouvrir sur nbsanity](https://nbsanity.com/pgresant/PythonS1/blob/main/main.ipynb) pour éviter des problèmes d'affichage sur Github.**

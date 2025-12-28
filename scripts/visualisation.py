@@ -8,8 +8,11 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import seaborn as sns
 import plotly.express as px
+import plotly.offline as pyo
 import folium
 import mapclassify
+
+pyo.init_notebook_mode(connected=True)
 
 #### Fonctions de visualisation simple
 def get_gdf(df):
