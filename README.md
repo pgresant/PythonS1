@@ -1,4 +1,4 @@
-# Analyse territorialisé des interventions volontaires de grosssesse : les disparités d'accès en France
+# Analyse territorialisée des interventions volontaires de grosssesse : les disparités d'accès en France
 
 *Par Aika Mizuno Greer et Polixène Grésant, 2025.*
 
