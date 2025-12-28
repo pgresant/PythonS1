@@ -40,6 +40,4 @@ Notre projet s'appuie sur quatre scripts qui se trouvent dans le dossier `./scri
 - `compilation_donnees.py` pour la création de variables ou d'agrégations à partir des sources précédentes, et la jointure finale des données
 - `visualisation.py` pour la création de data visualisation et les fonctions de statistiques descriptives, ainsi que de modélisation. 
 
-Le rendu final est présenté dans le notebook `main.ipynb` que nous recommandons [d'ouvrir sur nbviewer](https://nbviewer.org/github/pgresant/PythonS1/blob/main/main.ipynb) pour éviter des problèmes d'affichage sur Github.
-
-
+Le rendu final est présenté dans le notebook `main.ipynb` que nous recommandons [d'ouvrir sur nbsanity](https://nbsanity.com/pgresant/PythonS1/blob/main/main.ipynb) pour éviter des problèmes d'affichage sur Github.
