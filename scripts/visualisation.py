@@ -163,21 +163,27 @@ def camembert_cluster(main):
         .mean()
     )
 
-    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    fig.suptitle("Distribution des âges selon la classe", fontsize=16)
+    colors = matplotlib.color_sequences['Set2']
     axes = axes.flatten()
-    colors=matplotlib.color_sequences['Set2']
 
     for i, cluster in enumerate(df_cluster.index):
         values = df_cluster.loc[cluster]
         axes[i].pie(
             values,
-            labels=age_cols,
             autopct='%1.1f%%',
             startangle=90,
             colors=colors
         )
-        axes[i].set_title(f"Cluster {cluster}")
+        axes[i].set_title(f"Classe {cluster}")
 
+    fig.legend(
+        labels=age_cols,
+        loc="center left",
+        bbox_to_anchor=(0.9, 0.5),
+        fontsize=10
+    )
     plt.tight_layout()
     plt.show()
 
@@ -189,7 +195,8 @@ def boxplot(df, colonnes, couleurs):
     """
     clusters = [1, 2, 3, 4]
 
-    fig = px.box(df, y=colonnes[0], color="cluster", color_discrete_sequence=couleurs)
+    fig = px.box(df, y=colonnes[0], color="cluster", color_discrete_sequence=couleurs, title=f"Boxplot de {colonnes[0]} selon la classe")
+    fig.update_yaxes(title_text=colonnes[0])
 
     buttons = []
     for num_var in colonnes:
